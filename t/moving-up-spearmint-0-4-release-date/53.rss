@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Moving up Spearmint 0.4 release date</title>
+    <link>https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53</link>
+    <description>I&#39;m going to try to fix the [activate entity regression on nodm7](https://github.com/zturtleman/spearmint/issues/248) over the weekend and publish the new Spearmint 0.4 release on July 13 2016.
+
+I&#39;m tried of waiting for August to get here. I&#39;d like to just do the release and move on. Also, ioq3 merged a pull request that removes Mac OS X 10.5 and 10.6 support, which I don&#39;t want to merge into Spearmint right now or deal with &quot;fixing it&quot;.
+
+I&#39;m planning to release a new version of Turtle Arena in August. That&#39;s the only reason Spearmint 0.4 got moved from January 13 2017 (a Friday the 13th) to August 13 2016. Moving Spearmint to July might also make it easier to focus on Turtle Arena.</description>
+    
+    <lastBuildDate>Wed, 13 Jul 2016 14:51:40 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Moving up Spearmint 0.4 release date</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53/5</link>
+        <pubDate>Wed, 13 Jul 2016 14:51:54 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-53-5</guid>
+        <source url="https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53.rss">Moving up Spearmint 0.4 release date</source>
+      </item>
+      <item>
+        <title>Moving up Spearmint 0.4 release date</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>I’ve published the Spearmint 0.4 release.</p>
+<p><a href="https://clover.moe/2016/07/13/spearmint-0-4-released/" class="onebox" target="_blank">https://clover.moe/2016/07/13/spearmint-0-4-released/</a></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53/4</link>
+        <pubDate>Wed, 13 Jul 2016 14:51:40 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-53-4</guid>
+        <source url="https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53.rss">Moving up Spearmint 0.4 release date</source>
+      </item>
+      <item>
+        <title>Moving up Spearmint 0.4 release date</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Okay, more realistically it’s going to be July 14 2016 and the activate entity regression on nodm7 isn’t going to be fixed before then.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53/3</link>
+        <pubDate>Mon, 11 Jul 2016 13:07:39 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-53-3</guid>
+        <source url="https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53.rss">Moving up Spearmint 0.4 release date</source>
+      </item>
+      <item>
+        <title>Moving up Spearmint 0.4 release date</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>So it’s gonna be released in literally a week? I’m up for the new Spearmint, whenever you manage to get the regression fixed. Also, you should probably fix a quirk I found with colored letters/numbers in player funnames. If you use ^0 after another color in Spearmint, it carries over the last color used (which if it was used at the end of Anarki’s funname, then it would be magenta). In ioq3/classic Q3, this doesn’t happen (^0 does the intended behavior which is to make the letters after it black). It works fine when kicking a bot however. Also, I’d like to keep the Mac OS 10.5/10.6 compatibility, so don’t even bother putting it into Spearmint.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53/2</link>
+        <pubDate>Thu, 07 Jul 2016 12:44:30 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-53-2</guid>
+        <source url="https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53.rss">Moving up Spearmint 0.4 release date</source>
+      </item>
+      <item>
+        <title>Moving up Spearmint 0.4 release date</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>I’m going to try to fix the <a href="https://github.com/zturtleman/spearmint/issues/248">activate entity regression on nodm7</a> over the weekend and publish the new Spearmint 0.4 release on July 13 2016.</p>
+<p>I’m tried of waiting for August to get here. I’d like to just do the release and move on. Also, ioq3 merged a pull request that removes Mac OS X 10.5 and 10.6 support, which I don’t want to merge into Spearmint right now or deal with “fixing it”.</p>
+<p>I’m planning to release a new version of Turtle Arena in August. That’s the only reason Spearmint 0.4 got moved from January 13 2017 (a Friday the 13th) to August 13 2016. Moving Spearmint to July might also make it easier to focus on Turtle Arena.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53/1</link>
+        <pubDate>Wed, 06 Jul 2016 17:04:04 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-53-1</guid>
+        <source url="https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53.rss">Moving up Spearmint 0.4 release date</source>
+      </item>
+  </channel>
+</rss>

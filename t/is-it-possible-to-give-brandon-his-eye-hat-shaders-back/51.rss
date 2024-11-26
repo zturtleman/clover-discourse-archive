@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Is it possible to give Brandon his eye &amp; hat shaders back?</title>
+    <link>https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51</link>
+    <description>According to models.shader, Brandon had an eye shader &amp; a hat glow shader (the model itself is present in pak2.pk3). The texture used for the eye shader still exists among the game files (braneye.tga to be exact). Also, Brandon&#39;s hat had a shader as well, most likely to have his hat glow (Spearmint uses a dummy texture, but I think a custom texture made out of braneye should allow the shader to actually work).</description>
+    
+    <lastBuildDate>Sun, 03 Jul 2016 19:52:06 +0000</lastBuildDate>
+    <category>Uncategorized</category>
+    <atom:link href="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Is it possible to give Brandon his eye &amp; hat shaders back?</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’ve finished with the textures (needed to readdress the shaders to branface2/branhat2). braneye.glow.tga will be the same texture as braneye.tga. branhat.glow.tga was a scaled version of braneye.tga.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/9</link>
+        <pubDate>Sun, 03 Jul 2016 19:52:06 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-51-9</guid>
+        <source url="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51.rss">Is it possible to give Brandon his eye &amp; hat shaders back?</source>
+      </item>
+      <item>
+        <title>Is it possible to give Brandon his eye &amp; hat shaders back?</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>It’s your call on what <em>you</em> want to do with him, <a class="mention" href="/u/zturtleman">@zturtleman</a>. I however, like  what his eye shader was supposed to be. Just need to figure out where the eye sits &amp; make that transparent, thus giving the eye glow a chance to be used. I’m doing the same for the hat glow as well.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/8</link>
+        <pubDate>Sun, 03 Jul 2016 13:10:44 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-51-8</guid>
+        <source url="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51.rss">Is it possible to give Brandon his eye &amp; hat shaders back?</source>
+      </item>
+      <item>
+        <title>Is it possible to give Brandon his eye &amp; hat shaders back?</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>My intention is just to make Brandon look the same as in Quake 3.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/7</link>
+        <pubDate>Sun, 03 Jul 2016 08:22:07 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-51-7</guid>
+        <source url="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51.rss">Is it possible to give Brandon his eye &amp; hat shaders back?</source>
+      </item>
+      <item>
+        <title>Is it possible to give Brandon his eye &amp; hat shaders back?</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I fixed the hat shader issue on my end. Just needs the eye shader fixed now. That will involve editing the Brandon’s head model to include the original h_eye.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/6</link>
+        <pubDate>Sat, 02 Jul 2016 19:22:57 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-51-6</guid>
+        <source url="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51.rss">Is it possible to give Brandon his eye &amp; hat shaders back?</source>
+      </item>
+      <item>
+        <title>Is it possible to give Brandon his eye &amp; hat shaders back?</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’m fixing the issue anyway…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/5</link>
+        <pubDate>Sat, 02 Jul 2016 18:40:18 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-51-5</guid>
+        <source url="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51.rss">Is it possible to give Brandon his eye &amp; hat shaders back?</source>
+      </item>
+      <item>
+        <title>Is it possible to give Brandon his eye &amp; hat shaders back?</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>There is nothing to fix, it’s a data issue, you only need to make a shader if you want…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/4</link>
+        <pubDate>Sat, 02 Jul 2016 18:39:43 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-51-4</guid>
+        <source url="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51.rss">Is it possible to give Brandon his eye &amp; hat shaders back?</source>
+      </item>
+      <item>
+        <title>Is it possible to give Brandon his eye &amp; hat shaders back?</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>It only mitigates the issue, doesn’t fix it, because it crept back up for me. I’ll see what I can do to fix it once and for all, which may be to fix the models.shader present in the original Q3A files.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/3</link>
+        <pubDate>Sat, 02 Jul 2016 18:34:20 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-51-3</guid>
+        <source url="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51.rss">Is it possible to give Brandon his eye &amp; hat shaders back?</source>
+      </item>
+      <item>
+        <title>Is it possible to give Brandon his eye &amp; hat shaders back?</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Wasn’t this part of issue <a href="https://github.com/zturtleman/spearmint/issues/175" rel="nofollow noopener">175</a>?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/2</link>
+        <pubDate>Sat, 02 Jul 2016 18:29:59 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-51-2</guid>
+        <source url="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51.rss">Is it possible to give Brandon his eye &amp; hat shaders back?</source>
+      </item>
+      <item>
+        <title>Is it possible to give Brandon his eye &amp; hat shaders back?</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>According to models.shader, Brandon had an eye shader &amp; a hat glow shader (the model itself is present in pak2.pk3). The texture used for the eye shader still exists among the game files (braneye.tga to be exact). Also, Brandon’s hat had a shader as well, most likely to have his hat glow (Spearmint uses a dummy texture, but I think a custom texture made out of braneye should allow the shader to actually work).</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51/1</link>
+        <pubDate>Sat, 02 Jul 2016 17:08:23 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-51-1</guid>
+        <source url="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51.rss">Is it possible to give Brandon his eye &amp; hat shaders back?</source>
+      </item>
+  </channel>
+</rss>

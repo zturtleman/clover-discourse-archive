@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Team_model should also change team_headmodel like what model does with headmodel</title>
+    <link>https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40</link>
+    <description>I always found it annoying that you had to set both team_model &amp; team_headmodel when setting your player model. model &amp; headmodel do this, so it only seems right to do it with team_model as well... Do you agree, @zturtleman?</description>
+    
+    <lastBuildDate>Wed, 22 Jun 2016 17:38:23 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Team_model should also change team_headmodel like what model does with headmodel</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Should be possible to port it over &amp; set the team_headmodel thing to whatever head the players use, then make it go blank again when a model isn’t loaded.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40/3</link>
+        <pubDate>Wed, 22 Jun 2016 17:38:23 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-40-3</guid>
+        <source url="https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40.rss">Team_model should also change team_headmodel like what model does with headmodel</source>
+      </item>
+      <item>
+        <title>Team_model should also change team_headmodel like what model does with headmodel</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Yeah, there isn’t really a reason that there is not a team_model command that also sets team_headmodel. In Turtle Arena I made blank [team_]headmodel use value from [team_]model, but adding a command like Q3’s model command probably fit better (especially in Team Arena as it sets team_headmodel in regular use).</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40/2</link>
+        <pubDate>Wed, 22 Jun 2016 17:37:18 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-40-2</guid>
+        <source url="https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40.rss">Team_model should also change team_headmodel like what model does with headmodel</source>
+      </item>
+      <item>
+        <title>Team_model should also change team_headmodel like what model does with headmodel</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I always found it annoying that you had to set both team_model &amp; team_headmodel when setting your player model. model &amp; headmodel do this, so it only seems right to do it with team_model as well… Do you agree, <a class="mention" href="/u/zturtleman">@zturtleman</a>?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40/1</link>
+        <pubDate>Mon, 20 Jun 2016 23:18:40 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-40-1</guid>
+        <source url="https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40.rss">Team_model should also change team_headmodel like what model does with headmodel</source>
+      </item>
+  </channel>
+</rss>

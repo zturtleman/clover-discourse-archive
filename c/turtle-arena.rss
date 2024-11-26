@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Turtle Arena - Magical Clover Forum</title>
+    <link>https://forum.clover.moe/c/turtle-arena</link>
+    <description>Topics in the &#39;Turtle Arena&#39; category Discussions about the game &lt;a href=&quot;https://clover.moe/turtlearena&quot;&gt;Turtle Arena&lt;/a&gt;.</description>
+    
+      <lastBuildDate>Fri, 20 May 2016 13:25:49 +0000</lastBuildDate>
+      <atom:link href="https://forum.clover.moe/c/turtle-arena.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>About the Turtle Arena category</title>
+          <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+          <category>Turtle Arena</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+            <blockquote>
+              <p>Discussions about the game <a href="https://clover.moe/turtlearena">Turtle Arena</a>.</p>
+            </blockquote>
+            <p>Posts: 2</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/about-the-turtle-arena-category/14">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/about-the-turtle-arena-category/14</link>
+          <pubDate>Fri, 20 May 2016 13:25:49 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-14</guid>
+          <source url="https://forum.clover.moe/t/about-the-turtle-arena-category/14.rss">About the Turtle Arena category</source>
+        </item>
+  </channel>
+</rss>

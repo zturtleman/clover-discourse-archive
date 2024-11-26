@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Cheat Protected Commands</title>
+    <link>https://forum.clover.moe/t/cheat-protected-commands/98</link>
+    <description>Hi guys,
+
+Well, I&#39;ve tested this engine and this is the most flawessly that all others source ports (Berserker 3, iouake 3, OpenArena, etc).
+
+Finally, a source port that correct&#39;s the **Aspect correct wide screen FOV and HUD in Q3A!**
+
+However, I like to use some of more of FOV (cg_fov 100), and when I do this, the Weapon HUD still begin to streching.
+
+The maner that I fix this, is changin the values of 3 variables:
+
+cg_gunx,
+cg_guny
+cg_gunz
+
+Sadly, I don&#39;t know why, the developers block this variables with the &quot;Cheat Protected&quot; restriction.
+
+In this same way, ioquake (Spearmint too), blocks a newer variables that correspond with the graphics part, I mean:
+
+r_forcesun
+r_ambientscale
+
+Why?
+
+Why the developer block this variables if this variables are really AWESOME!
+
+The only way to play with this variables is through **_devmap_** command, but is not the optimus way to probe this engine.
+
+Well, resuming, there&#39;s a way to unlock the following variables? (compiling a new engine, modifing the current Spearmint engine, etc):
+
+
+**OLD VARIABLES**
+
+_**Graphics Part**_
+seta r_znear
+seta r_lodcurveerror
+
+**_HUD Part_**
+cg_gunx
+cg_guny
+cg_gunz
+
+**NEWER VARIABLES (ONLY IN SPEARMINT)**
+
+_**Graphics Part**_
+r_forcesun
+r_ambientscale
+
+Well, I hope that changing this aspect of this engine may be possible.
+
+See ya!</description>
+    
+    <lastBuildDate>Thu, 13 Apr 2017 17:38:10 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/cheat-protected-commands/98.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@SolivaN Freddy]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/solivan">@SolivaN</a> wrote:</p>
+          <blockquote>
+              <p>Thanks a lot for your great effort. I’ll test ioquake.</p>
+<p>See ya! <img src="//forum.clover.moe/images/emoji/twitter/sunglasses.png?v=5" title=":sunglasses:" class="emoji" alt=":sunglasses:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/27">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/27</link>
+        <pubDate>Thu, 13 Apr 2017 17:38:10 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-27</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>New test build for Windows with Team Arena support. <a href="https://drive.google.com/file/d/0BxbsUyPWE1XHaGJMSHBjbnlEc0U/view?usp=sharing">spearmint-0.4-20170412.zip</a></p>
+<p>Note: Unlike the previous test builds, this is a full release package. It does not need to be mixed with previous Spearmint versions.</p>
+<p>2 World lighting for Head HUD might be added eventually.<br>
+3 Cube map seams are not related to skybox.<br>
+4 If you’re talking about the light flare right above the mirror, it is a 2D sprite billboard in both renderers. Set r_showtris to 1 to see the triangles. Set r_flares cvar to 0 to disable it.<br>
+5 Include Team Arena support: Done</p>
+<p>Spearmint includes a customized version of ioquake3’s opengl2 renderer. Please test the <a href="http://ioquake3.org/get-it/test-builds/">ioquake3 test build</a> and report it’s opengl2 issues at <a href="https://github.com/ioquake/ioq3/issues">ioquake3’s issue tracker</a>. That way the opengl2 maintainer will see them, maybe fix them, and then I’ll merge the fixes into Spearmint.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/26">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/26</link>
+        <pubDate>Thu, 13 Apr 2017 04:07:54 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-26</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@SolivaN Freddy]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/solivan">@SolivaN</a> wrote:</p>
+          <blockquote>
+              <p>Sure! downsampling is a technique to take a “fake” antialiasing without activating this. The meaning is simple:<br>
+You can raise the resolution to big one (2k/4k), then shrink it into a small monitor (1920x1080 for example).<br>
+So, the result are incredible, ultra shiny textures, free antialiasing that have less impact in the FPS, and that is!<br>
+Downsampling is a way to have AA without activate it.<br>
+Is very similar to the Supersampling, but the last one have a lot more impact on FPS performance.</p>
+<p>If you combine the downsampling with any AA feature, the result are awesome.</p>
+<p>Is very interesting knowing that OpenGL have all this features from 1.1 to 4.5, is nice to learn a little more with spearmint forum, hehehe.</p>
+<p>So, let me resuming all the points that I’ve mentioned in this post:</p>
+<ol>
+<li>Antialiasing don’t apply to the 3D objets in the HUD (in OpenGL 2 mode): <strong>Not solved yet</strong>
+</li>
+<li>LIT dont apply to the weapon HUD: <strong>Fixed in the last test build 0.4-20170217</strong> <em>(can you make LIT the 3D Head from HUD too?)</em>
+</li>
+<li>SkyBox/Seam of the Cube Maps translucents: <strong>Founded a solution</strong> (r_arb_seamless_cube_map to 1)</li>
+<li>In OpenGL 2 mode, the lights moves like a 2D sprite billboard into the mirror of Q3DM0: <strong>Not solved yet</strong>
+</li>
+<li>Team Arena menu not implemented yet into the latest build: <strong>Not solved yet</strong>
+</li>
+<li>Downsampling: <strong>Founded a solution</strong> <em>(disabling DPI scaling from .exe on Windows)</em>
+</li>
+<li>Performance FPS in OpenGL 2 render: <strong>Needs a lot of progress</strong>
+</li>
+</ol>
+<p>So, there is, let me know if you want more details from any point that I mentioned.</p>
+<p>Chers.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/25">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/25</link>
+        <pubDate>Mon, 10 Apr 2017 10:36:05 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-25</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>I think that upsampling and downsampling could be implemented using extensions for OpenGL 1.5 (or 1.1 without multisampling anti-aliasing). It’s is not automatically done in any OpenGL version. It’s an application feature. I hadn’t heard of downsampling being a common thing until you brought it up.</p>
+<p>Oh… high DPI mode, so Windows is scaling the game. Well I guess UHD -&gt; HD is actually low DPI? but then it doesn’t make sense why the game is too big. Anyway, ioquake3 and Spearmint use <a href="http://libsdl.org">SDL</a> to talk to Windows. SDL only supports DPI awareness on MacOS and iOS. It’s not simple to fix this.</p>
+<p>Spearmint 0.4’s opengl2 renderer uses OpenGL 1 to OpenGL 4.5. The test build opengl2 renderer use OpenGL 2 to OpenGL 4.5.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/24">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/24</link>
+        <pubDate>Mon, 10 Apr 2017 00:55:25 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-24</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@SolivaN Freddy]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/solivan">@SolivaN</a> wrote:</p>
+          <blockquote>
+              <p>Well well well, I’ve found a solution for the 4k/2k downsampling… hahaha</p>
+<p>I told you that I’m going to test more modern OpenGL games (like Doom 4 in OpenGL 4.5 mode).</p>
+<p>So, like I’ve said in the prior post, Doom 4 in OpenGL 4.5 mode works perfectly with downsample resolutions.</p>
+<p>The next game to test: Rage, that uses OpenGL 3.2. Well, the results:</p>
+<p>The same problem. So, I begun to think that it’s a problem with OpenGL, but, is very strange that Rage, a game from the 2011 year have the same problem.</p>
+<p>So, trying to finding a solution to rage, I’ve found this: <em>“Right click the Rage.exe - properties - compatibility tab - check the box for disable display scaling for high dpi settings”</em></p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="//forum.clover.moe/uploads/default/original/1X/a4d1bbf21e399851044ee3bdffe340c2f1e839b3.png" data-download-href="//forum.clover.moe/uploads/default/a4d1bbf21e399851044ee3bdffe340c2f1e839b3" title="Captura de pantalla 2017-04-08 23.26.40.png"><img src="//forum.clover.moe/uploads/default/optimized/1X/a4d1bbf21e399851044ee3bdffe340c2f1e839b3_1_365x500.png" width="365" height="500"><div class="meta">
+<span class="filename">Captura de pantalla 2017-04-08 23.26.40.png</span><span class="informations">747x1023 61.6 KB</span><span class="expand"></span>
+</div></a></div></p>
+<p>…and that’s is! Rage now can downsampling without problems!</p>
+<p>The next step was trying the same solution on Q3 Spearmint, and look for yourself…</p>
+<p><a href="https://1drv.ms/f/s!AkWq1oczfEQG8lTQJDayFE7T6Nh0" class="onebox" target="_blank" rel="nofollow noopener">https://1drv.ms/f/s!AkWq1oczfEQG8lTQJDayFE7T6Nh0</a></p>
+<p>NOTE: If you look the FPS count, in OpenGL 2 mode the frames drop to the half (from 75 to 33), so, I think that the engine needs a lot of optimization for now. But I know that’s is a very hard work to do. And take a lot of time, much time <img src="//forum.clover.moe/images/emoji/twitter/relieved.png?v=5" title=":relieved:" class="emoji" alt=":relieved:"></p>
+<p>So, finally I’ve found the downsampling solution! <img src="//forum.clover.moe/images/emoji/twitter/grin.png?v=5" title=":grin:" class="emoji" alt=":grin:"> <img src="//forum.clover.moe/images/emoji/twitter/grinning.png?v=5" title=":grinning:" class="emoji" alt=":grinning:"></p>
+<p>I think that is a mixed problem with Windows 10 and older OpenGL renders.</p>
+<p>But now we got it! And we can enjoy this great game (and all the older OpenGL games) in 4K.</p>
+<p>See ya dudes!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/23">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/23</link>
+        <pubDate>Sun, 09 Apr 2017 02:33:56 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-23</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@SolivaN Freddy]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/solivan">@SolivaN</a> wrote:</p>
+          <blockquote>
+              <p>Well, I’ve probed the Doom 4 in OpenGL 4.5 mode and the downsampling in 4K works perfect.</p>
+<p>It seems be the OpenGL 1.0 to OpenGL 2.1 not support downsampling.</p>
+<p>So, a little question zturtleman?</p>
+<p>What version of OpenGL uses the render of your source port?</p>
+<p>I mean, not the OpenGL 1 render, I’m talking about the OpenGL 2 render of the Spearmint.</p>
+<p>I’m waiting your comments, see ya!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/22">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/22</link>
+        <pubDate>Sat, 08 Apr 2017 13:55:41 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-22</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@SolivaN Freddy]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/solivan">@SolivaN</a> wrote:</p>
+          <blockquote>
+              <p>Hi zturtleman!</p>
+<p>Yea, the Team Arena issue needs to include the files to work on TA (the test builds like <strong>spearmint-0.4-20170215</strong> and <strong>spearmint-0.4-20170217</strong>). You’ll add them when this test build be completed? If this will be in a long time, can you add soon if is possible please? <img src="//forum.clover.moe/images/emoji/twitter/grinning.png?v=5" title=":grinning:" class="emoji" alt=":grinning:"></p>
+<p>In the case of the downsampling 2k/4k you are right! the render are the problem. OpenGL is more limited in this way that DirectX and Vulkan. Is very sad, legacy OpenGL is a render that I apreciate a lot.</p>
+<p>Well, I hope that you can fix/expand the comatibility of the render in the future. And of course, I’ll sharing more details if I found more.</p>
+<p>See ya!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/21">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/21</link>
+        <pubDate>Fri, 07 Apr 2017 10:41:42 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-21</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@SolivaN Freddy]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/solivan">@SolivaN</a> wrote:</p>
+          <blockquote>
+              <p>Hi KuehnhammerTobias!</p>
+<p>The Team Arena Menu don’t appears, that’s it simply, only appears the default Q3 Arena menu, with only the menu sound effects from TA.</p>
+<p>Yea, the 2k an 4k res don’t work. I don’t know how it work well on your system. The OpenGL games seems have this problems frecuently. I’ve seen the same problem on Heretic II, Hexen II, Quake Live, etc (Except Doom 4).</p>
+<p>The case of Doom 4 are different, because this uses Vulkan render. I suppose that Vulkan are similar to DirectX render in the support of downsampling.</p>
+<p>I want to try Doom 4 in OpenGL 4.2 mode and I’ll comment you at respect.</p>
+<p>So, I think that is a general problem of older OpenGL renders (from OpenGL 1.1 to OpenGL 2.1 I think)</p>
+<p>The OpenGL 3.0 to the actually OpenGL 4.5 I think have solved this problem. I don’t made a tests yet with differents versions of OpenGL. But is a thing that I want to made soon.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/20">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/20</link>
+        <pubDate>Fri, 07 Apr 2017 10:37:57 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-20</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Is the Team Arena menu issue that I did not include Team Arena (missionpack) files in the test builds I posted in this thread?</p>
+<p>The render and display size are not set separately. Using a resolution large than the monitor will not fit on the screen. This is regular OpenGL behavior.</p>
+<p>I would like to separate them eventually by rendering to a frame buffer and then scaling to window size. Primarily for fullscreen desktop support where fullscreen mode is just a window the size of the screen without changing the system video mode to the game resolution. I don’t know when I’ll get around to adding it though.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/19">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/19</link>
+        <pubDate>Thu, 06 Apr 2017 19:06:52 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-19</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Nice to hear that r_arb_seamless_cube_map did solve your problem! <img src="//forum.clover.moe/images/emoji/twitter/relaxed.png?v=5" title=":relaxed:" class="emoji" alt=":relaxed:"></p>
+<p>About the Team Arena menu, what exactly did not work for you? I try do as much as possible in mint-arena’s Team Arena menu and I can’t find anything that didn’t work, or behave differently than before. I mean does the menu not appear/start or is there something you can’t click with your mouse anymore, or  are there any graphical glitches?</p>
+<p>And about the 2k/4k problem: just to make it clear, even 2560x1440 doesn’t work correct? Or does only 3840x2160 resulting in the bug your video is showing? Unfortunately atm nobody I know has a monitor with a native resolution of about 3840x2160 (just to check how it should look like). On everything below that resolution (2560x1440, 1920x1080 etc.) Spearmint behaves correct for us. Thats why I’m asking if the bug you are showing is only on 3840x2160 settings or even with lower values?<br>
+Hopefully I can have access to a Dell 4k this weekend, though I’m not sure if this will help us.<br>
+Maybe zturtleman knows more about 4k resolutions? OTOH 4k gaming is still rare I think, I don’t really know many people with 4k experience…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/18">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/18</link>
+        <pubDate>Thu, 06 Apr 2017 17:28:54 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-18</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@SolivaN Freddy]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/solivan">@SolivaN</a> wrote:</p>
+          <blockquote>
+              <p>Wow! the <strong>r_arb_seamless_cube_map</strong> cvar work flawlessly! It has been corrected the the seam of the cube maps (or the edge of the skyboxes? are the same?)</p>
+<p>Well, I’ve tested the <strong>r_customwidth/r_customheight</strong>, with <strong>r_mode -1</strong>, but the same problem happens.</p>
+<p><img src="//forum.clover.moe/images/emoji/twitter/worried.png?v=5" title=":worried:" class="emoji" alt=":worried:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/17">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/17</link>
+        <pubDate>Thu, 06 Apr 2017 10:22:47 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-17</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@SolivaN Freddy]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/solivan">@SolivaN</a> wrote:</p>
+          <blockquote>
+              <p>Hahaha, sure! This world of opensource needs a lot of work. But with the help from us, we can apport a little bit more with this hard work.</p>
+<p>So, all the tips that you say I’ll try when arrive at my home.</p>
+<p>The skybox problem can be seen turning the Full HD mode in youtube. So don’t forget to watch the videos in Full HD mode.</p>
+<p>The other way to see the slightly line is viewing the screenshots that I made. So, take a look too.</p>
+<p>In the other hand we have the downsampling problem. I think that this limitation/bug are inherit from vanilla q3 engine.<br>
+So, is a good time to fix this. I think so.</p>
+<p>My monitor is a common Samsung Syncmaster S23B370 of 23" inch, with a max res of 1920x1080.<br>
+However, the problem is not in the monitor neither the video card. Like a say recently, other games like STALKER, Paladins, etc can downsampling perfectly on my monitor.</p>
+<p>I’ll try the r_customwidth and r_customheight and I’ll comment you.</p>
+<p>So, thanks for your comments and reply.</p>
+<p>See ya soon!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/16">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/16</link>
+        <pubDate>Wed, 05 Apr 2017 17:17:39 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-16</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Hi SolivaN!</p>
+<p>Glad you’re still there and you are fine!</p>
+<p>Just a few quick things that came into my mind while I was reading your “bug report”:</p>
+<ol>
+<li>Unfortunately it’s hard to see the effect of <em>“appears a slightly line that follows my movements…”</em> on the videos (they are a bit blurry). Probably you see the seam of the cube maps, you can try to get rid of this seam by enabling seamless cube maps (go to a place where you see the line, bring down the console, set your <strong>r_arb_seamless_cube_map</strong> cvar to 1, do a <strong>vid_restart</strong> and see if the line will vanish)… in the past I saw this line also before I switched the cvar!</li>
+<li>About the 2560x1440 resolution, well, it works on my system, so I’m in doubt it’s only game related, even if other games run fine in 2560x1440 on your computer… eventually try to set the width and height manually (the cvars are called <strong>r_customwidth/r_customheight</strong> followed by the value for your monitors resolution.</li>
+</ol>
+<p>Well, as already said I’m not sure if this well help, but it would be interesting if this will help you.<br>
+I didn’t check the things you mentioned in detail at the moment. I’m no expert!</p>
+<p>For the OpenGL2 renderer in common:<br>
+mirrors do still have more bugs, check q3dm8 with r_forceSun enabled, the sun light is shining through the ceiling mirror…<br>
+zturtleman added a lot of incredible amazing things to the renderer(s), TrueType font Support, rain and snow atmospheric effects, enhanced sky/water fog, corona entities and whatnot, but all in all the OpenGL2 renderer is made by another author that ripped out parts from Xreal renderer (made by Robert Beckebans).<br>
+Most (not to say all) bugs concerning the renders aren’t introduced by zturtleman. As far as I know only the tone effect doesn’t work well with splitscreen mode…<br>
+Also lightning/shadowing is broken but not by Spearmint. For some lightning bugs a fix is already there (without the need of rewriting all the shaders). Check this: <a href="https://bugzilla.icculus.org/show_bug.cgi?id=6058" rel="nofollow noopener">https://bugzilla.icculus.org/show_bug.cgi?id=6058</a>. I don’t understand the goal/policy of ioquake3 authors anymore and why they don’t fix things a bugfix is already available for. So you have to apply them for yourself (coding skills are needed)…if you are interestend in fixing the renderer.<br>
+What I want to say is, that as far as I know all the rendering bugs you’ll find, will also be seen with ioquake3!</p>
+<p>I hope we will hear more from you, and your problems will be solved, especially the 2k/4k resolution problem seems serious to me…I never heard of this problem! Btw, what is your monitor manufacturer/type?</p>
+<p>EDIT: Sometimes I can’t even find my own things, but here we are, concerning the mirrors, I think the problem is somehow related to framebuffer multisampling. I made an issue ticket here: <a href="https://github.com/ioquake/ioq3/issues/121" rel="nofollow noopener">https://github.com/ioquake/ioq3/issues/121</a> Though, I didn’t find a fix for it ever, and I’m not even sure if the flares are the problem or the mirrors! Or if both issues related at all!<br>
+Merde, this world needs some good (open source) rendering experts too!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/15">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/15</link>
+        <pubDate>Wed, 05 Apr 2017 13:57:24 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-15</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@SolivaN Freddy]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/solivan">@SolivaN</a> wrote:</p>
+          <blockquote>
+              <p>Hi there!<br>
+Sorry for the late, I’ve some problems in my personal life, but now I’m fine.</p>
+<p>So, let’s continue with this incredible engine.<br>
+Here’s all the pics that complement all that I say in this post, take a look:<br>
+<a href="https://1drv.ms/f/s!AkWq1oczfEQG8hMsmPVKKsXmAZpT" class="onebox" target="_blank" rel="nofollow noopener">https://1drv.ms/f/s!AkWq1oczfEQG8hMsmPVKKsXmAZpT</a></p>
+<p>I’ve have done a little research and I’ve found some little things to be revised.</p>
+<p>Take a look:</p>
+<p><strong>Antialiasing with OpenGL 2 mode doesn’t work</strong><br>
+When I turn OpenGL 2 mode, the AA filter doesn’t apply to the weapon model, neither to the head model of the HUD. I think that all the 3D objets from the HUD needs to be revised. I’ve already readed the discover from <strong>KuehnhamTobias</strong> about the LIT for the Weapon HUD. And I think that the AA effect correspond to the same aspect in some way.<br>
+So, modifying some part of the engine, causes that the other problems appears, ha!<br>
+But I want to say that I’m glad to help, research and contribute with this incredibly engine. Sincerely.</p>
+<p><strong>The translucents skyboxes in OpenGL 2 and Z-Buffer fight light problem into the mirror of Q3DM0</strong><br>
+Well, while played this great modified idtech3 engine, I’ve noticed that in some maps, appears a slightly line that follows my movements…</p>
+<p>So, after some time vieweing like a impressed cat following a lasser light, I’ve founded that’s the skybox map! You can see the translucent skybox in the <strong>0:12 min</strong>, and the <strong>1:32 min</strong>.</p>
+<p>The other aspect viewed in the video is an extrange <em>Z-Buffer Fight</em> with the lights into the mirror in Q3DM0 map (<em><strong>The Introduction</strong></em> Map). You can see in the min <strong>0:40</strong>, when I move the X axis, the lights into the mirror are cutted. I think that light work like a 2D sprite billboard from Doom. But correctme if I’m wrong.</p>
+<p>I think that this little things contribute the FPS drops (I suspect, I’m not sure).</p>
+<div class="lazyYT" data-youtube-id="4KhbFeqKGek" data-youtube-title="Quake III Spearmint-0.4-2017-02-15 test, finding bugs" data-width="480" data-height="270" data-parameters="feature=oembed&amp;wmode=opaque"></div>
+<p><strong>Team Arena Main Menu is not work now</strong><br>
+With this change (from the Weapon HUD spearmint-0.4-20170215.zip) the support for Team Arena Main Menu was lost.<br>
+So, there is, another little bug to fix. <img src="//forum.clover.moe/images/emoji/twitter/grin.png?v=5" title=":grin:" class="emoji" alt=":grin:"></p>
+<p><strong>2k and 4k ressolutions don’t downsampling into the monitor</strong><br>
+Well, I’ve a Radeon RX470 video card, and this let me to create Virtual Super Resolutions like 2k (2560x1440) and 4k (3840x2160). Many games run it without problems:</p>
+<ul>
+<li>STALKER</li>
+<li>Paladins</li>
+<li>GZDoom</li>
+<li>Etc</li>
+</ul>
+<p>However, Vanilla Quake 3, and Spearmint, don’t fit (downsample) the scale of these resolutions causing the screen oversising. Watch the following video:</p>
+<div class="lazyYT" data-youtube-id="l34_AEAOjv0" data-youtube-title="Quake III Spearmint 4K downsampling test" data-width="480" data-height="270" data-parameters="feature=oembed&amp;wmode=opaque"></div>
+<p>Well, this is all the bugs that I founded.<br>
+I hope that help to make this engine, a better engine.</p>
+<p>Thanks zturtleman, thanks KuehnhammerTobias.</p>
+<p>See ya! <img src="//forum.clover.moe/images/emoji/twitter/sunglasses.png?v=5" title=":sunglasses:" class="emoji" alt=":sunglasses:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/14">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/14</link>
+        <pubDate>Wed, 05 Apr 2017 00:58:30 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-14</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>I added <a href="https://github.com/zturtleman/mint-arena/commit/1a60b8c54213800b4f959dcb8ac91a53ac08632e">flash dlight to world</a> but there is still the issue of world dlights not affecting the view weapon…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/13">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/13</link>
+        <pubDate>Fri, 10 Mar 2017 03:09:43 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-13</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>It’s possible to add weapon sway either way. I would like weapon sway but it’s not a high priority for me personally to program it.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/12</link>
+        <pubDate>Thu, 02 Mar 2017 02:49:13 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-12</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Oh! Both solutions seems no easy task! Tbh, I would not even know where to start in order to fix this issue <img src="//forum.clover.moe/images/emoji/twitter/cold_sweat.png?v=5" title=":cold_sweat:" class="emoji" alt=":cold_sweat:"><br>
+But I’m sure you’ll choose the right way to fix this! By the way, which one of the above solutions is more suitable to add so called ‘weapon sway’?<br>
+On Quake 3 World someone asked for it, and he is true. Weapon sway was never implemented with idtech3, afaik! Yes, yes TF is Source engine, and Source is Quake etc.,… but I mean, for the Q series I only know Q1 mods and Q2 (Berserker) and everything beyond Q3 has at least one released mod with swaying view weapons, but not Q3.<br>
+Here is what is meant: <a href="http://www.quake3world.com/forum/viewtopic.php?f=16&amp;t=50784" rel="nofollow noopener">http://www.quake3world.com/forum/viewtopic.php?f=16&amp;t=50784</a></p>
+<p>So, is there any solution of the two solutions you mentioned, that would make implementing weapon sway easier for modders?<br>
+And, wouldn’t weapon sway fit for Mint-Games? The best idtech3 game, with Mint-Arena to be the first idtech3  game with weapon-sway?</p>
+<p>Well, sorry, I don’t know much about ‘view weapon code’ eventually weapon-sway is a bit off-topic, anyways, whats your thoughts?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/11</link>
+        <pubDate>Tue, 28 Feb 2017 16:45:42 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-11</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Yes, you’re correct. View weapon flash dynamic light doesn’t affect world and dynamic lights in world don’t affect view weapon. They are separate scenes now so this is the correct behavior. I had forgotten about it.</p>
+<p>I either need to add dynamic lights to a list in CGame and add them to both of the world and view weapon scenes or change the engine so that I can control view weapon FOV with view weapon still being part of the world scene.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/10</link>
+        <pubDate>Mon, 27 Feb 2017 21:08:31 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-10</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Sorry to reopen this topic, but I think the changes concerning the weapon fov still causes a bug. At least I can’t see the weapon flash dlight in 1st person view anymore. In 3rd person view the dlight while firing a weapon works correct, but not in first person view. Is this caused by: <a href="https://github.com/zturtleman/mint-arena/commit/631f796591c3565607a861ddb99c40686d3812b1" rel="nofollow noopener">https://github.com/zturtleman/mint-arena/commit/631f796591c3565607a861ddb99c40686d3812b1</a>?<br>
+What do I wrong, can someone try to confirm this, please?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/9</link>
+        <pubDate>Mon, 27 Feb 2017 00:58:53 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-9</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Fixed, well done Zack! <img src="//forum.clover.moe/images/emoji/twitter/+1.png?v=5" title=":+1:" class="emoji" alt=":+1:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/8</link>
+        <pubDate>Fri, 17 Feb 2017 21:29:06 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-8</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Oh, I forgot that would affect the lighting. I didn’t notice in the outside area in q3dm1. Thanks for reporting it. I <a href="https://github.com/zturtleman/mint-arena/commit/631f796591c3565607a861ddb99c40686d3812b1">fixed it</a> using an engine feature I added for Enemy Territory’s HUD head model. If this was a mod for ioquake3 it would not be possible to fix. <img src="//forum.clover.moe/images/emoji/twitter/sweat_smile.png?v=5" title=":sweat_smile:" class="emoji" alt=":sweat_smile:"></p>
+<p>Test build for Windows: <a href="https://drive.google.com/file/d/0BxbsUyPWE1XHb045T0VtMVVROVE/view?usp=sharing">spearmint-0.4-20170217.zip</a></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/7</link>
+        <pubDate>Fri, 17 Feb 2017 20:27:43 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-7</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Hello zturtleman!</p>
+<p>Nice to see that you’re still there!<br>
+Just a small note: I think the latest changes to the mint-arena code, concerning the weapon fov you guys are talking about, causes the weapon model to be no longer lit correctly.<br>
+It’s easy to test: start any map, roam around an have a look at your currently held weapon. You’ll notice that the weapon model doesn’t reflect the color/brightness of the lightmap. In other words, the color and brightness of the weapon will always stay the same, regardless if you are in a very dark or bright area.<br>
+This is the case at least on my PC, I’m not sure if this is an issue for you guys as well…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/6</link>
+        <pubDate>Fri, 17 Feb 2017 19:05:54 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-6</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Thanks for your feedback. r_lodCurveError cvar is <a href="https://github.com/zturtleman/spearmint/commit/a35e4b55764e479eafe02d967ebb2ec4aad7a400">no longer cheat protected</a> and is <a href="https://github.com/zturtleman/mint-arena/commit/8681f9b9e2d284f6a0455a152638c64065af3548">set by Geometry Quality</a> in Q3’s Graphics menu so people will use it. <a href="https://github.com/zturtleman/spearmint/commit/96eb7e8345def2b1cb41e6d79576f5f9f1aa4383">r_forceSun</a> is no longer cheat protected. There is now a <a href="https://github.com/zturtleman/mint-arena/commit/e1174e390b2718f2e6288f6cbe0ed39747d99bae">cg_weaponFov cvar</a> that controls the view weapon’s field of view (defaults to 90, 0 uses value from cg_fov). I think the view weapon being too bright was already fixed.</p>
+<p>Test build for Windows: <a href="https://drive.google.com/file/d/0BxbsUyPWE1XHd3NyUExXWTBoOWs/view?usp=sharing">spearmint-0.4-20170215.zip</a>. Put the files in your existing Spearmint 0.4 install. You may want to backup the spearmint exe and renderer dll files first. Please test and let me know if things are good now or if there are still problems.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/5</link>
+        <pubDate>Wed, 15 Feb 2017 23:49:53 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-5</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@SolivaN Freddy]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/solivan">@SolivaN</a> wrote:</p>
+          <blockquote>
+              <p><strong>SORRY, but the forum does not allow me to post two or more images, so here’s my onedrive with all explained images:</strong><br>
+<a href="https://onedrive.live.com/?authkey=%21AIKAPzGjyJ7v1qQ&amp;id=B277173D46915BE1%214730&amp;cid=B277173D46915BE1" class="onebox" target="_blank" rel="nofollow noopener">https://onedrive.live.com/?authkey=!AIKAPzGjyJ7v1qQ&amp;id=B277173D46915BE1!4730&amp;cid=B277173D46915BE1</a></p>
+<p>Thanks for you great reply zturtleman! I apreciate it a lot! <img src="//forum.clover.moe/images/emoji/twitter/grinning.png?v=5" title=":grinning:" class="emoji" alt=":grinning:"></p>
+<p>Well, this are my reasons to want change the cvars mentioned above:</p>
+<p><strong><em>Render OpenGL 1 part:</em></strong> In this section I’ll explain what is my intention and a little idea of how can solve it:</p>
+<p>r_znear = 4</p>
+<p>The default value is 4, and I know that this variable can be used for cheat. But here’s an example of what happens when you try to correct the Weapon HUD perspective:</p>
+<p><strong><em>The r__znear 4 cvar is cutting/droping a part of the weapon model</em></strong><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="//forum.clover.moe/uploads/default/original/1X/c0152df31dd0d798eb34552edc6cec5e1ea640ff.jpg" data-download-href="//forum.clover.moe/uploads/default/c0152df31dd0d798eb34552edc6cec5e1ea640ff" title="shot0003.jpg"><img src="//forum.clover.moe/uploads/default/optimized/1X/c0152df31dd0d798eb34552edc6cec5e1ea640ff_1_690x388.jpg" width="690" height="388"><div class="meta">
+<span class="filename">shot0003.jpg</span><span class="informations">1920x1080 613 KB</span><span class="expand"></span>
+</div></a></div></p>
+<p><strong><em>And here’s how we can solve with r__znear  1 value</em></strong></p>
+<p>The only problem with this aspect, is about of the cheating issue that you mentioned. But, what about of making the r__znear cvar locked between predefined values? (like Quake Live does)</p>
+<p>An example of this in Quake Live is the <strong>cg__gunZ</strong> cvar, that only can be changed between <strong>-10</strong> and <strong>0</strong> values.</p>
+<p>Well, the next step is explaining the <strong><em>r__lodCurveError</em></strong> cvar, the images has all the information that you need to understand it.</p>
+<p>But resuming:</p>
+<p>r_lodCurveError = 250</p>
+<p>This cvar work in conjunction with <strong><em>r__suvdivisions</em></strong> cvar, and his default value is 4.</p>
+<p>The <strong><em>r__lodCurveError</em></strong> cvar controls the LOD of the 3D Map environment (specially for the curved zones).<br>
+And the r_suvdivisions cvar controls the amount of poly density of the curved sufaces (applied for the 3D Map too)</p>
+<p>Here’s an very well examples:</p>
+<p><strong><em>r__lodCurveError = 250 and r__suvdivisions = 4</em></strong></p>
+<p><strong><em>r__lodCurveError = 2000 and r__suvdivisions = 1</em></strong></p>
+<p><strong><em>Render OpenGL 2 part:</em></strong> In this final part, I want to explain the aspect of the graphics tuning. Is annoying to see that this cvars are blocked, because this cvars only controls a brigthness of HUD Weapon model, you can see:</p>
+<p>The HUD Weapons are too brigth, but this can be corrected changin the r_ambientscale cvar. Look:</p>
+<p><strong><em>r__ambientscale = 0.6</em></strong> Too brigth</p>
+<p><strong><em>r__ambientscale = 0.3</em></strong> Correct brigth</p>
+<p><strong>Awesome Shadows part:</strong><br>
+As you can see, the impressive shadows with <strong><em>r__forcesun = 1</em></strong> are beautiful. Thanks for tell me about the SmileTheory developer, I’ll try to contact with him. But, I think that I can’t do much, all depends of this guy <img src="//forum.clover.moe/images/emoji/twitter/frowning.png?v=5" title=":frowning:" class="emoji" alt=":frowning:"></p>
+<p>With <strong><em>r__forcesun = 1</em></strong></p>
+<p>With <strong><em>r__forcesun = 0</em></strong></p>
+<p>Finally, responding about the <strong>Aspect correct wide screen FOV HUD</strong> I can tell you that this work well only with cg__fov = 90.</p>
+<p>Changin the cg__fov = 90 parameter causes the Weapon model begin to hidding through bottom of the screen.</p>
+<p><strong>Weapon HUD with cg__fov = 100; cg__gunz = 0; res = 1920x1080</strong></p>
+<p><strong>Weapon HUD with cg__fov = 100; cg__gunz = 2; res = 1920x1080</strong></p>
+<p>Resuming, I’m using the following values:<br>
+<strong><em>HUD Part:</em></strong> This values are for almost weapons…<br>
+cg_gunx = 0<br>
+cg_guny = 2<br>
+cg_gunz = 0</p>
+<p>For the Lightgun I like to view some of more of the Weapon HUD 3D model like appears in Quake 3 XBOX 360 version, take a Look:</p>
+<p>cg_gunx = 1.2<br>
+cg_guny = 2<br>
+cg_gunz = 0</p>
+<p><strong><em>XBOX 360 Lightgun view</em></strong></p>
+<p><strong><em>Quake 3 Spearmint Lightgun corrected view</em></strong></p>
+<p>I can comment you that I’m thinking about other engines, I know that Quake 3 are a very old engine, but we can obtain the better ideas from other engines. I mean, for example:</p>
+<p>The Serious Engine 2 (for Serious Sam 2), have a FOV cvar too, but I noticed that the weapon always mantain the correct aspect view, no matter what FOV you are using…</p>
+<p>Well, I’m not a programmer, but I think that you say <em>“It would be better solved by drawing the weapon with a different FOV”</em> so, you are right. The Croteam team solved this problem with this very good idea.</p>
+<p>Again, I think that to make this possible, you need to add code… much code? I fell that yes, and this is not good for a programmer <img src="//forum.clover.moe/images/emoji/twitter/smile.png?v=5" title=":smile:" class="emoji" alt=":smile:"></p>
+<p>However, I’ think that weapon hud model make the personality of a FPS Game. Without this, I feel that game are empty, is not a FPS completely. By this reason I’dont like games like Penumbra, or Amnesia, because this games hide the hand when open a door, or grep an objet. And in some aspect Quake Live has the same problem, this make that all Weapons HUD appears very small and streched with the intention to make this game more competitive for tournaments (too see more through the screen). But I think that this aspect may be leaved to be controlled by the gamer, and not obligate to gamers accept something that they don’t like.</p>
+<p>If you play Unreal Tournament 3, Overwatch, Paladins, Counter Strike (with Source engine), or any other arena FPS game, the Weapon HUD model look in his correct aspect, size and position.</p>
+<p>So, the path that follow Quake Live in this case, are wrong for me, and is why I want to able to play Quake III Arena classic (with Spearmint) in his correct looking way.</p>
+<p>Only needs some of effort to achieve this.</p>
+<p>Thanks and I’ll apreciate your soon response.<br>
+See ya! <img src="//forum.clover.moe/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/4</link>
+        <pubDate>Tue, 14 Feb 2017 20:34:23 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-4</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+      <item>
+        <title>Cheat Protected Commands</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>I think cg_gun[XYZ] are originally/mainly for use with <code>testgun &lt;modename&gt;</code> developer command. Though I don’t why these are a cheat since cg_drawGun 0 isn’t a cheat.</p>
+<p>r_znear can be used to see through walls. What is your reason for changing it? What do you change it to? iirc I had issues with it clipping Elite Force view weapons when it was set to 5 so it’s unlikely I can increase the default.</p>
+<p>I don’t really know much about <a href="http://etconfig.net/cvars/r_lodcurveerror/">r_lodCurveError</a> so I can’t guess the logic behind why it’s a cheat. It’s not a cheat in Enemy Territory so I’m guessing there isn’t a strong reason for keeping it a cheat.</p>
+<p>r_forcesun and r_ambientscale OpenGL2 renderer cvars are meant for testing; the map should add shader commands to enable the settings automatically. I don’t think this is a good idea but that’s how it is. The OpenGL2 renderer is developed by SmileTheory at ioquake3 so that would be the person to ask about changing it. (I don’t really want to have Spearmint’s OpenGL2 renderer deviate from ioquake3 unless necessary for new features I add.)</p>
+<p>devmap is the only option for changing cheat cvars without code changes. Explaining how to remove cheat protection doesn’t really seem like a great idea. <img src="//forum.clover.moe/images/emoji/twitter/zipper_mouth.png?v=5" title=":zipper_mouth:" class="emoji" alt=":zipper_mouth:"></p>
+<p>Spearmint Quake 3 does <a href="https://github.com/zturtleman/mint-arena/blob/bd6de77a68e1023d3a9024f564f513a001543ab3/code/cgame/cg_weapons.c#L1403">some correction for view weapon position</a> for non-90 FOV but I don’t know of an exact way to fixing it. It may be possible to improve it. What values do you use for cg_gun[XYZ] cvars with 100 FOV? What resolution do you use?</p>
+<p>I’m just thinking aloud but if a person wants the gun model to look the same regardless of FOV, then it would be better solved by drawing the weapon with a different FOV than the world. It’s not possible without code changes though and I’m not sure of the complexity involved.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/cheat-protected-commands/98/3</link>
+        <pubDate>Mon, 13 Feb 2017 21:09:29 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-98-3</guid>
+        <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+      </item>
+  </channel>
+</rss>

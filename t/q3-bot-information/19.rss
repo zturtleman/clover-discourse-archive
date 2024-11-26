@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Q3 Bot Information</title>
+    <link>https://forum.clover.moe/t/q3-bot-information/19</link>
+    <description>Information about the Q3 bots developed by Mr. Elusive.
+
+- [Q3 bot overview and history by Fabian Sanglard](http://fabiensanglard.net/quake3/a.i.php)
+- [Q3 bot documentation](http://fd.fabiensanglard.net/quake3/The-Quake-III-Arena-Bot.pdf)
+
+For historical information about the bots developed by Mr. Elusive see below. The Q3 bot is directly based on the Q2 Gladiator bot was last updated ~5 months before Q3 shipped.
+
+- [Gladiator (Q2 bot)](http://mrelusive.com/oldprojects/gladiator/gladiator.html) -- [editing](http://mrelusive.com/oldprojects/gladiator/editing.shtml.htm)
+- [Omicron (Q1 bot)](http://mrelusive.com/oldprojects/obots/obots.html) -- [documentation](http://mrelusive.com/oldprojects/obots/ObotDoc/index.htm)</description>
+    
+    <lastBuildDate>Fri, 20 May 2016 14:49:08 +0000</lastBuildDate>
+    <category>Bot AI</category>
+    <atom:link href="https://forum.clover.moe/t/q3-bot-information/19.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Q3 Bot Information</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/q3-bot-information/19/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/q3-bot-information/19/3</link>
+        <pubDate>Fri, 20 May 2016 14:50:28 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-19-3</guid>
+        <source url="https://forum.clover.moe/t/q3-bot-information/19.rss">Q3 Bot Information</source>
+      </item>
+      <item>
+        <title>Q3 Bot Information</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/q3-bot-information/19/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/q3-bot-information/19/2</link>
+        <pubDate>Fri, 20 May 2016 14:50:19 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-19-2</guid>
+        <source url="https://forum.clover.moe/t/q3-bot-information/19.rss">Q3 Bot Information</source>
+      </item>
+      <item>
+        <title>Q3 Bot Information</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Information about the Q3 bots developed by Mr. Elusive.</p>
+<ul>
+<li><a href="http://fabiensanglard.net/quake3/a.i.php">Q3 bot overview and history by Fabian Sanglard</a></li>
+<li><a href="http://fd.fabiensanglard.net/quake3/The-Quake-III-Arena-Bot.pdf">Q3 bot documentation</a></li>
+</ul>
+<p>For historical information about the bots developed by Mr. Elusive see below. The Q3 bot is directly based on the Q2 Gladiator bot was last updated ~5 months before Q3 shipped.</p>
+<ul>
+<li>
+<a href="http://mrelusive.com/oldprojects/gladiator/gladiator.html">Gladiator (Q2 bot)</a> – <a href="http://mrelusive.com/oldprojects/gladiator/editing.shtml.htm">editing</a>
+</li>
+<li>
+<a href="http://mrelusive.com/oldprojects/obots/obots.html">Omicron (Q1 bot)</a> – <a href="http://mrelusive.com/oldprojects/obots/ObotDoc/index.htm">documentation</a>
+</li>
+</ul>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/q3-bot-information/19/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/q3-bot-information/19/1</link>
+        <pubDate>Fri, 20 May 2016 14:49:08 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-19-1</guid>
+        <source url="https://forum.clover.moe/t/q3-bot-information/19.rss">Q3 Bot Information</source>
+      </item>
+  </channel>
+</rss>

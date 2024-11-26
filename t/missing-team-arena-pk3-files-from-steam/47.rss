@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Missing Team Arena pk3 files from Steam?</title>
+    <link>https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47</link>
+    <description>Hello!
+
+I have both Q3A and Team Arena on Steam. Q3 has all the pk3 required for spearmint to run (0-8) but my missionpack folder only has pak0.pk3, and the readme says it needs 0-4. Team Arena works fine native from Steam, though.
+
+Where can I get those missing pk3 files?</description>
+    
+    <lastBuildDate>Thu, 30 Jun 2016 23:12:36 +0000</lastBuildDate>
+    <category>Support</category>
+    <atom:link href="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Missing Team Arena pk3 files from Steam?</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Not a problem. Hopefully some of those issues I talked about are all fixed up now… Anyone for a match?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/8</link>
+        <pubDate>Thu, 30 Jun 2016 23:12:36 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-47-8</guid>
+        <source url="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47.rss">Missing Team Arena pk3 files from Steam?</source>
+      </item>
+      <item>
+        <title>Missing Team Arena pk3 files from Steam?</title>
+        <dc:creator><![CDATA[@warmbaguettes]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/warmbaguettes">@warmbaguettes</a> wrote:</p>
+          <blockquote>
+              <p>Thanks for the help guys!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/7</link>
+        <pubDate>Thu, 30 Jun 2016 21:21:10 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-47-7</guid>
+        <source url="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47.rss">Missing Team Arena pk3 files from Steam?</source>
+      </item>
+      <item>
+        <title>Missing Team Arena pk3 files from Steam?</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Thanks for that <a class="mention" href="/u/zturtleman">@zturtleman</a>. It’s OK if you want to link to my pak4 which fixes more errors in Q3TA than any other patch pk3. It’s better than the unofficial patch that ZerTerO did because it also allows the original shader for Janet’s blue The Fallen skin to work for it as well, due to it looking much like the original red The Fallen skin, but blue.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/6</link>
+        <pubDate>Thu, 30 Jun 2016 18:15:43 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-47-6</guid>
+        <source url="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47.rss">Missing Team Arena pk3 files from Steam?</source>
+      </item>
+      <item>
+        <title>Missing Team Arena pk3 files from Steam?</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>A zip of the official Q3 / Team Arena patch pk3s is available at <a href="http://ioquake3.org/extras/patch-data/">http://ioquake3.org/extras/patch-data/</a>. I’ll link to that in the read me in the next release and remove the reference to missionpack/pak4.pk3.</p>
+<hr>
+<p>Updated read me text for the next release:</p>
+<p>To play Spearmint Quake 3, copy Quake 3’s baseq3/pak[0-8].pk3 into the local baseq3 directory. To play the Team Arena expansion, copy Quake 3 Team Arena’s missionpack/pak[0-3].pk3 into the local missionpack directory.</p>
+<p>If you don’t own Quake 3 or Team Arena, they can be purchased on Steam. <a href="http://store.steampowered.com/sub/433/">http://store.steampowered.com/sub/433/</a><br>
+Team Arena is not required to play Quake 3.</p>
+<p>If you’re missing some of the patch pk3s (pak1 or higher), they are available at <a href="http://ioquake3.org/extras/patch-data/">http://ioquake3.org/extras/patch-data/</a></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/5</link>
+        <pubDate>Thu, 30 Jun 2016 18:14:55 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-47-5</guid>
+        <source url="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47.rss">Missing Team Arena pk3 files from Steam?</source>
+      </item>
+      <item>
+        <title>Missing Team Arena pk3 files from Steam?</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’ll pass you a link to the Q3A 1.32 patch release installer which has these pk3s. Should help you. My pak4’s also coming your way too. It’s a patch pk3 to help fix Janet’s blue The Fallen skin &amp; a typo in teaminfo.txt.<br>
+Official patch installer with Q3TA patch pk3s: <a href="http://www.fileplanet.com/61607/60000/fileinfo/Quake-3-Arena---Point-Release-(v1.32)-Final" rel="nofollow noopener">http://www.fileplanet.com/61607/60000/fileinfo/Quake-3-Arena---Point-Release-(v1.32)-Final</a><br>
+pak4: <a href="https://mega.nz/#!p4FRGbYC!bB3nFh-vbeAjhvXR3elSzkjtuwsXMhcrHciIU1TDKOk" rel="nofollow noopener">https://mega.nz/#!p4FRGbYC!bB3nFh-vbeAjhvXR3elSzkjtuwsXMhcrHciIU1TDKOk</a><br>
+If someone can pass me an official patch installer for pak1-pak3, that would be great. Otherwise, this will have to do. EDIT: Found the 1.32 patch installer. Should have the Q3TA patch files in it.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/4</link>
+        <pubDate>Thu, 30 Jun 2016 16:48:26 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-47-4</guid>
+        <source url="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47.rss">Missing Team Arena pk3 files from Steam?</source>
+      </item>
+      <item>
+        <title>Missing Team Arena pk3 files from Steam?</title>
+        <dc:creator><![CDATA[@warmbaguettes]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/warmbaguettes">@warmbaguettes</a> wrote:</p>
+          <blockquote>
+              <p>Yeah I’ve been using it to play Q3A for a few weeks now, just today I wanted to test Team Arena but my copy is missing files. Tried re-validating but it didn’t find anything wrong.</p>
+<p>Here’s the screenshot from my missionpack folder</p>
+<p><img src="//forum.clover.moe/uploads/default/original/1X/de79ebdd111ef52a2050f786b99c8bf264d27ed6.PNG" width="662" height="149"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/3</link>
+        <pubDate>Thu, 30 Jun 2016 16:30:01 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-47-3</guid>
+        <source url="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47.rss">Missing Team Arena pk3 files from Steam?</source>
+      </item>
+      <item>
+        <title>Missing Team Arena pk3 files from Steam?</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>pak4.pk3 doesn’t exist, but pak0-3 does. The pak4 was an error in the readme, but you’ve come to the right place if you need a better engine for your Steam Q3A. This one’s got splitscreen support, native 16:9 resolution UI, &amp; a crap ton of bug fixes against the one provided by Steam. And it’s still usable with your Steam copy, all the way down to scorekeeping, etc. The only thing that it doesn’t have is compatibility with older Q3 mods, demo replays, &amp; even the master server (!) like the original does, mainly due to unification of the ui.qvm with cgame.qvm. And Spearmint’s open source, too.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/2</link>
+        <pubDate>Thu, 30 Jun 2016 16:21:15 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-47-2</guid>
+        <source url="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47.rss">Missing Team Arena pk3 files from Steam?</source>
+      </item>
+      <item>
+        <title>Missing Team Arena pk3 files from Steam?</title>
+        <dc:creator><![CDATA[@warmbaguettes]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/warmbaguettes">@warmbaguettes</a> wrote:</p>
+          <blockquote>
+              <p>Hello!</p>
+<p>I have both Q3A and Team Arena on Steam. Q3 has all the pk3 required for spearmint to run (0-8) but my missionpack folder only has pak0.pk3, and the readme says it needs 0-4. Team Arena works fine native from Steam, though.</p>
+<p>Where can I get those missing pk3 files?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47/1</link>
+        <pubDate>Thu, 30 Jun 2016 15:57:46 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-47-1</guid>
+        <source url="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47.rss">Missing Team Arena pk3 files from Steam?</source>
+      </item>
+  </channel>
+</rss>

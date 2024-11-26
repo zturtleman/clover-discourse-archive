@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Development - Magical Clover Forum</title>
+    <link>https://forum.clover.moe/c/spearmint/dev</link>
+    <description>Topics in the &#39;Development&#39; category Discussions about programming and content creation related to the Spearmint engine.</description>
+    
+      <lastBuildDate>Tue, 12 Jul 2016 12:53:44 +0000</lastBuildDate>
+      <atom:link href="https://forum.clover.moe/c/spearmint/dev.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Adding another bot skill to Quake 3</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Development</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I’m currently trying to add an additional bot skill to Quake 3. It’ll be “You Will Never Win!” mode, where everyone’s bot skill is maxed out. I’m having trouble figuring out where exactly the code for the bot skills lay. I’ve already done the UI for the new bot skill, it just needs a new sound/skill image. Mind helping me out with this, guys?</p>
+            </blockquote>
+            <p>Posts: 16</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55</link>
+          <pubDate>Tue, 12 Jul 2016 12:53:44 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-55</guid>
+          <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+        </item>
+        <item>
+          <title>Programming three team CTF</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Development</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I was wanting to use it because I wanted to make a green team mod &amp; a new 3-way CTF gametype for it, but it turns out quite a bit of g_team.c &amp; ai_team.c would have to be rewritten because of this…<br>
+Currently, the only 2 possible values for the friendly/enemy team would be TEAM_RED &amp; TEAM_BLUE, I would like those to be TEAM_FRIENDLY, TEAM_ENEMY1, &amp; TEAM_ENEMY2 for this gametype to be possible… Those values should be wildcards, and should be controlled by which teams are in the map, for ex. Blue &amp; Red are at it again in 2-way CTF, TEAM_FRIENDLY would be the team that the bots/humans are on (on the Blue Team’s case, it would be TEAM_BLUE, &amp; for the Red Team, it would be TEAM_RED. TEAM_ENEMY1 would be the opposite team (opposite values than TEAM_FRIENDLY), &amp; TEAM_ENEMY2 would be set to no team, since there’s only 2 teams in that CTF. This configuration would allow you to select more than the blue/red team in 2-team CTF, &amp; all 3 teams in 3-team CTF. I know what you’re thinking <a class="mention" href="/u/zturtleman">@zturtleman</a>, it’s a bit unorthodox to have 3 teams in CTF, isn’t it? TEAM_FRIENDLY would in this case depend on whichever team you selected/whatever bots were selected to go there. Same with TEAM_ENEMY1 &amp; TEAM_ENEMY2. Gameplay’s the same, except this time, there are 2 enemies of your team instead of one, &amp; if you grab both teams’ flags, you earn 2 captures for your team because you captured 2 flags.<br>
+Green team is possible because there is a green team skin pk3 which is downloadable via <a href="http://ws.q3df.org" rel="nofollow noopener">ws.q3df.org</a>.<br>
+Hope I’m not tiring you out, <a class="mention" href="/u/zturtleman">@zturtleman</a>…</p>
+            </blockquote>
+            <p>Posts: 65</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/programming-three-team-ctf/42</link>
+          <pubDate>Wed, 22 Jun 2016 17:28:25 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-42</guid>
+          <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+        </item>
+        <item>
+          <title>About the Development category</title>
+          <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+          <category>Development</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+            <blockquote>
+              <p>Discussions about programming and content creation related to the Spearmint engine.</p>
+            </blockquote>
+            <p>Posts: 2</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/about-the-development-category/18">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/about-the-development-category/18</link>
+          <pubDate>Fri, 20 May 2016 13:49:54 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-18</guid>
+          <source url="https://forum.clover.moe/t/about-the-development-category/18.rss">About the Development category</source>
+        </item>
+  </channel>
+</rss>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Currently implementing the Q3 demotest UI (along with the load/save config menus)</title>
+    <link>https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60</link>
+    <description>I&#39;ve got the cvar already ready, it&#39;s called &quot;ui_demoq3test&quot; &amp; it will include the menu text featured in the demotest as well as the load/save config menus. Otherwise, it will function similarly to the demo. Also, an option to load the demo ending cutscene was also implemented. I know other things need to be done before it will look exactly like the original, but I think this may help make it take shape cosmetically &amp; functionally. Just how are you supposed to make menu options disappear using a cvar anyway? Mind helping me out here anyone?</description>
+    
+    <lastBuildDate>Wed, 20 Jul 2016 21:43:59 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Currently implementing the Q3 demotest UI (along with the load/save config menus)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Anyone tested this work on my repo yet? Did you test it a little, <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>? I don’t want to infect my Spearmint with stuff like this just yet, that’s why I’ve released the repo.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60/5</link>
+        <pubDate>Wed, 20 Jul 2016 21:43:59 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-60-5</guid>
+        <source url="https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60.rss">Currently implementing the Q3 demotest UI (along with the load/save config menus)</source>
+      </item>
+      <item>
+        <title>Currently implementing the Q3 demotest UI (along with the load/save config menus)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Here’s the repo, <a class="mention" href="/u/zturtleman">@zturtleman</a>: <a href="https://github.com/coltongit/mint-arena-demotest-work" rel="nofollow noopener">https://github.com/coltongit/mint-arena-demotest-work</a><br>
+I hope it’s going okay so far. I may have missed a few files but I’m getting there. The demotest blurb should also be showing OK now as well. Hopefully load/save config menus work fine in the demo test as well.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60/4</link>
+        <pubDate>Mon, 18 Jul 2016 16:21:06 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-60-4</guid>
+        <source url="https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60.rss">Currently implementing the Q3 demotest UI (along with the load/save config menus)</source>
+      </item>
+      <item>
+        <title>Currently implementing the Q3 demotest UI (along with the load/save config menus)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Hmm. Thank you, I’ll upload my modified files onto a branch which will be used for a pull request. Don’t make ANY commits until this is done. Onto the baseq3 UI at least.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60/3</link>
+        <pubDate>Mon, 18 Jul 2016 16:09:37 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-60-3</guid>
+        <source url="https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60.rss">Currently implementing the Q3 demotest UI (along with the load/save config menus)</source>
+      </item>
+      <item>
+        <title>Currently implementing the Q3 demotest UI (along with the load/save config menus)</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <pre><code class="lang-auto">if ( trap_Cvar_VariableIntegerValue( "ui_demoq3test" ) == 0 ) {
+    Menu_AddItem( &amp;s_serveroptions.menu, &amp;s_serveroptions.hostname );
+}
+</code></pre>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60/2</link>
+        <pubDate>Mon, 18 Jul 2016 16:08:36 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-60-2</guid>
+        <source url="https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60.rss">Currently implementing the Q3 demotest UI (along with the load/save config menus)</source>
+      </item>
+      <item>
+        <title>Currently implementing the Q3 demotest UI (along with the load/save config menus)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’ve got the cvar already ready, it’s called “ui_demoq3test” &amp; it will include the menu text featured in the demotest as well as the load/save config menus. Otherwise, it will function similarly to the demo. Also, an option to load the demo ending cutscene was also implemented. I know other things need to be done before it will look exactly like the original, but I think this may help make it take shape cosmetically &amp; functionally. Just how are you supposed to make menu options disappear using a cvar anyway? Mind helping me out here anyone?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60/1</link>
+        <pubDate>Mon, 18 Jul 2016 15:23:50 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-60-1</guid>
+        <source url="https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60.rss">Currently implementing the Q3 demotest UI (along with the load/save config menus)</source>
+      </item>
+  </channel>
+</rss>

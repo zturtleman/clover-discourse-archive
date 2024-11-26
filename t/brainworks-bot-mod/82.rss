@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Brainworks bot mod</title>
+    <link>https://forum.clover.moe/t/brainworks-bot-mod/82</link>
+    <description>https://github.com/Garey27/quake3-brainworks
+**ZTM**, can you please make this bot mod compatible with the Spearmint? 
+For me thoose bots plays also pretty nice. It has source code and released already version.
+Brainworks includes:
+Sound and visual awareness system
+Randomized dodging in battles
+Avoidance of incoming missiles
+Strafejumping
+Improved enemy aiming
+Goal and score-based selection of item pickups
+Timing of item respawns
+Dynamic weapon selection (based on weapon accuracy)
+Redesigned internal goal selection
+Redesigned internal aim selection
+Redesigned Teamplay logic
+Rewritten chat code
+Redesigned internal logic infrastructure</description>
+    
+    <lastBuildDate>Thu, 01 Dec 2016 19:12:10 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/brainworks-bot-mod/82.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Brainworks bot mod</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p><a class="mention" href="/u/zarr">@ZaRR</a> Can you summarize what you like most with the Brainworks mod?<br>
+I’m still interested to enhance the current bot AI, but NOT with integrating or supporting the Brainworks mod.<br>
+On the other hand it would be nice to hear what a good bot means to you.<br>
+Just some notes about Brainworks mod: don’t forget that a lot of code was written to hack away some AI bugs inside the engine, which was not released those days. This and a few other things (e.g.: badly designed code) drops the framerate drastically! I bet, you already noticed this. Even with a low number of bots Brainworks becomes unplayable because of the frame drop. Additionally Brainworks has a few very ugly issues (bots become blind in some cases, can’t aim if the enemy is really near, they are blocking each other, etc.)<br>
+Don’t get me wrong, I was a big fan of the Brainworks mod, and I honor their work til today.<br>
+So probably we can achieve same bot behaviour for current idtech3/Spearmint AI but in a more modern style, because nowadays we have access to the engine (moreover in Spearmint most of the AI part moved from engine into game module …)<br>
+But for doing this, it would be nice to know what part of Brainworks you like. BTW; did you really test all the ‘features’ you mentioned above? I’m asking because if I remember correctly some of the features didn’t work correct at the time the Brainworks code was written!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/brainworks-bot-mod/82/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/brainworks-bot-mod/82/4</link>
+        <pubDate>Thu, 01 Dec 2016 19:12:10 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-82-4</guid>
+        <source url="https://forum.clover.moe/t/brainworks-bot-mod/82.rss">Brainworks bot mod</source>
+      </item>
+      <item>
+        <title>Brainworks bot mod</title>
+        <dc:creator><![CDATA[@ZaRR ZaRR]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zarr">@ZaRR</a> wrote:</p>
+          <blockquote>
+              <p>You should try it, because thoose bots acts more like real ones.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/brainworks-bot-mod/82/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/brainworks-bot-mod/82/3</link>
+        <pubDate>Wed, 30 Nov 2016 10:42:38 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-82-3</guid>
+        <source url="https://forum.clover.moe/t/brainworks-bot-mod/82.rss">Brainworks bot mod</source>
+      </item>
+      <item>
+        <title>Brainworks bot mod</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>It’s unlikely I’ll port this. I haven’t ever actually tried the mod though.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/brainworks-bot-mod/82/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/brainworks-bot-mod/82/2</link>
+        <pubDate>Wed, 30 Nov 2016 01:38:59 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-82-2</guid>
+        <source url="https://forum.clover.moe/t/brainworks-bot-mod/82.rss">Brainworks bot mod</source>
+      </item>
+      <item>
+        <title>Brainworks bot mod</title>
+        <dc:creator><![CDATA[@ZaRR ZaRR]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zarr">@ZaRR</a> wrote:</p>
+          <blockquote>
+              <p><aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://assets-cdn.github.com/favicon.ico" class="site-icon" width="32" height="32">
+      <a href="https://github.com/Garey27/quake3-brainworks" target="_blank" rel="nofollow noopener">GitHub</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://avatars2.githubusercontent.com/u/4866813?s=400&amp;v=4" class="thumbnail onebox-avatar" width="420" height="420">
+
+<h3><a href="https://github.com/Garey27/quake3-brainworks" target="_blank" rel="nofollow noopener">Garey27/quake3-brainworks</a></h3>
+
+<p>Automatically exported from code.google.com/p/quake3-brainworks</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+<strong>ZTM</strong>, can you please make this bot mod compatible with the Spearmint?<br>
+For me thoose bots plays also pretty nice. It has source code and released already version.<br>
+Brainworks includes:<br>
+Sound and visual awareness system<br>
+Randomized dodging in battles<br>
+Avoidance of incoming missiles<br>
+Strafejumping<br>
+Improved enemy aiming<br>
+Goal and score-based selection of item pickups<br>
+Timing of item respawns<br>
+Dynamic weapon selection (based on weapon accuracy)<br>
+Redesigned internal goal selection<br>
+Redesigned internal aim selection<br>
+Redesigned Teamplay logic<br>
+Rewritten chat code<br>
+Redesigned internal logic infrastructure</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/brainworks-bot-mod/82/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/brainworks-bot-mod/82/1</link>
+        <pubDate>Sun, 27 Nov 2016 10:53:39 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-82-1</guid>
+        <source url="https://forum.clover.moe/t/brainworks-bot-mod/82.rss">Brainworks bot mod</source>
+      </item>
+  </channel>
+</rss>

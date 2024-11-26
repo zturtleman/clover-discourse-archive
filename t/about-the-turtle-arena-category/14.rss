@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>About the Turtle Arena category</title>
+    <link>https://forum.clover.moe/t/about-the-turtle-arena-category/14</link>
+    <description>Discussions about the game [Turtle Arena](https://clover.moe/turtlearena).</description>
+    
+    <lastBuildDate>Fri, 20 May 2016 13:31:36 +0000</lastBuildDate>
+    <category>Turtle Arena</category>
+    <atom:link href="https://forum.clover.moe/t/about-the-turtle-arena-category/14.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>About the Turtle Arena category</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/about-the-turtle-arena-category/14/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/about-the-turtle-arena-category/14/2</link>
+        <pubDate>Fri, 20 May 2016 14:13:01 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-14-2</guid>
+        <source url="https://forum.clover.moe/t/about-the-turtle-arena-category/14.rss">About the Turtle Arena category</source>
+      </item>
+      <item>
+        <title>About the Turtle Arena category</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Discussions about the game <a href="https://clover.moe/turtlearena">Turtle Arena</a>.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/about-the-turtle-arena-category/14/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/about-the-turtle-arena-category/14/1</link>
+        <pubDate>Fri, 20 May 2016 13:25:49 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-14-1</guid>
+        <source url="https://forum.clover.moe/t/about-the-turtle-arena-category/14.rss">About the Turtle Arena category</source>
+      </item>
+  </channel>
+</rss>

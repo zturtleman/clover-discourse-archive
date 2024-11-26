@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Stuck in RA room issue in q3dm7</title>
+    <link>https://forum.clover.moe/t/stuck-in-ra-room-issue-in-q3dm7/38</link>
+    <description>We&#39;ve still got to fix this annoying bug with the bot AI in q3dm7. @zturtleman figured out it was a LTG issue. If we can figure out where `BotChooseLTGItem()` slips up, then we could possibly figure out a fix.</description>
+    
+    <lastBuildDate>Fri, 10 Jun 2016 19:59:48 +0000</lastBuildDate>
+    <category>Uncategorized</category>
+    <atom:link href="https://forum.clover.moe/t/stuck-in-ra-room-issue-in-q3dm7/38.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Stuck in RA room issue in q3dm7</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>We’ve still got to fix this annoying bug with the bot AI in q3dm7. <a class="mention" href="/u/zturtleman">@zturtleman</a> figured out it was a LTG issue. If we can figure out where <code>BotChooseLTGItem()</code> slips up, then we could possibly figure out a fix.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/stuck-in-ra-room-issue-in-q3dm7/38/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/stuck-in-ra-room-issue-in-q3dm7/38/1</link>
+        <pubDate>Fri, 10 Jun 2016 19:59:48 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-38-1</guid>
+        <source url="https://forum.clover.moe/t/stuck-in-ra-room-issue-in-q3dm7/38.rss">Stuck in RA room issue in q3dm7</source>
+      </item>
+  </channel>
+</rss>

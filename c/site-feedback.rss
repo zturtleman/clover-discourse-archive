@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Site Feedback - Magical Clover Forum</title>
+    <link>https://forum.clover.moe/c/site-feedback</link>
+    <description>Topics in the &#39;Site Feedback&#39; category Discussion about this site, its organization, how it works, and how we can improve it.</description>
+    
+      <lastBuildDate>Mon, 23 May 2016 15:01:10 +0000</lastBuildDate>
+      <atom:link href="https://forum.clover.moe/c/site-feedback.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Mind adding an offer section?</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Site Feedback</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>It’d be nice if you could add an offer section so that way if someone finds something useful for Spearmint (like the full Q3Test 1.07 for instance), it can be offered here.<br>
+Also, your Q3 Bot Information topic has Information spelt Informaiton zturtleman.</p>
+            </blockquote>
+            <p>Posts: 4</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/mind-adding-an-offer-section/26">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/mind-adding-an-offer-section/26</link>
+          <pubDate>Mon, 23 May 2016 15:01:10 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-26</guid>
+          <source url="https://forum.clover.moe/t/mind-adding-an-offer-section/26.rss">Mind adding an offer section?</source>
+        </item>
+        <item>
+          <title>About the Site Feedback category</title>
+          <dc:creator><![CDATA[@system system]]></dc:creator>
+          <category>Site Feedback</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/system">@system</a> wrote:</p>
+            <blockquote>
+              <p>Discussion about this site, its organization, how it works, and how we can improve it.</p>
+            </blockquote>
+            <p>Posts: 1</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/about-the-site-feedback-category/2">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/about-the-site-feedback-category/2</link>
+          <pubDate>Tue, 12 Apr 2016 06:16:48 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-2</guid>
+          <source url="https://forum.clover.moe/t/about-the-site-feedback-category/2.rss">About the Site Feedback category</source>
+        </item>
+  </channel>
+</rss>

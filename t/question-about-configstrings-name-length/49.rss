@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Question about configstrings (name length)</title>
+    <link>https://forum.clover.moe/t/question-about-configstrings-name-length/49</link>
+    <description>Maybe it&#39;s a silly question, but to be honest, I don&#39;t understand the configstrings in detail, so here is the question, well actually there are three questions:
+
+**Q1: Does the name length of shaders, sounds, maps count to the total size of a configstring?**
+I was never worried when I created some assets for idtech3 games. After I read an article on ET Legacy&#39;s wiki, I am a bit confused about the lenght of configstring sizes. Here is the article: [Configstrings or the configstring](https://dev.etlegacy.com/projects/etlegacy/wiki/Mapping_and_Textures#Configstrings-or-the-configstring#L144)
+
+**Q2: Does name length of e.g.: sounds only be a problem for map (speaker) and &#39;scripted&#39; sounds or is the length of the name also important for &#39;hardcoded&#39; sounds, e.g.: the weapon firing sounds etc.**
+Probably only assets are meant that are related to ET&#39;s Scripting system?
+
+**Q3: If the name lenght of assets matters. Is this only the case for ET Legacy or for all idtech3 games.**
+I wonder if this configstring issue is also true for Spearmint, does it make sense for standalone games to name all the assets as short as possible then? Sounds, shaders, textures, and even map names?
+
+Any help would be appreciated. Thanks in advance!</description>
+    
+    <lastBuildDate>Sat, 02 Jul 2016 12:42:20 +0000</lastBuildDate>
+    <category>id Tech 3</category>
+    <atom:link href="https://forum.clover.moe/t/question-about-configstrings-name-length/49.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Question about configstrings (name length)</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>As always, well explained, Zack!<br>
+Thank you very much!<br>
+I have to agree, I also never run into configstrings being too long, but I was a bit afraid of this whole issue.<br>
+Now it’s clear and I’ll keep this in mind during creating new assets!<br>
+<img src="//forum.clover.moe/images/emoji/twitter/+1.png?v=5" title=":+1:" class="emoji" alt=":+1:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/question-about-configstrings-name-length/49/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/question-about-configstrings-name-length/49/3</link>
+        <pubDate>Sat, 02 Jul 2016 12:42:20 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-49-3</guid>
+        <source url="https://forum.clover.moe/t/question-about-configstrings-name-length/49.rss">Question about configstrings (name length)</source>
+      </item>
+      <item>
+        <title>Question about configstrings (name length)</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>I haven’t run into configstrings being too long, but I’m familiar with what filenames/shaders are networked in Q3.</p>
+<ol>
+<li>
+<p>Only text sent from Game VM to client is part of the game state. Things that are stored in <code>trap_SetConfigstring()</code> are sent. Music filename (CS_MUSIC), Team Arena team icon shader remap (CS_SHADERSTATE), <code>G_SoundIndex()</code>, and <code>G_ModelIndex()</code>.</p>
+</li>
+<li>
+<p>Weapon firing sounds are stored in CGame VM, not sent from Game VM, so they don’t count toward gamestate text. The jumppad sound, door sounds, button sound, lava fry, etc are hardcoded in the Game VM and are sent to client because they use G_SoundIndex. target_speaker filenames are also sent because they use G_SoundIndex.</p>
+</li>
+<li>
+<p>Q3, ET, and Spearmint have the same 16000 limit. Texture names are not networked. Shader names are <em>only</em> networked when remapped by the Game VM; which is only done for specific effects so short names only need to be considered in those cases. Only one mapname and music filename is sent, so it doesn’t seem like a concern. Filenames of sounds for target_speaker and models attached to movers could be considered for shorter names. Referenced pk3 names are sent, so could consider shorter names. Short player model and skin names could be considered. Short target_location names could be considered.</p>
+</li>
+</ol>
+<p>However, CGame <em>has</em> direct access the BSP entities. CGame could easily read the music from the world spawn instead of networking CS_MUSIC. It’s possible (with Game and CGame changes) to avoid networking filenames in target_speaker and models attached to movers. Though, it might only work well in Spearmint not as a Q3/ET mod because it’s possible to add a new entityState_t variable containing the BSP entity number. It would also be possible for CGame to read the target_location messages from local BSP instead of networking them.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/question-about-configstrings-name-length/49/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/question-about-configstrings-name-length/49/2</link>
+        <pubDate>Fri, 01 Jul 2016 14:15:12 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-49-2</guid>
+        <source url="https://forum.clover.moe/t/question-about-configstrings-name-length/49.rss">Question about configstrings (name length)</source>
+      </item>
+      <item>
+        <title>Question about configstrings (name length)</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Maybe it’s a silly question, but to be honest, I don’t understand the configstrings in detail, so here is the question, well actually there are three questions:</p>
+<p><strong>Q1: Does the name length of shaders, sounds, maps count to the total size of a configstring?</strong><br>
+I was never worried when I created some assets for idtech3 games. After I read an article on ET Legacy’s wiki, I am a bit confused about the lenght of configstring sizes. Here is the article: <a href="https://dev.etlegacy.com/projects/etlegacy/wiki/Mapping_and_Textures#Configstrings-or-the-configstring#L144" rel="nofollow noopener">Configstrings or the configstring</a></p>
+<p><strong>Q2: Does name length of e.g.: sounds only be a problem for map (speaker) and ‘scripted’ sounds or is the length of the name also important for ‘hardcoded’ sounds, e.g.: the weapon firing sounds etc.</strong><br>
+Probably only assets are meant that are related to ET’s Scripting system?</p>
+<p><strong>Q3: If the name lenght of assets matters. Is this only the case for ET Legacy or for all idtech3 games.</strong><br>
+I wonder if this configstring issue is also true for Spearmint, does it make sense for standalone games to name all the assets as short as possible then? Sounds, shaders, textures, and even map names?</p>
+<p>Any help would be appreciated. Thanks in advance!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/question-about-configstrings-name-length/49/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/question-about-configstrings-name-length/49/1</link>
+        <pubDate>Fri, 01 Jul 2016 12:03:26 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-49-1</guid>
+        <source url="https://forum.clover.moe/t/question-about-configstrings-name-length/49.rss">Question about configstrings (name length)</source>
+      </item>
+  </channel>
+</rss>

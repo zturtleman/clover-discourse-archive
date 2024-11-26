@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>id Tech 3 - Magical Clover Forum</title>
+    <link>https://forum.clover.moe/c/id-tech-3</link>
+    <description>Topics in the &#39;id Tech 3&#39; category Discussions about things related to Quake 3 based games. Discussions about the Spearmint engine or Turtle Arena should use the category with their respective name.</description>
+    
+      <lastBuildDate>Wed, 29 Mar 2017 18:18:30 +0000</lastBuildDate>
+      <atom:link href="https://forum.clover.moe/c/id-tech-3.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Technical question about VOTE string</title>
+          <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+          <category>id Tech 3</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+            <blockquote>
+              <p>Hello everyone who read this!</p>
+<p>My question is concerning something I consider as a bug in idtech3, though I’m not 100% sure if it is a bug at all!</p>
+<p><strong>THE</strong> (possible) <strong>BUG:</strong><br>
+In some specific situations the VOTE string (most notably with Team Arena mod) don’t vanish. The text/string will stay on screen until a new map restart. This happens if more than one vote is called. For example you vote for a new map, and realize you voted for the wrong map and will vote again for the correct map you was looking for.<br>
+It seems as if the vote commands are added in a vote queue, but I never saw that the vote system is working like this, maybe I missed something here…</p>
+<p><strong>HOW TO REPRODUCE:</strong></p>
+<ol>
+<li>Start Team Arena mod (either via Spearmint or ioquake3).</li>
+<li>Start any map e.g.: q3dm1.</li>
+<li>Now open the VOTE menu and vote for a new/different map (e.g.: q3dm2).</li>
+<li>The menu will close, immediatly before the new map will restart bring down the VOTE menu again and vote for another different map (e.g.: q3dm3).</li>
+<li>Now the first map voted for will start and the Vote string: <em>Vote: Yes: 0, No: 0. Press F1 to vote for Yes or F2 to vote for No (or press ESC then click Vote).</em> will appear on screen.</li>
+<li>No matter what you do, the vote string will not disappear, as long as a new map restart will happen.</li>
+</ol>
+<p>Now my <strong>QUESTIONS</strong> are:<br>
+A: Is this a common idtech3 bug, or is this behaviour intentionally?<br>
+B: Personally I find this behaviour annoying, does someone know how to fix this, even if it isn’t a bug at all?</p>
+<p>All suggestions and every information is welcome!<br>
+Thank you!</p>
+            </blockquote>
+            <p>Posts: 3</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/technical-question-about-vote-string/106">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/technical-question-about-vote-string/106</link>
+          <pubDate>Wed, 29 Mar 2017 18:18:30 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-106</guid>
+          <source url="https://forum.clover.moe/t/technical-question-about-vote-string/106.rss">Technical question about VOTE string</source>
+        </item>
+        <item>
+          <title>Question about configstrings (name length)</title>
+          <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+          <category>id Tech 3</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+            <blockquote>
+              <p>Maybe it’s a silly question, but to be honest, I don’t understand the configstrings in detail, so here is the question, well actually there are three questions:</p>
+<p><strong>Q1: Does the name length of shaders, sounds, maps count to the total size of a configstring?</strong><br>
+I was never worried when I created some assets for idtech3 games. After I read an article on ET Legacy’s wiki, I am a bit confused about the lenght of configstring sizes. Here is the article: <a href="https://dev.etlegacy.com/projects/etlegacy/wiki/Mapping_and_Textures#Configstrings-or-the-configstring#L144" rel="nofollow noopener">Configstrings or the configstring</a></p>
+<p><strong>Q2: Does name length of e.g.: sounds only be a problem for map (speaker) and ‘scripted’ sounds or is the length of the name also important for ‘hardcoded’ sounds, e.g.: the weapon firing sounds etc.</strong><br>
+Probably only assets are meant that are related to ET’s Scripting system?</p>
+<p><strong>Q3: If the name lenght of assets matters. Is this only the case for ET Legacy or for all idtech3 games.</strong><br>
+I wonder if this configstring issue is also true for Spearmint, does it make sense for standalone games to name all the assets as short as possible then? Sounds, shaders, textures, and even map names?</p>
+<p>Any help would be appreciated. Thanks in advance!</p>
+            </blockquote>
+            <p>Posts: 3</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/question-about-configstrings-name-length/49">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/question-about-configstrings-name-length/49</link>
+          <pubDate>Fri, 01 Jul 2016 12:03:25 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-49</guid>
+          <source url="https://forum.clover.moe/t/question-about-configstrings-name-length/49.rss">Question about configstrings (name length)</source>
+        </item>
+        <item>
+          <title>Quake 3 Revolution player skins</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>id Tech 3</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I just figured out that someone ported the skins from Q3R over to Q3A. Yes, even the unused Hunter skins, although I think they’re fixable, some of them (the Freeman &amp; Warrior Hunter skins) are pretty much unusable in the state they’re in. They both need their head textures redone, but everything else is in there (Hunter’s Q3R default skin suffered the same fate as the Freeman skin). <img src="//forum.clover.moe/images/emoji/twitter/sob.png?v=5" title=":sob:" class="emoji" alt=":sob:"> Why did they have to commit this torture on these awesome skins? WHYYYYYYYYYYYYYYYYYYYYYYYYYYYY???<br>
+Anyways, link: <a href="http://www.mediafire.com/download/emnkw4cr77ba55h/q3rskins.pk3" rel="nofollow noopener">http://www.mediafire.com/download/emnkw4cr77ba55h/q3rskins.pk3</a></p>
+            </blockquote>
+            <p>Posts: 1</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/quake-3-revolution-player-skins/45">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/quake-3-revolution-player-skins/45</link>
+          <pubDate>Thu, 30 Jun 2016 02:57:49 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-45</guid>
+          <source url="https://forum.clover.moe/t/quake-3-revolution-player-skins/45.rss">Quake 3 Revolution player skins</source>
+        </item>
+        <item>
+          <title>2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>id Tech 3</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>It turns out in my DC mappack v2.11, there seems to be 2 sides to the same shader conflict between Q3TA and the mappack. Maybe implementing a selective shader system could fix this issue. As in, if you use a certain map, one shader could be used instead of another for that texture. The examples here are dc_map24 &amp; mptourney2. They each use the same shader, but look different. This system in Spearmint would fix this issue. It also happens in the original Sega DC mappack.</p>
+            </blockquote>
+            <p>Posts: 7</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36</link>
+          <pubDate>Fri, 10 Jun 2016 16:13:20 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-36</guid>
+          <source url="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36.rss">2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</source>
+        </item>
+        <item>
+          <title>Question about tools for writing software reference documentation</title>
+          <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+          <category>id Tech 3</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+            <blockquote>
+              <p>Hi to everyone!</p>
+<p>What do you guys think about software documentation tools (such as Doxygen for example)? Is it worth to get Doxygen, or any other documetation tool of your choice, working with idtech3 codebase?</p>
+<p>With some interest I am following the attempts of various idtech3 projects to ‘beautify’ or ‘uncrustify’ the idtech3 code base. This includes some reformating and eventually better documentation. MAN-AT-ARMS iortcw has it’s <a href="https://github.com/iortcw/iortcw/branches" rel="nofollow noopener">cleanup</a> branch, ET Legacy also does some cleanup, has it’s <a href="https://dev.etlegacy.com/projects/etlegacy/wiki/Coding_Conventions" rel="nofollow noopener">code conventions</a> and even advertise the use of Doxygen for their project.</p>
+<p>Independently from that a friend of mine also started to clean up many idtech3 based games including xreal, ioquake3, iortcw, enemy territory and of course currently he is working on Spearmint. Now we have to decide if we should change the function comment headers or if we should keep the current idtech style.</p>
+<p>If you are reading this, and you have some experiences with software documentation or thoughs about this topic, it would be nice to know what YOU think about all this.</p>
+<p>Thanks in advance!</p>
+            </blockquote>
+            <p>Posts: 1</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/question-about-tools-for-writing-software-reference-documentation/31">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/question-about-tools-for-writing-software-reference-documentation/31</link>
+          <pubDate>Thu, 26 May 2016 14:07:00 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-31</guid>
+          <source url="https://forum.clover.moe/t/question-about-tools-for-writing-software-reference-documentation/31.rss">Question about tools for writing software reference documentation</source>
+        </item>
+        <item>
+          <title>I happen to have new CTF skins for Krusade/Roderic/Gorre</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>id Tech 3</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I also have with me a few CTF skins for some of the factory bots in Q3A, Gorre, Krusade, &amp; Roderic.<br>
+Here they are:<br>
+Krusade: <a href="https://mega.nz/#!s4VnVABJ!qwu1GIpafLw_CiarAcUI1DshbFvGawVGoLE--27ga3g" rel="nofollow noopener">https://mega.nz/#!s4VnVABJ!qwu1GIpafLw_CiarAcUI1DshbFvGawVGoLE--27ga3g</a><br>
+Roderic: <a href="https://mega.nz/#!hsEmUIxR!OHc5m8ca04ZJ6NEzXagBpvJhx9mfA2WE_EmwNKEakM0" rel="nofollow noopener">https://mega.nz/#!hsEmUIxR!OHc5m8ca04ZJ6NEzXagBpvJhx9mfA2WE_EmwNKEakM0</a><br>
+Gorre: <a href="https://mega.nz/#!0k8XFDiZ!W9No6EgbF-qqBB5r5AJPVhnpmomx7RTB1RxAnn1mKVw" rel="nofollow noopener">https://mega.nz/#!0k8XFDiZ!W9No6EgbF-qqBB5r5AJPVhnpmomx7RTB1RxAnn1mKVw</a><br>
+Gorre’s model might not be a doozy with pure servers.</p>
+            </blockquote>
+            <p>Posts: 1</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/i-happen-to-have-new-ctf-skins-for-krusade-roderic-gorre/30">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/i-happen-to-have-new-ctf-skins-for-krusade-roderic-gorre/30</link>
+          <pubDate>Wed, 25 May 2016 01:59:27 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-30</guid>
+          <source url="https://forum.clover.moe/t/i-happen-to-have-new-ctf-skins-for-krusade-roderic-gorre/30.rss">I happen to have new CTF skins for Krusade/Roderic/Gorre</source>
+        </item>
+        <item>
+          <title>Full version of Q3Test 1.07</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>id Tech 3</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>As I said in both the offer section topic and the Spearmint issue tracker, I happen to have the full version of Q3Test 1.07. Here’s the link for anyone who missed it the last few times around: <a href="https://mega.nz/#!1kEmFR5Z!rfIvenHDLxu8Ms1j9WaN_zWJ7iXYsQRrh6e71U9Fb8c" rel="nofollow noopener">https://mega.nz/#!1kEmFR5Z!rfIvenHDLxu8Ms1j9WaN_zWJ7iXYsQRrh6e71U9Fb8c</a></p>
+            </blockquote>
+            <p>Posts: 3</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/full-version-of-q3test-1-07/29">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/full-version-of-q3test-1-07/29</link>
+          <pubDate>Tue, 24 May 2016 19:53:35 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-29</guid>
+          <source url="https://forum.clover.moe/t/full-version-of-q3test-1-07/29.rss">Full version of Q3Test 1.07</source>
+        </item>
+        <item>
+          <title>About the id Tech 3 category</title>
+          <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+          <category>id Tech 3</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+            <blockquote>
+              <p>Discussions about things related to Quake 3 based games. Discussions about the Spearmint engine or Turtle Arena should use the category with their respective name.</p>
+            </blockquote>
+            <p>Posts: 2</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/about-the-id-tech-3-category/16">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/about-the-id-tech-3-category/16</link>
+          <pubDate>Fri, 20 May 2016 13:28:30 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-16</guid>
+          <source url="https://forum.clover.moe/t/about-the-id-tech-3-category/16.rss">About the id Tech 3 category</source>
+        </item>
+  </channel>
+</rss>

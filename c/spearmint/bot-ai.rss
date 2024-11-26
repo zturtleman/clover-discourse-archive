@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Bot AI - Magical Clover Forum</title>
+    <link>https://forum.clover.moe/c/spearmint/bot-ai</link>
+    <description>Topics in the &#39;Bot AI&#39; category This category is for discussing the behavior and programming of Quake 3 bots. Generally in the context of the Spearmint Quake 3 (spearmint + mint-arena), but other games and bots may be discussed.</description>
+    
+      <lastBuildDate>Sun, 05 Jun 2016 22:27:50 +0000</lastBuildDate>
+      <atom:link href="https://forum.clover.moe/c/spearmint/bot-ai.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Bot AI</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>When I made a new botfile for q3dm7 using forcesidesvisible, it actually fixes (or made almost unnoticeable) the stuck in RA room issue. Although in it, they take the jump pad to the shotgun multiple times. Otherwise, they’re fine. <a href="https://github.com/zturtleman/spearmint/issues/260" rel="nofollow noopener">https://github.com/zturtleman/spearmint/issues/260</a> happens to have a link to it, so if you wanna test that, go ahead.</p>
+            </blockquote>
+            <p>Posts: 25</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34</link>
+          <pubDate>Sun, 05 Jun 2016 22:27:50 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-34</guid>
+          <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+        </item>
+        <item>
+          <title>Turns out bots activating entities have been fixed for nodm7</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Bot AI</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I figured out that using the mint-arena cdaef49 revision that the bots can, and will, use all the entities they come across, unlike 116ec08 where they couldn’t. Good thinking on that one zturtleman!</p>
+            </blockquote>
+            <p>Posts: 3</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24</link>
+          <pubDate>Sat, 21 May 2016 01:37:09 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-24</guid>
+          <source url="https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24.rss">Turns out bots activating entities have been fixed for nodm7</source>
+        </item>
+        <item>
+          <title>What is important bots or Quake 3?</title>
+          <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+          <category>Bot AI</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+            <blockquote>
+              <div class="poll" data-poll-status="open" data-poll-name="poll">
+<div>
+<div class="poll-container">
+<ul>
+<li data-poll-option-id="c23638fb72355304ff0001668c336468">I want better bots even if it requires a new game!</li>
+<li data-poll-option-id="0a19749d00d69bf432b796ac7c4739e3">Quake 3 is the best even if the bot development is limited!</li>
+</ul>
+</div>
+<div class="poll-info">
+<p>
+<span class="info-number">0</span>
+<span class="info-text">voters</span>
+</p>
+</div>
+</div>
+<div class="poll-buttons">
+<a title="Display the poll results">Show results</a>
+</div>
+</div>
+            </blockquote>
+            <p>Posts: 2</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/what-is-important-bots-or-quake-3/20">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/what-is-important-bots-or-quake-3/20</link>
+          <pubDate>Fri, 20 May 2016 14:57:06 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-20</guid>
+          <source url="https://forum.clover.moe/t/what-is-important-bots-or-quake-3/20.rss">What is important bots or Quake 3?</source>
+        </item>
+        <item>
+          <title>Q3 Bot Information</title>
+          <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+          <category>Bot AI</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+            <blockquote>
+              <p>Information about the Q3 bots developed by Mr. Elusive.</p>
+<ul>
+<li><a href="http://fabiensanglard.net/quake3/a.i.php">Q3 bot overview and history by Fabian Sanglard</a></li>
+<li><a href="http://fd.fabiensanglard.net/quake3/The-Quake-III-Arena-Bot.pdf">Q3 bot documentation</a></li>
+</ul>
+<p>For historical information about the bots developed by Mr. Elusive see below. The Q3 bot is directly based on the Q2 Gladiator bot was last updated ~5 months before Q3 shipped.</p>
+<ul>
+<li>
+<a href="http://mrelusive.com/oldprojects/gladiator/gladiator.html">Gladiator (Q2 bot)</a> – <a href="http://mrelusive.com/oldprojects/gladiator/editing.shtml.htm">editing</a>
+</li>
+<li>
+<a href="http://mrelusive.com/oldprojects/obots/obots.html">Omicron (Q1 bot)</a> – <a href="http://mrelusive.com/oldprojects/obots/ObotDoc/index.htm">documentation</a>
+</li>
+</ul>
+            </blockquote>
+            <p>Posts: 3</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/q3-bot-information/19">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/q3-bot-information/19</link>
+          <pubDate>Fri, 20 May 2016 14:49:08 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-19</guid>
+          <source url="https://forum.clover.moe/t/q3-bot-information/19.rss">Q3 Bot Information</source>
+        </item>
+        <item>
+          <title>About the Bot AI category</title>
+          <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+          <category>Bot AI</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+            <blockquote>
+              <p>This category is for discussing the behavior and programming of Quake 3 bots. Generally in the context of the Spearmint Quake 3 (spearmint + mint-arena), but other games and bots may be discussed.</p>
+            </blockquote>
+            <p>Posts: 2</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/about-the-bot-ai-category/15">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/about-the-bot-ai-category/15</link>
+          <pubDate>Fri, 20 May 2016 13:27:53 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-15</guid>
+          <source url="https://forum.clover.moe/t/about-the-bot-ai-category/15.rss">About the Bot AI category</source>
+        </item>
+  </channel>
+</rss>

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from forum.clover.moe/t/programming-three-team-ctf/42 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Aug 2018 19:53:30 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Programming three team CTF - Development - Magical Clover Forum</title>
+    <meta name="description" content="I was wanting to use it because I wanted to make a green team mod &amp; a new 3-way CTF gametype for it, but it turns out quite a bit of g_team.c &amp; ai_team.c would have to be rewritten because of this…  Currently, the only 2 possible values for the friendly/enemy team would be TEAM_RED &amp; TEAM_BLUE, I would like those to be TEAM_FRIENDLY, TEAM_ENEMY1, &amp; TEAM_ENEMY2 for this gametype to be possible… Those values should be wildcards, and should be controlled by which teams are in the map, for ex. Blue &amp;...">
+    <meta name="author" content="">
+<meta name="generator" content="Discourse 2.1.0.beta4 - https://github.com/discourse/discourse version 94622b451a19f0f5152280f146354ab663d06eb8">
+<link rel="icon" type="image/png" href="../../uploads/default/original/1X/8d64303f6f94740f94b6a460adfb8b936d6fdb65.png">
+<link rel="apple-touch-icon" type="image/png" href="../../uploads/default/original/1X/e0bc53086df7471db874a7d0c70ce1d2d653b278.png">
+<link rel="icon" type="image/png" sizes="144x144" href="../../uploads/default/original/1X/e0bc53086df7471db874a7d0c70ce1d2d653b278.png">
+<meta name="theme-color" content="#bbeebb">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<link rel="canonical" href="42.html" />
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://forum.clover.moe","potentialAction":{"@type":"SearchAction","target":"https://forum.clover.moe/search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="Magical Clover Forum Search">
+
+      <link href="../../stylesheets/desktop_1_bdd11c5ff6b465c06e9ec1c7b16931ccf4884ce93b43.css?__ws=forum.clover.moe" media="all" rel="stylesheet" data-target="desktop" data-theme-id="1"/>
+      <link href="../../stylesheets/desktop_theme_1_e42a03b7f95c4cdf2569b14817761786616cb9de3b43.css?__ws=forum.clover.moe" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="1"/>
+    
+    
+      <link rel="alternate" type="application/rss+xml" title="RSS feed of &#39;Programming three team CTF&#39;" href="42.rss" />
+  <meta property="og:site_name" content="Magical Clover Forum" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://forum.clover.moe/uploads/default/original/1X/e0bc53086df7471db874a7d0c70ce1d2d653b278.png" />
+<meta property="og:image" content="https://forum.clover.moe/uploads/default/original/1X/e0bc53086df7471db874a7d0c70ce1d2d653b278.png" />
+<meta property="og:url" content="https://forum.clover.moe/t/programming-three-team-ctf/42" />
+<meta name="twitter:url" content="https://forum.clover.moe/t/programming-three-team-ctf/42" />
+<meta property="og:title" content="Programming three team CTF" />
+<meta name="twitter:title" content="Programming three team CTF" />
+<meta property="og:description" content="I was wanting to use it because I wanted to make a green team mod &amp; a new 3-way CTF gametype for it, but it turns out quite a bit of g_team.c &amp; ai_team.c would have to be rewritten because of this…  Currently, the only 2 possible values for the friendly/enemy team would be TEAM_RED &amp; TEAM_BLUE, I would like those to be TEAM_FRIENDLY, TEAM_ENEMY1, &amp; TEAM_ENEMY2 for this gametype to be possible… Those values should be wildcards, and should be controlled by which teams are in the map, for ex. Blue &amp;..." />
+<meta name="twitter:description" content="I was wanting to use it because I wanted to make a green team mod &amp; a new 3-way CTF gametype for it, but it turns out quite a bit of g_team.c &amp; ai_team.c would have to be rewritten because of this…  Currently, the only 2 possible values for the friendly/enemy team would be TEAM_RED &amp; TEAM_BLUE, I would like those to be TEAM_FRIENDLY, TEAM_ENEMY1, &amp; TEAM_ENEMY2 for this gametype to be possible… Those values should be wildcards, and should be controlled by which teams are in the map, for ex. Blue &amp;..." />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="6 mins 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="9 ❤" />
+<meta property="article:published_time" content="2016-06-22T17:28:25+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+      <link rel="next" href="424658.html?page=2">
+
+  </head>
+  <body class="crawler">
+    
+    <header>
+      <a href="../../index.html"><img src="../../uploads/default/original/1X/e0fba8786bf072fa9d149ae89abf88bdac001685.png" alt="Magical Clover Forum" id="site-logo" style="max-width: 150px;"></a>
+    </header>
+    <div id="main-outlet" class="wrap">
+      <h1>
+  <a href="42.html">Programming three team CTF</a>
+</h1>
+
+<div id='breadcrumbs'>
+    <div id="breadcrumb-0" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"
+        itemref="breadcrumb-1"
+      >
+      <a href="../../c/spearmint.html" itemprop="url">
+        <span itemprop="title">Spearmint</span>
+      </a>
+    </div>
+    <div id="breadcrumb-1" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"
+>
+      <a href="../../c/spearmint/dev.html" itemprop="url">
+        <span itemprop="title">Development</span>
+      </a>
+    </div>
+</div>
+
+
+
+
+
+<hr>
+
+
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-22T17:28:25Z' itemprop='datePublished'>
+             2016-06-22 17:28:25 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#1</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I was wanting to use it because I wanted to make a green team mod &amp; a new 3-way CTF gametype for it, but it turns out quite a bit of g_team.c &amp; ai_team.c would have to be rewritten because of this…<br>
+Currently, the only 2 possible values for the friendly/enemy team would be TEAM_RED &amp; TEAM_BLUE, I would like those to be TEAM_FRIENDLY, TEAM_ENEMY1, &amp; TEAM_ENEMY2 for this gametype to be possible… Those values should be wildcards, and should be controlled by which teams are in the map, for ex. Blue &amp; Red are at it again in 2-way CTF, TEAM_FRIENDLY would be the team that the bots/humans are on (on the Blue Team’s case, it would be TEAM_BLUE, &amp; for the Red Team, it would be TEAM_RED. TEAM_ENEMY1 would be the opposite team (opposite values than TEAM_FRIENDLY), &amp; TEAM_ENEMY2 would be set to no team, since there’s only 2 teams in that CTF. This configuration would allow you to select more than the blue/red team in 2-team CTF, &amp; all 3 teams in 3-team CTF. I know what you’re thinking <a class="mention" href="https://forum.clover.moe/u/zturtleman">@zturtleman</a>, it’s a bit unorthodox to have 3 teams in CTF, isn’t it? TEAM_FRIENDLY would in this case depend on whichever team you selected/whatever bots were selected to go there. Same with TEAM_ENEMY1 &amp; TEAM_ENEMY2. Gameplay’s the same, except this time, there are 2 enemies of your team instead of one, &amp; if you grab both teams’ flags, you earn 2 captures for your team because you captured 2 flags.<br>
+Green team is possible because there is a green team skin pk3 which is downloadable via <a href="http://ws.q3df.org/" rel="nofollow noopener">ws.q3df.org</a>.<br>
+Hope I’m not tiring you out, <a class="mention" href="https://forum.clover.moe/u/zturtleman">@zturtleman</a>…</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+            <a href="../make-a-spearmint-sdk-to-create-mods-for-spearmint/41/3.html">Make a Spearmint SDK to create mods for Spearmint</a>
+            <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/zturtleman'><b itemprop='author'>zturtleman</b></a>
+           
+           <time datetime='2016-06-22T17:52:38Z' itemprop='datePublished'>
+             2016-06-22 17:52:38 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#2</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>uh, yeah I’d probably just add TEAM_GREEN instead of conditional TEAM_ enums. Going to have to rework a lot of code either way.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:1'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-22T17:52:58Z' itemprop='datePublished'>
+             2016-06-22 17:52:58 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#3</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I agree with that <a class="mention" href="https://forum.clover.moe/u/zturtleman">@zturtleman</a>. Anyways, here’s a link to the green skin pk3, make sure to have the engine check to see whether that pk3 exists &amp; if it doesn’t (or if checksum isn’t correct(would require modifications to mint-game.settings for this)), don’t allow selection of the green team, otherwise allow it.<br>
+Link: <a href="http://ws.q3df.org/models/downloads/q3skn-green.zip" rel="nofollow noopener">http://ws.q3df.org/models/downloads/q3skn-green.zip</a></p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:1'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/zturtleman'><b itemprop='author'>zturtleman</b></a>
+           
+           <time datetime='2016-06-22T18:01:09Z' itemprop='datePublished'>
+             2016-06-22 18:01:09 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#4</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I think you misunderstood. I meant if I was doing it I would add TEAM_GREEN but I’m not doing it, you are. I don’t think it fits in mint-arena and I don’t have time to start a new game/mod right now.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-22T18:01:45Z' itemprop='datePublished'>
+             2016-06-22 18:01:45 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#5</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>So TEAM_GREEN it is then. Well, yes, I am doing this so yeah. You can help if you wish. I realize you just don’t have time as it is, <a class="mention" href="https://forum.clover.moe/u/zturtleman">@zturtleman</a>.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:1'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-06-22T18:04:25Z' itemprop='datePublished'>
+             2016-06-22 18:04:25 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#6</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Three Teams aren’t new in Q3a mod scene. Maybe this will help you coltongit: <a href="http://www.fileplanet.com/56195/50000/fileinfo/Q3-Tribal-CTF-Beta" rel="nofollow noopener">http://www.fileplanet.com/56195/50000/fileinfo/Q3-Tribal-CTF-Beta</a></p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-22T18:07:03Z' itemprop='datePublished'>
+             2016-06-22 18:07:03 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#7</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I’ve already got the green flags, the announcer sounds, the models, everything ready to go for the green team. Thanks for the help <a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>. But yes, I will check out Tribal, and maybe I might use some of that mod’s stuff if it’s got better material.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-22T18:28:41Z' itemprop='datePublished'>
+             2016-06-22 18:28:41 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#8</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I ran into a brick wall at the function int OtherTeam at g_team.c. Is it possible for me to use two teams for the returned value, &amp; if so, how do you do it? I’m sorry for being a noob at C, but I’d just like to know. Any ideas <a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>?</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-06-22T18:53:59Z' itemprop='datePublished'>
+             2016-06-22 18:53:59 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#9</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I assume you mean if you can return two different values at once! If so, than NO you will return only one return value. You have to rewrite the function, so you will always return the correct ‘other’ team.<br>
+BTW: Three teams is a hugh task! If you still using Notepad for your programming attempts, you will fail!</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:1'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-22T18:56:31Z' itemprop='datePublished'>
+             2016-06-22 18:56:31 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#10</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Probably having a cvar (like g_redenemyteam) could solve this calamity, <a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>. It would be read-only &amp; would only be used by the game to determine who’s the other team.<br>
+When at 0, Blue team’s the enemy,<br>
+When at 1, Green team’s the enemy.<br>
+Anyways, how do I program a cvar in for this very purpose? I think <a class="mention" href="https://forum.clover.moe/u/zturtleman">@zturtleman</a>’s probably done quite a few of that.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-22T19:26:43Z' itemprop='datePublished'>
+             2016-06-22 19:26:43 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#11</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I’m using Notepad++ for this task which is Notepad but allows you to program at the same time.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-22T22:35:02Z' itemprop='datePublished'>
+             2016-06-22 22:35:02 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#12</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I wonder if it’s possible to do tag team CTF this way… using the neutral flag texture as a white flag &amp; making skins for the white team…</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-06-23T11:04:56Z' itemprop='datePublished'>
+             2016-06-23 11:04:56 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#13</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I highly recommend to start doing it!<br>
+You will run into problems you currently didn’t even think of. But don’t be afraid, the problems would be solvable.</p>
+<p>Just some general thoughts about making mods:</p>
+<ol>
+<li>what do you want to have, how should the final result look/feel/play like.</li>
+<li>what changes have to be made to which module (game, cgame, ui).</li>
+<li>search the <strong>whole</strong> codebase (game, cgame, ui) for already existing code you can reuse.</li>
+<li>search the Internet for tutorials (I already pointed you to some awesome tutorials)*.</li>
+<li>bigger projects (like 3 team ctf) will profit from version control software (put your mod on github).</li>
+<li>start with the game logic, than do the cgame stuff (effects, HUD, ui, whatnot).</li>
+<li>don’t expect others to do the work for you,</li>
+<li>but always feel free to ask for help if you can’t fix a problem  you tried to solve for hours by your self.</li>
+<li>always do testing your code with some friends, sometimes others don’t like the things you deem as good.</li>
+<li>release, advertise, praise your code, and <strong>have fun</strong>!</li>
+</ol>
+<p>*If you don’t like E-tutorials, I highly recommend this one: <a href="http://www.quake3world.com/forum/viewtopic.php?f=16&amp;t=50077" rel="nofollow noopener">Focus on mod programming for Quake 3 Arena</a><br>
+There is a chapter explaining how to reuse existing flags for other colors, iirc…</p>
+<p>Of course, you can make white skins, you need a paint program to do this…, this isn’t really related to programming.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-23T11:33:10Z' itemprop='datePublished'>
+             2016-06-23 11:33:10 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#14</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I could just use the neutral flag skin off Team Arena… But thank you <a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>! I won’t disappoint with this mod! It’s also my very first mod as well, &amp; most likely the very first mod ever made for Spearmint. As such, I could use your help. Anyways, I’ve got qagame &amp; the ui coded up, next up is cgame, then I’ll update my fork of mint-arena (I have one from when zturtleman fixed up the grappling hook) to the latest version &amp; include the changes at the same time. Then we’ll see if it compiles &amp; works correctly. If I find bugs that I can’t solve, then I hope you guys will help with this, OK?</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-23T15:33:58Z' itemprop='datePublished'>
+             2016-06-23 15:33:58 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#15</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>cgame’s now finished, textures for the new team are underway (one of them has a story to it as well). Man, this is gonna be awesome…</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:1'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-23T18:50:39Z' itemprop='datePublished'>
+             2016-06-23 18:50:39 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#16</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Textures are all finished, a bunch of them turned out to be like the one I talked about in the last post - some of them actually went the other way around for some reason… Shaders are finished too. Here’s what I got for resources at this point:<br>
+Green team textures/flag models (includes fully independent models/CTF skins for some of the players, even the green ones): <a href="https://mega.nz/#!wslUFRyL!8e9X_B-uViiUtOl0wHAZfdAvpDg8plegnwWpNj7XEQ0" rel="nofollow noopener">https://mega.nz/#!wslUFRyL!8e9X_B-uViiUtOl0wHAZfdAvpDg8plegnwWpNj7XEQ0</a><br>
+Green team skins for everybody else: <a href="http://ws.q3df.org/models/downloads/q3skn-green.zip" rel="nofollow noopener">http://ws.q3df.org/models/downloads/q3skn-green.zip</a><br>
+Enjoy looking at my progress so far! Resource wise, at least. Reaper21x made the CTF skins for most of the characters, I’m just finishing up his work now. (Cadavre, Harpy, Yuriko, Grrl, literally everybody will be available for play in the up-&amp;-coming mod). It will also allow you to play on the original 2 teams with them as well.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-24T12:14:24Z' itemprop='datePublished'>
+             2016-06-24 12:14:24 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#17</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I ran into a brick wall when I got the code together and I tried to compile it. What I got for a compilation result is attached in this post if you’re wondering.<br>
+Here’s what I get: <div class="lightbox-wrapper"><a class="lightbox" href="../../uploads/default/original/1X/eb12712c78ef0cf4559cd3d33441e7d23d731286.png" data-download-href="//forum.clover.moe/uploads/default/eb12712c78ef0cf4559cd3d33441e7d23d731286" title="3wctf compilation errors.png"><img src="../../uploads/default/optimized/1X/eb12712c78ef0cf4559cd3d33441e7d23d731286_1_690x387.png" width="690" height="387"><div class="meta">
+<span class="filename">3wctf compilation errors.png</span><span class="informations">1366x768 44.3 KB</span><span class="expand"></span>
+</div></a></div><br>
+Mind figuring out what’s wrong here guys? If only I knew what was wrong, <a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>…</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:1'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-06-24T13:12:22Z' itemprop='datePublished'>
+             2016-06-24 13:12:22 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#18</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Same as last time. You didn’t declare TEAM_GREEN. You also didn’t declare PW_GREENFLAG, and posssibly a few other things aren’t declared. Additionally you missed a ‘(’ somewhere,…</p>
+<p>Why are you so resistant against suggestions? Put your code on Github, start become more professional!<br>
+Most people aren’t willingly to help if you resist to do at least a few minimum steps. It was already told to you [somewhere here] (<a href="../next-tier-wont-unlock-for-me-in-spearmint/27.html">Next tier won’t unlock for me in Spearmint</a>) that it is more convenient for myself and others to see the changes you have made to the code!<br>
+As far as I am concerned, I’ll loose patience at some point,…</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/zturtleman'><b itemprop='author'>zturtleman</b></a>
+           
+           <time datetime='2016-06-24T13:12:46Z' itemprop='datePublished'>
+             2016-06-24 13:12:46 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#19</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>TEAM_GREEN doesn’t automagically exist. It has to be declared so it exists and has a value. Look at code/game/bg_public.h.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:1'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-24T13:43:43Z' itemprop='datePublished'>
+             2016-06-24 13:43:43 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#20</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>That should be fixed now. I think I forgot cg_newdraw.c when I coded the functions originally… I’ll go ahead &amp; do that.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+
+  <div role='navigation' itemscope itemtype='http://schema.org/SiteNavigationElement'>
+      <span itemprop='url'><b><a rel="next" itemprop="name" href="424658.html?page=2">next page →</a></b></span>
+  </div>
+
+
+
+
+
+    </div>
+    <footer class="container">
+      <nav itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <a href='../../index.html'>Home</a>
+        <a href="../../categories.html">Categories</a>
+        <a href="../../guidelines.html">FAQ/Guidelines</a>
+        <a href="../../tos.html">Terms of Service</a>
+        <a href="../../privacy.html">Privacy Policy</a>
+      </nav>
+      <p>Powered by <a href="https://www.discourse.org/">Discourse</a>, best viewed with JavaScript enabled</p>
+    </footer>
+    
+  </body>
+  
+
+<!-- Mirrored from forum.clover.moe/t/programming-three-team-ctf/42 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Aug 2018 19:53:34 GMT -->
+</html>

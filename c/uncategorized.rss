@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Uncategorized - Magical Clover Forum</title>
+    <link>https://forum.clover.moe/c/uncategorized</link>
+    <description>Topics in the &#39;Uncategorized&#39; category </description>
+    
+      <lastBuildDate>Fri, 15 Jul 2016 16:03:48 +0000</lastBuildDate>
+      <atom:link href="https://forum.clover.moe/c/uncategorized.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Quake Expo 2016</title>
+          <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+          <category>Uncategorized</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+            <blockquote>
+              <p>Quake Expo 2016 opens tomorrow at <a href="https://qexpo2016.com">https://qexpo2016.com</a>. I submitted a booth for Spearmint Quake 3 (pending review).</p>
+<p>The last Quake Expo was in 2011, which I created a <a href="https://www.quaddicted.com/webarchive/expo2011.quakewiki.net/detail-view.php%3Fid=122&amp;category=Booths.html">booth for Turtle Arena</a>.</p>
+            </blockquote>
+            <p>Posts: 1</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/quake-expo-2016/59">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/quake-expo-2016/59</link>
+          <pubDate>Fri, 15 Jul 2016 16:03:48 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-59</guid>
+          <source url="https://forum.clover.moe/t/quake-expo-2016/59.rss">Quake Expo 2016</source>
+        </item>
+        <item>
+          <title>I&#39;m wondering &quot;how much time can a 32-bit floating point represent anyway?&quot;</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Uncategorized</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I’m wanting to find out how much time can a 32-bit floating-point number represent? I mean something like this snippet from ai_cmd.c:<br>
+<code>if (BotFindMatch(timestring, &amp;timematch, MTCONTEXT_TIME)) { 			if (timematch.type == MSG_FOREVER) { 				t = 99999999.0f; 			}</code></p>
+            </blockquote>
+            <p>Posts: 1</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/im-wondering-how-much-time-can-a-32-bit-floating-point-represent-anyway/56">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/im-wondering-how-much-time-can-a-32-bit-floating-point-represent-anyway/56</link>
+          <pubDate>Tue, 12 Jul 2016 14:42:53 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-56</guid>
+          <source url="https://forum.clover.moe/t/im-wondering-how-much-time-can-a-32-bit-floating-point-represent-anyway/56.rss">I&#39;m wondering &quot;how much time can a 32-bit floating point represent anyway?&quot;</source>
+        </item>
+        <item>
+          <title>Is it possible to give Brandon his eye &amp; hat shaders back?</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Uncategorized</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>According to models.shader, Brandon had an eye shader &amp; a hat glow shader (the model itself is present in pak2.pk3). The texture used for the eye shader still exists among the game files (braneye.tga to be exact). Also, Brandon’s hat had a shader as well, most likely to have his hat glow (Spearmint uses a dummy texture, but I think a custom texture made out of braneye should allow the shader to actually work).</p>
+            </blockquote>
+            <p>Posts: 9</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51</link>
+          <pubDate>Sat, 02 Jul 2016 17:08:23 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-51</guid>
+          <source url="https://forum.clover.moe/t/is-it-possible-to-give-brandon-his-eye-hat-shaders-back/51.rss">Is it possible to give Brandon his eye &amp; hat shaders back?</source>
+        </item>
+        <item>
+          <title>Need to add transparency to an image</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Uncategorized</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I’m planning to use this image as an icon for a yellow skin for Visor, unfortunately, it’s a jpg so I need the transparency (otherwise it doesn’t look very professional). Mind helping me out?<br>
+Here’s the image: <a href="http://lvlworld.com/avatar/user/1722-1419637332.jpg" rel="nofollow noopener">http://lvlworld.com/avatar/user/1722-1419637332.jpg</a></p>
+            </blockquote>
+            <p>Posts: 10</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50</link>
+          <pubDate>Sat, 02 Jul 2016 13:57:15 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-50</guid>
+          <source url="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50.rss">Need to add transparency to an image</source>
+        </item>
+        <item>
+          <title>Bot chatfile doesn&#39;t wanna work</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Uncategorized</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I’m perplexed as to why this bot’s chatfile isn’t working. It’s a bot I’m making for a port of the Santa model from QL to Q3A. It’d be fun to see him rock &amp; roll. [offtopic] And P.S. the bots on bot_challenge 1 are almost impossible to beat! Jeezus they’re hard![/offtopic]<br>
+Link for the Santa botfiles: <a href="https://mega.nz/#!1xEBQTZL!QhijqF6vAYZPOCA3wnhrfxqEYovMwv3ulJvUz_YD-O0" rel="nofollow noopener">https://mega.nz/#!1xEBQTZL!QhijqF6vAYZPOCA3wnhrfxqEYovMwv3ulJvUz_YD-O0</a></p>
+            </blockquote>
+            <p>Posts: 11</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/bot-chatfile-doesnt-wanna-work/48">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/bot-chatfile-doesnt-wanna-work/48</link>
+          <pubDate>Fri, 01 Jul 2016 00:04:09 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-48</guid>
+          <source url="https://forum.clover.moe/t/bot-chatfile-doesnt-wanna-work/48.rss">Bot chatfile doesn&#39;t wanna work</source>
+        </item>
+        <item>
+          <title>Stuck in RA room issue in q3dm7</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Uncategorized</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>We’ve still got to fix this annoying bug with the bot AI in q3dm7. <a class="mention" href="/u/zturtleman">@zturtleman</a> figured out it was a LTG issue. If we can figure out where <code>BotChooseLTGItem()</code> slips up, then we could possibly figure out a fix.</p>
+            </blockquote>
+            <p>Posts: 1</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/stuck-in-ra-room-issue-in-q3dm7/38">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/stuck-in-ra-room-issue-in-q3dm7/38</link>
+          <pubDate>Fri, 10 Jun 2016 19:59:48 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-38</guid>
+          <source url="https://forum.clover.moe/t/stuck-in-ra-room-issue-in-q3dm7/38.rss">Stuck in RA room issue in q3dm7</source>
+        </item>
+        <item>
+          <title>Ban the person above you!</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Uncategorized</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>There’s times when we just need to shake it up a little. Find the most ridiculous reason about it, &amp;, well, ban the person above you!</p>
+            </blockquote>
+            <p>Posts: 5</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/ban-the-person-above-you/28">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/ban-the-person-above-you/28</link>
+          <pubDate>Mon, 23 May 2016 16:40:51 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-28</guid>
+          <source url="https://forum.clover.moe/t/ban-the-person-above-you/28.rss">Ban the person above you!</source>
+        </item>
+        <item>
+          <title>Welcome to Magical Clover Forum</title>
+          <dc:creator><![CDATA[@system system]]></dc:creator>
+          <category>Uncategorized</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/system">@system</a> wrote:</p>
+            <blockquote>
+              <p>Welcome to the Magical Clover Forum where hopes and dreams come alive!</p>
+<p>This forum is for discussing topics related to <a href="https://clover.moe/spearmint">Spearmint</a> and <a href="https://clover.moe/turtlearena">Turtle Arena</a>.</p>
+<p>Clover, a character intended to appear in the game Extraordinary Beat X, is the invisible mascot and <a href="https://en.wikipedia.org/wiki/White_Rabbit">white rabbit</a> of <a href="http://clover.moe">ZTM’s World of Wonder</a>. Magical Clover is a magical girl spin-off version.</p>
+            </blockquote>
+            <p>Posts: 2</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/welcome-to-magical-clover-forum/8">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/welcome-to-magical-clover-forum/8</link>
+          <pubDate>Tue, 12 Apr 2016 06:16:50 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-8</guid>
+          <source url="https://forum.clover.moe/t/welcome-to-magical-clover-forum/8.rss">Welcome to Magical Clover Forum</source>
+        </item>
+  </channel>
+</rss>

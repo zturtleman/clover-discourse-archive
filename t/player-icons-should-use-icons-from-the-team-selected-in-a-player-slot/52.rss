@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Player icons should use icons from the team selected in a player slot</title>
+    <link>https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52</link>
+    <description>For instance, you select the Blue team on a player slot, once you go into the player select, now the icons displayed will be the blue team icons. The same happens for the Red team, except if a player slot has the Red team &amp; you&#39;re choosing a bot to occupy that player slot, the red team icons will display instead, and so forth depending on the team selected on that player slot. Is it possible to implement that without headaches, @zturtleman? Is this a good idea for Spearmint @KuehnhammerTobias? Is @zturtleman wanting to go that direction with it?</description>
+    
+    <lastBuildDate>Fri, 08 Jul 2016 11:17:43 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Player icons should use icons from the team selected in a player slot</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I know, but those team icons would only be viewable if the selection on the team selection menu (the Red/Blue selection near a player slot) matches that particular team.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52/3</link>
+        <pubDate>Fri, 08 Jul 2016 11:17:43 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-52-3</guid>
+        <source url="https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52.rss">Player icons should use icons from the team selected in a player slot</source>
+      </item>
+      <item>
+        <title>Player icons should use icons from the team selected in a player slot</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>I don’t know. It kind of seems like also need to filter out bots without the needed team skin or manually specify a team skin but it’s not for the displayed team. I think there should also be a team option in the menu as well.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52/2</link>
+        <pubDate>Wed, 06 Jul 2016 17:11:44 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-52-2</guid>
+        <source url="https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52.rss">Player icons should use icons from the team selected in a player slot</source>
+      </item>
+      <item>
+        <title>Player icons should use icons from the team selected in a player slot</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>For instance, you select the Blue team on a player slot, once you go into the player select, now the icons displayed will be the blue team icons. The same happens for the Red team, except if a player slot has the Red team &amp; you’re choosing a bot to occupy that player slot, the red team icons will display instead, and so forth depending on the team selected on that player slot. Is it possible to implement that without headaches, <a class="mention" href="/u/zturtleman">@zturtleman</a>? Is this a good idea for Spearmint <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>? Is <a class="mention" href="/u/zturtleman">@zturtleman</a> wanting to go that direction with it?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52/1</link>
+        <pubDate>Sat, 02 Jul 2016 17:19:30 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-52-1</guid>
+        <source url="https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52.rss">Player icons should use icons from the team selected in a player slot</source>
+      </item>
+  </channel>
+</rss>

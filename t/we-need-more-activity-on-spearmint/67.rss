@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>We need more activity on Spearmint</title>
+    <link>https://forum.clover.moe/t/we-need-more-activity-on-spearmint/67</link>
+    <description>I&#39;ve been wondering if Zack&#39;s still going to continue development of Spearmint. I haven&#39;t seen any development news since July. Is 0.5 still going as planned?</description>
+    
+    <lastBuildDate>Sun, 11 Sep 2016 10:53:51 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/we-need-more-activity-on-spearmint/67.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>We need more activity on Spearmint</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>I haven’t worked on Spearmint since version 0.4 was released. I’m kind of burned out and tired of working on it. There are other things I want to do and I should focus on life a little more. I’m taking a break from Spearmint for now.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/we-need-more-activity-on-spearmint/67/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/we-need-more-activity-on-spearmint/67/2</link>
+        <pubDate>Sun, 11 Sep 2016 10:39:10 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-67-2</guid>
+        <source url="https://forum.clover.moe/t/we-need-more-activity-on-spearmint/67.rss">We need more activity on Spearmint</source>
+      </item>
+      <item>
+        <title>We need more activity on Spearmint</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’ve been wondering if Zack’s still going to continue development of Spearmint. I haven’t seen any development news since July. Is 0.5 still going as planned?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/we-need-more-activity-on-spearmint/67/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/we-need-more-activity-on-spearmint/67/1</link>
+        <pubDate>Tue, 06 Sep 2016 21:56:31 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-67-1</guid>
+        <source url="https://forum.clover.moe/t/we-need-more-activity-on-spearmint/67.rss">We need more activity on Spearmint</source>
+      </item>
+  </channel>
+</rss>

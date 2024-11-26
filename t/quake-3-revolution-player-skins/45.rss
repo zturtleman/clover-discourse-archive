@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Quake 3 Revolution player skins</title>
+    <link>https://forum.clover.moe/t/quake-3-revolution-player-skins/45</link>
+    <description>I just figured out that someone ported the skins from Q3R over to Q3A. Yes, even the unused Hunter skins, although I think they&#39;re fixable, some of them (the Freeman &amp; Warrior Hunter skins) are pretty much unusable in the state they&#39;re in. They both need their head textures redone, but everything else is in there (Hunter&#39;s Q3R default skin suffered the same fate as the Freeman skin). :sob: Why did they have to commit this torture on these awesome skins? WHYYYYYYYYYYYYYYYYYYYYYYYYYYYY????????????????????
+Anyways, link: http://www.mediafire.com/download/emnkw4cr77ba55h/q3rskins.pk3</description>
+    
+    <lastBuildDate>Thu, 30 Jun 2016 02:57:50 +0000</lastBuildDate>
+    <category>id Tech 3</category>
+    <atom:link href="https://forum.clover.moe/t/quake-3-revolution-player-skins/45.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Quake 3 Revolution player skins</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I just figured out that someone ported the skins from Q3R over to Q3A. Yes, even the unused Hunter skins, although I think they’re fixable, some of them (the Freeman &amp; Warrior Hunter skins) are pretty much unusable in the state they’re in. They both need their head textures redone, but everything else is in there (Hunter’s Q3R default skin suffered the same fate as the Freeman skin). <img src="//forum.clover.moe/images/emoji/twitter/sob.png?v=5" title=":sob:" class="emoji" alt=":sob:"> Why did they have to commit this torture on these awesome skins? WHYYYYYYYYYYYYYYYYYYYYYYYYYYYY???<br>
+Anyways, link: <a href="http://www.mediafire.com/download/emnkw4cr77ba55h/q3rskins.pk3" rel="nofollow noopener">http://www.mediafire.com/download/emnkw4cr77ba55h/q3rskins.pk3</a></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/quake-3-revolution-player-skins/45/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/quake-3-revolution-player-skins/45/1</link>
+        <pubDate>Thu, 30 Jun 2016 02:57:50 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-45-1</guid>
+        <source url="https://forum.clover.moe/t/quake-3-revolution-player-skins/45.rss">Quake 3 Revolution player skins</source>
+      </item>
+  </channel>
+</rss>

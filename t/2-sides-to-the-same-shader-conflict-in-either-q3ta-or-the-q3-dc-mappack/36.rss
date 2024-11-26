@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</title>
+    <link>https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36</link>
+    <description>It turns out in my DC mappack v2.11, there seems to be 2 sides to the same shader conflict between Q3TA and the mappack. Maybe implementing a selective shader system could fix this issue. As in, if you use a certain map, one shader could be used instead of another for that texture. The examples here are dc_map24 &amp; mptourney2. They each use the same shader, but look different. This system in Spearmint would fix this issue. It also happens in the original Sega DC mappack.</description>
+    
+    <lastBuildDate>Fri, 10 Jun 2016 20:39:06 +0000</lastBuildDate>
+    <category>id Tech 3</category>
+    <atom:link href="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Okay. I might as well if I don’t have it already. EDIT: I already have it. Running command…<br>
+EDIT2: Okay, hopefully that fixes all the shader issues I’ve been having with those maps.<br>
+EDIT3: I had to hexedit the fixes into the bsp files, otherwise they wouldn’t load up because of some random bsp version…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/7</link>
+        <pubDate>Fri, 10 Jun 2016 18:54:18 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-36-7</guid>
+        <source url="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36.rss">2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</source>
+      </item>
+      <item>
+        <title>2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>It’s a unix program for searching files. Yeah, you can install it Cygwin setup program.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/6</link>
+        <pubDate>Fri, 10 Jun 2016 18:53:47 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-36-6</guid>
+        <source url="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36.rss">2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</source>
+      </item>
+      <item>
+        <title>2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Where do you get that? And what is it for anyway? Cygwin?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/5</link>
+        <pubDate>Fri, 10 Jun 2016 18:51:27 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-36-5</guid>
+        <source url="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36.rss">2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</source>
+      </item>
+      <item>
+        <title>2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>If you have grep command installed you can unzip the pk3 and then run <code>grep -ri "shader/name" directory/with/bsps</code> to see what BSPs reference the shader. Leave off “textures/” from the beginning of shader name.</p>
+<p>This works nice for checking for maps that contain buttons (func_button) and stuff too.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/4</link>
+        <pubDate>Fri, 10 Jun 2016 18:50:31 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-36-4</guid>
+        <source url="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36.rss">2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</source>
+      </item>
+      <item>
+        <title>2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’ll try that &amp; see if that fixes anything. EDIT: It also seems dc_map08 also uses it, and possibly a few others.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/3</link>
+        <pubDate>Fri, 10 Jun 2016 18:10:36 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-36-3</guid>
+        <source url="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36.rss">2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</source>
+      </item>
+      <item>
+        <title>2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>You could rename the shader in the dc_map24.bsp and the shader file.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/2</link>
+        <pubDate>Fri, 10 Jun 2016 17:49:22 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-36-2</guid>
+        <source url="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36.rss">2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</source>
+      </item>
+      <item>
+        <title>2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>It turns out in my DC mappack v2.11, there seems to be 2 sides to the same shader conflict between Q3TA and the mappack. Maybe implementing a selective shader system could fix this issue. As in, if you use a certain map, one shader could be used instead of another for that texture. The examples here are dc_map24 &amp; mptourney2. They each use the same shader, but look different. This system in Spearmint would fix this issue. It also happens in the original Sega DC mappack.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36/1</link>
+        <pubDate>Fri, 10 Jun 2016 16:13:20 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-36-1</guid>
+        <source url="https://forum.clover.moe/t/2-sides-to-the-same-shader-conflict-in-either-q3ta-or-the-q3-dc-mappack/36.rss">2 sides to the same shader conflict in either Q3TA or the Q3 DC mappack</source>
+      </item>
+  </channel>
+</rss>

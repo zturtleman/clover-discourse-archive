@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Make a Spearmint SDK to create mods for Spearmint</title>
+    <link>https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41</link>
+    <description>What if someone wants to make a mod for Spearmint, or simply port over their old mod to Spearmint @zturtleman? Then said SDK would be a great tool for modmakers/mod ports. There&#39;s a lot of good mods I&#39;d like to see on Spearmint.</description>
+    
+    <lastBuildDate>Wed, 22 Jun 2016 17:34:44 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Make a Spearmint SDK to create mods for Spearmint</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>A post was split to a new topic: <a href="/t/programming-three-team-ctf/42">Programming three team CTF</a></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41/3</link>
+        <pubDate>Wed, 22 Jun 2016 17:51:47 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-41-3</guid>
+        <source url="https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41.rss">Make a Spearmint SDK to create mods for Spearmint</source>
+      </item>
+      <item>
+        <title>Make a Spearmint SDK to create mods for Spearmint</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>By Spearmint SDK I assume you mean the Spearmint Quake 3 and Team Arena mod code? That’s what mint-arena is. People can fork it.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41/2</link>
+        <pubDate>Wed, 22 Jun 2016 15:55:42 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-41-2</guid>
+        <source url="https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41.rss">Make a Spearmint SDK to create mods for Spearmint</source>
+      </item>
+      <item>
+        <title>Make a Spearmint SDK to create mods for Spearmint</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>What if someone wants to make a mod for Spearmint, or simply port over their old mod to Spearmint <a class="mention" href="/u/zturtleman">@zturtleman</a>? Then said SDK would be a great tool for modmakers/mod ports. There’s a lot of good mods I’d like to see on Spearmint.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41/1</link>
+        <pubDate>Wed, 22 Jun 2016 15:47:07 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-41-1</guid>
+        <source url="https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41.rss">Make a Spearmint SDK to create mods for Spearmint</source>
+      </item>
+  </channel>
+</rss>

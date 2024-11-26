@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Turns out bots activating entities have been fixed for nodm7</title>
+    <link>https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24</link>
+    <description>I figured out that using the mint-arena cdaef49 revision that the bots can, and will, use all the entities they come across, unlike 116ec08 where they couldn&#39;t. Good thinking on that one zturtleman!</description>
+    
+    <lastBuildDate>Thu, 09 Jun 2016 14:45:49 +0000</lastBuildDate>
+    <category>Bot AI</category>
+    <atom:link href="https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Turns out bots activating entities have been fixed for nodm7</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Turns out activating entities wasn’t the problem. The problem is the bots lose their LTG/NBG once they go to activate an entity.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24/3</link>
+        <pubDate>Thu, 09 Jun 2016 14:45:49 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-24-3</guid>
+        <source url="https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24.rss">Turns out bots activating entities have been fixed for nodm7</source>
+      </item>
+      <item>
+        <title>Turns out bots activating entities have been fixed for nodm7</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Okay, I’ll keep that in mind when I get around to testing it.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24/2</link>
+        <pubDate>Sun, 22 May 2016 05:35:15 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-24-2</guid>
+        <source url="https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24.rss">Turns out bots activating entities have been fixed for nodm7</source>
+      </item>
+      <item>
+        <title>Turns out bots activating entities have been fixed for nodm7</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I figured out that using the mint-arena cdaef49 revision that the bots can, and will, use all the entities they come across, unlike 116ec08 where they couldn’t. Good thinking on that one zturtleman!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24/1</link>
+        <pubDate>Sat, 21 May 2016 01:37:09 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-24-1</guid>
+        <source url="https://forum.clover.moe/t/turns-out-bots-activating-entities-have-been-fixed-for-nodm7/24.rss">Turns out bots activating entities have been fixed for nodm7</source>
+      </item>
+  </channel>
+</rss>

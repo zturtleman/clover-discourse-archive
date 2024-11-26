@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>About the Development category</title>
+    <link>https://forum.clover.moe/t/about-the-development-category/18</link>
+    <description>Discussions about programming and content creation related to the Spearmint engine.</description>
+    
+    <lastBuildDate>Fri, 20 May 2016 14:02:10 +0000</lastBuildDate>
+    <category>Development</category>
+    <atom:link href="https://forum.clover.moe/t/about-the-development-category/18.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>About the Development category</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/about-the-development-category/18/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/about-the-development-category/18/2</link>
+        <pubDate>Fri, 20 May 2016 14:11:35 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-18-2</guid>
+        <source url="https://forum.clover.moe/t/about-the-development-category/18.rss">About the Development category</source>
+      </item>
+      <item>
+        <title>About the Development category</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Discussions about programming and content creation related to the Spearmint engine.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/about-the-development-category/18/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/about-the-development-category/18/1</link>
+        <pubDate>Fri, 20 May 2016 13:49:54 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-18-1</guid>
+        <source url="https://forum.clover.moe/t/about-the-development-category/18.rss">About the Development category</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Found a bug with Spearmint</title>
+    <link>https://forum.clover.moe/t/found-a-bug-with-spearmint/54</link>
+    <description>This bug exists in ioq3 &amp; classic Q3 as well. The bug is as follows:
+1. Start a TDM on any map (I used q3dm7)
+2. Have at least one person on both teams (I tested with at least 4 bots on Blue &amp; 1 on Red)
+3. Have everyone on your team kill the only bot on Red (might also happen with just one teammate, untested however)
+4. If you didn&#39;t give these teammates a new order, after a while, &quot;ERROR: PlayerName: player name out of range&quot; or similar will occur. Bug happens on Q3 1.32c &amp; possibly even the original source code has this bug. Unknown if the bug happens on earlier versions of Q3. Mind fixing this (&amp; the stuck in RA room q3dm7 issue) before Spearmint 0.4 if possible @zturtleman? Thanks in advance.</description>
+    
+    <lastBuildDate>Sun, 10 Jul 2016 19:39:47 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/found-a-bug-with-spearmint/54.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Found a bug with Spearmint</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>This is now fixed in <a href="https://github.com/zturtleman/mint-arena/commit/9418069927bdac6d43794963793a5cd40b243b7f" rel="nofollow noopener">https://github.com/zturtleman/mint-arena/commit/9418069927bdac6d43794963793a5cd40b243b7f</a></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/found-a-bug-with-spearmint/54/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/found-a-bug-with-spearmint/54/2</link>
+        <pubDate>Sun, 10 Jul 2016 19:39:47 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-54-2</guid>
+        <source url="https://forum.clover.moe/t/found-a-bug-with-spearmint/54.rss">Found a bug with Spearmint</source>
+      </item>
+      <item>
+        <title>Found a bug with Spearmint</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>This bug exists in ioq3 &amp; classic Q3 as well. The bug is as follows:</p>
+<ol>
+<li>Start a TDM on any map (I used q3dm7)</li>
+<li>Have at least one person on both teams (I tested with at least 4 bots on Blue &amp; 1 on Red)</li>
+<li>Have everyone on your team kill the only bot on Red (might also happen with just one teammate, untested however)</li>
+<li>If you didn’t give these teammates a new order, after a while, “ERROR: PlayerName: player name out of range” or similar will occur. Bug happens on Q3 1.32c &amp; possibly even the original source code has this bug. Unknown if the bug happens on earlier versions of Q3. Mind fixing this (&amp; the stuck in RA room q3dm7 issue) before Spearmint 0.4 if possible <a class="mention" href="/u/zturtleman">@zturtleman</a>? Thanks in advance.</li>
+</ol>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/found-a-bug-with-spearmint/54/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/found-a-bug-with-spearmint/54/1</link>
+        <pubDate>Fri, 08 Jul 2016 21:43:39 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-54-1</guid>
+        <source url="https://forum.clover.moe/t/found-a-bug-with-spearmint/54.rss">Found a bug with Spearmint</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Programming three team CTF</title>
+    <link>https://forum.clover.moe/t/programming-three-team-ctf/42</link>
+    <description>I was wanting to use it because I wanted to make a green team mod &amp; a new 3-way CTF gametype for it, but it turns out quite a bit of g_team.c &amp; ai_team.c would have to be rewritten because of this...
+Currently, the only 2 possible values for the friendly/enemy team would be TEAM_RED &amp; TEAM_BLUE, I would like those to be TEAM_FRIENDLY, TEAM_ENEMY1, &amp; TEAM_ENEMY2 for this gametype to be possible... Those values should be wildcards, and should be controlled by which teams are in the map, for ex. Blue &amp; Red are at it again in 2-way CTF, TEAM_FRIENDLY would be the team that the bots/humans are on (on the Blue Team&#39;s case, it would be TEAM_BLUE, &amp; for the Red Team, it would be TEAM_RED. TEAM_ENEMY1 would be the opposite team (opposite values than TEAM_FRIENDLY), &amp; TEAM_ENEMY2 would be set to no team, since there&#39;s only 2 teams in that CTF. This configuration would allow you to select more than the blue/red team in 2-team CTF, &amp; all 3 teams in 3-team CTF. I know what you&#39;re thinking @zturtleman, it&#39;s a bit unorthodox to have 3 teams in CTF, isn&#39;t it? TEAM_FRIENDLY would in this case depend on whichever team you selected/whatever bots were selected to go there. Same with TEAM_ENEMY1 &amp; TEAM_ENEMY2. Gameplay&#39;s the same, except this time, there are 2 enemies of your team instead of one, &amp; if you grab both teams&#39; flags, you earn 2 captures for your team because you captured 2 flags.
+Green team is possible because there is a green team skin pk3 which is downloadable via ws.q3df.org.
+Hope I&#39;m not tiring you out, @zturtleman...</description>
+    
+    <lastBuildDate>Sat, 02 Jul 2016 17:18:57 +0000</lastBuildDate>
+    <category>Development</category>
+    <atom:link href="https://forum.clover.moe/t/programming-three-team-ctf/42.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>above zturtleman alread said:</p>
+<p><em>gametype == GT_CTF &amp;&amp; gametype == GT_3WCTF</em><br>
+<em>This is always false. Gametype cannot be two values at once. Use or (||) instead of and (&amp;&amp;).</em></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/65">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/65</link>
+        <pubDate>Sat, 02 Jul 2016 17:18:57 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-65</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I just uploaded the latest files, <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>. ai_dmq3.c doesn’t seem to be compilable right now, &amp; I’m not sure why.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/64">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/64</link>
+        <pubDate>Sat, 02 Jul 2016 15:53:34 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-64</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I was taking a break from this project, in the meantime I’ll go upload what I changed &amp; we’ll see what the heck’s wrong with it now, if anything. (That is, once I’m done with a model pack, basically a collection of model skins, used or unused, will now be full out models complete with CTF skins. (I like Wrack’s CTF skin the most for some reason). EDIT: I’ve finished with it now, but Slammer, Stroggo, Stripe, &amp; a bunch of others might need new CTF skins (human skin isn’t blue).</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/63">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/63</link>
+        <pubDate>Wed, 29 Jun 2016 15:17:01 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-63</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Me neither. I feel the same way actually, that’s why I popped the question. <img src="//forum.clover.moe/images/emoji/twitter/confused.png?v=5" title=":confused:" class="emoji" alt=":confused:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/62">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/62</link>
+        <pubDate>Tue, 28 Jun 2016 16:23:53 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-62</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <blockquote>
+<p>oh yeah we’re so great. how should we celebrate <em>our</em> holidays?</p>
+</blockquote>
+<p>Too much ego and not really inclusive of all people present. <img src="//forum.clover.moe/images/emoji/twitter/confused.png?v=5" title=":confused:" class="emoji" alt=":confused:"></p>
+<p>I don’t have ideas of what we could do as an event.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/61">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/61</link>
+        <pubDate>Tue, 28 Jun 2016 16:21:54 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-61</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>We certainly are the best, aren’t we? With both Canada Day &amp; Independence Day on the horizon, what should we plan to do?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/60">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/60</link>
+        <pubDate>Tue, 28 Jun 2016 15:05:05 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-60</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Thank you guys, what would this world be without Americans/Canadians? THANK YOU VERY MUCH!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/59">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/59</link>
+        <pubDate>Tue, 28 Jun 2016 15:03:52 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-59</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Best to go ahead &amp; add those, <a class="mention" href="/u/zturtleman">@zturtleman</a>.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/58">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/58</link>
+        <pubDate>Tue, 28 Jun 2016 15:03:27 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-58</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Smallest animal in the litter, not youngest.</p>
+<p>In the case of “runt packet”, runt means “too small” or “undersized” or “less than acceptable size”. I read runt packet and runt frame are mentioned in the Ethernet protocol definition.</p>
+<p>“setu” is a Q3 command that can create user info cvars. It makes sense that the error for user info string being too longer would mention the command. Though, it could also be a mod’s fault.</p>
+<p>Spearmint references commands that do not exist for splitscreen players, such as setu2 for second player. I should probably add those…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/57">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/57</link>
+        <pubDate>Tue, 28 Jun 2016 15:02:46 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-57</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’m a Canadian, but we make sense of it in the same way. So yes, in that case, it would be the smallest packet.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/56">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/56</link>
+        <pubDate>Tue, 28 Jun 2016 15:02:06 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-56</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Okay thanks than! Though, I don’t understand %s: Runt packet\n in CL_PacketEvent than. If you an American, what do you think, does this message make sense, to you?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/55">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/55</link>
+        <pubDate>Tue, 28 Jun 2016 15:01:10 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-55</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Yep. That’s what it means in English, <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/54">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/54</link>
+        <pubDate>Tue, 28 Jun 2016 14:58:10 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-54</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p><img src="//forum.clover.moe/images/emoji/twitter/laughing.png?v=5" title=":laughing:" class="emoji" alt=":laughing:"> Honestly?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/53">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/53</link>
+        <pubDate>Tue, 28 Jun 2016 14:57:14 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-53</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>In English, it means “youngest child/other animal in the litter”. Also, I’m currently making a chatfile for the Santa model from QL, so this oughta be interesting…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/52">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/52</link>
+        <pubDate>Tue, 28 Jun 2016 14:56:30 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-52</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Okay, but can you explain, in other words, what ‘runt’ is?<br>
+Is it an animal from outer space? A new programming language?<br>
+What’s your native language? What is ‘runt’ in your language?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/51">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/51</link>
+        <pubDate>Tue, 28 Jun 2016 14:55:18 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-51</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Maybe there IS no equivalent of ‘runt’ in German, <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/50">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/50</link>
+        <pubDate>Tue, 28 Jun 2016 12:29:01 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-50</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Maybe I’ll go ahead &amp; make a model pack with skins that were previously attached to a model (for example, Wrack, Phobos, Slammer, Stroggo, etc.) Apparently even Xaero has a Stroggo skin so that might be fun to play against as well. I would love to see the Q3R skins ready to play too… I’ve got them if you need them…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/49">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/49</link>
+        <pubDate>Tue, 28 Jun 2016 11:01:05 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-49</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Sorry, my bad, thought coltongit meant the ^ character.<br>
+coltongit: nice catch, read it 100 times but didn’t notice!</p>
+<p>Hmm, I wonder if it is worth to fix more places where something is spelled wrong or missing characters.<br>
+I can extract all strings, so they are easier to check.<br>
+But I need a (native) english speaking Person, because for example I can’t even translate:<br>
+%s: <strong>Runt</strong> packet\n<br>
+in cl_main.c/CL_PacketEvent, what is runt? No translater can translate ‘Runt’ into German, so I don’t know if this is right or wrong.</p>
+<p>or what does this mean (sv_client.c):<br>
+ioquake3: 'Try removing <strong>setu</strong> cvars from your config.\n’<br>
+Spearmint: 'Try removing <strong>setu</strong>%s cvars from your config.\n’<br>
+Isn’t here a <strong>p</strong> missing?</p>
+<p>Anyways maybe I will place all strings here, and every american or english speaker can check one line?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/48">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/48</link>
+        <pubDate>Tue, 28 Jun 2016 10:07:09 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-48</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>kk. emtpy -&gt; empty</p>
+<aside class="onebox githubcommit">
+  <header class="source">
+      <a href="https://github.com/zturtleman/mint-arena/commit/dd013cfafaf463cc6626aa46deb371e1b0277963" target="_blank" rel="nofollow noopener">github.com/zturtleman/mint-arena</a>
+  </header>
+  <article class="onebox-body">
+      <a href="https://github.com/zturtleman" target="_blank" rel="nofollow noopener">
+    <img alt="zturtleman" src="https://avatars2.githubusercontent.com/u/405505?v=4" class="thumbnail onebox-avatar" width="90" height="90">
+  </a>
+
+<h4>
+  <a href="https://github.com/zturtleman/mint-arena/commit/dd013cfafaf463cc6626aa46deb371e1b0277963" target="_blank" rel="nofollow noopener">Fix typo of empty in ai_main.c</a>
+</h4>
+
+
+<div class="date">
+  by <a href="https://github.com/zturtleman" target="_blank" rel="nofollow noopener">zturtleman</a>
+  on <a href="https://github.com/zturtleman/mint-arena/commit/dd013cfafaf463cc6626aa46deb371e1b0277963" target="_blank" rel="nofollow noopener">02:13AM - 28 Jun 16</a>
+</div>
+
+<div class="github-commit-stats">
+  changed <strong>1 files</strong>
+  with <strong>1 additions</strong>
+  and <strong>1 deletions</strong>.
+</div>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/47">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/47</link>
+        <pubDate>Tue, 28 Jun 2016 02:20:40 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-47</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>No, it is not spelled wrong. This is for colored text, in this case default(white)/red. Assuming you are concerned about the <strong>\r^1remtpy</strong> SOLID text.<br>
+So it’s spelled correct.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/46">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/46</link>
+        <pubDate>Tue, 28 Jun 2016 00:50:36 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-46</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Thanks for giving me suggestions to the code <a class="mention" href="/u/zturtleman">@zturtleman</a>. Also, in ai_main.c, in line 261, empty area is misspelled. Is it supposed to be that way for legacy Q3 versions (like the demo/demotest)?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/45">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/45</link>
+        <pubDate>Mon, 27 Jun 2016 13:02:24 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-45</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <pre><code class="lang-auto">gametype == GT_CTF &amp;&amp; gametype == GT_3WCTF
+</code></pre>
+<p>This is always false. Gametype cannot be two values at once. Use or (<code>||</code>) instead of and (<code>&amp;&amp;</code>).</p>
+<hr>
+<pre><code class="lang-auto">gametype != GT_CTF &amp;&amp; GT_3WCTF
+</code></pre>
+<p>GT_3WCTF is not compared to gametype and is non zero so it has no effect. The statement will be true when gametype is GT_3WCTF which is not your intent.</p>
+<hr>
+<pre><code class="lang-auto">	eventParm = ( otherTeam == TEAM_RED ) ? GTS_REDTEAM_TOOK_LEAD; 
+	eventParm = ( otherTeam == TEAM_BLUE ) ? GTS_BLUETEAM_TOOK_LEAD; 
+	eventParm = ( otherTeam == TEAM_GREEN ) ? GTS_GREENTEAM_TOOK_LEAD;
+</code></pre>
+<p>This should use else if. (I have no idea if the your original code actually works)</p>
+<pre><code class="lang-auto">if ( otherTeam == TEAM_RED )
+	eventParm = GTS_REDTEAM_TOOK_LEAD;
+else if ( otherTeam == TEAM_BLUE )
+	eventParm = GTS_BLUETEAM_TOOK_LEAD;
+else if ( otherTeam == TEAM_GREEN )
+	eventParm = GTS_GREENTEAM_TOOK_LEAD;
+</code></pre>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/44">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/44</link>
+        <pubDate>Mon, 27 Jun 2016 06:27:56 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-44</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Maybe I’ll make a side mod where baseq3 uses Q3TA’s “Prepare your team!” sound when beginning TDM/CTF matches while I’m at it then… missionpack will still work fine, it too will use it when starting a TDM match.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/43">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/43</link>
+        <pubDate>Sun, 26 Jun 2016 19:55:32 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-43</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Of course, it’s your project, it’s your decision!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/42">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/42</link>
+        <pubDate>Sun, 26 Jun 2016 14:12:15 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-42</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+      <item>
+        <title>Programming three team CTF</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I don’t think that’s avoidable when you’ve got three teams, <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>. If it is, then you’re welcome to put whatever it is it should actually be in there. Otherwise it’s gonna have to stay like that.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42/41">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/programming-three-team-ctf/42/41</link>
+        <pubDate>Sun, 26 Jun 2016 13:15:02 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-42-41</guid>
+        <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+      </item>
+  </channel>
+</rss>

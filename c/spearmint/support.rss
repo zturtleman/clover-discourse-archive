@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Support - Magical Clover Forum</title>
+    <link>https://forum.clover.moe/c/spearmint/support</link>
+    <description>Topics in the &#39;Support&#39; category Have a problem running or using Spearmint Quake 3? Ask it here.</description>
+    
+      <lastBuildDate>Sat, 19 Aug 2017 22:48:47 +0000</lastBuildDate>
+      <atom:link href="https://forum.clover.moe/c/spearmint/support.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Dedicated Server Crashes on startup</title>
+          <dc:creator><![CDATA[@Rellik711 Casey Peenie]]></dc:creator>
+          <category>Support</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/rellik711">@Rellik711</a> wrote:</p>
+            <blockquote>
+              <p>title says it all, trying to start a dedicated server for my pals and whenever I start the server program (both 32 bit and 64 bit) they both crash right when I start them. I’m wondering if anyone here could help me with this. or at least point me in the right direction. thank you all for your time.</p>
+            </blockquote>
+            <p>Posts: 5</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/dedicated-server-crashes-on-startup/130">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/dedicated-server-crashes-on-startup/130</link>
+          <pubDate>Sat, 19 Aug 2017 22:48:47 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-130</guid>
+          <source url="https://forum.clover.moe/t/dedicated-server-crashes-on-startup/130.rss">Dedicated Server Crashes on startup</source>
+        </item>
+        <item>
+          <title>Missing Team Arena pk3 files from Steam?</title>
+          <dc:creator><![CDATA[@warmbaguettes]]></dc:creator>
+          <category>Support</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/warmbaguettes">@warmbaguettes</a> wrote:</p>
+            <blockquote>
+              <p>Hello!</p>
+<p>I have both Q3A and Team Arena on Steam. Q3 has all the pk3 required for spearmint to run (0-8) but my missionpack folder only has pak0.pk3, and the readme says it needs 0-4. Team Arena works fine native from Steam, though.</p>
+<p>Where can I get those missing pk3 files?</p>
+            </blockquote>
+            <p>Posts: 8</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47</link>
+          <pubDate>Thu, 30 Jun 2016 15:57:46 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-47</guid>
+          <source url="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47.rss">Missing Team Arena pk3 files from Steam?</source>
+        </item>
+        <item>
+          <title>Next tier won&#39;t unlock for me in Spearmint</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Support</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I’ve tried using a different homepath, doesn’t unlock the next tier. I’ve already beat Tier 0. Tier 1 SHOULD be unlocked, but for some reason, it isn’t.</p>
+            </blockquote>
+            <p>Posts: 38</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/next-tier-wont-unlock-for-me-in-spearmint/27">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/next-tier-wont-unlock-for-me-in-spearmint/27</link>
+          <pubDate>Mon, 23 May 2016 15:10:59 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-27</guid>
+          <source url="https://forum.clover.moe/t/next-tier-wont-unlock-for-me-in-spearmint/27.rss">Next tier won&#39;t unlock for me in Spearmint</source>
+        </item>
+        <item>
+          <title>About the Support category</title>
+          <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+          <category>Support</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+            <blockquote>
+              <p>Have a problem running or using Spearmint Quake 3? Ask it here.</p>
+            </blockquote>
+            <p>Posts: 2</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/about-the-support-category/17">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/about-the-support-category/17</link>
+          <pubDate>Fri, 20 May 2016 13:47:57 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-17</guid>
+          <source url="https://forum.clover.moe/t/about-the-support-category/17.rss">About the Support category</source>
+        </item>
+  </channel>
+</rss>

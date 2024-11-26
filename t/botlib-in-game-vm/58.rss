@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Botlib in Game VM</title>
+    <link>https://forum.clover.moe/t/botlib-in-game-vm/58</link>
+    <description>I ported the botlib (except the C preprocessor which is also used by Team Arena CGame/UI) into the Game VM. This required the ability to free memory, which was added in Spearmint devil branch and released in Spearmint 0.4. See [botlib branch](https://github.com/zturtleman/mint-arena/tree/botlib).
+
+I&#39;m planning to move files I had previously ported to Game VM back into the botlib. The main reason I&#39;m holding off merging it into master branch is because BSPC requires parts of the botlib in the engine.
+
+I have a [bspc branch](https://github.com/zturtleman/mint-arena/tree/botlib) with it ported to mint-arena based on the botlib branch but it require a bunch of engine code, including BSP and ZIP loading and the C preprocessor, to be duplicated. :weary:
+
+So I&#39;m still working through how to handle this, but it will happen eventually.</description>
+    
+    <lastBuildDate>Fri, 15 Jul 2016 15:49:36 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/botlib-in-game-vm/58.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Botlib in Game VM</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Engine just loads AAS and lets game VM access it. AAS is all moving to game VM.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/botlib-in-game-vm/58/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/botlib-in-game-vm/58/5</link>
+        <pubDate>Fri, 15 Jul 2016 15:49:36 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-58-5</guid>
+        <source url="https://forum.clover.moe/t/botlib-in-game-vm/58.rss">Botlib in Game VM</source>
+      </item>
+      <item>
+        <title>Botlib in Game VM</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Oh shit! I thought  trap_HeapFree would/could flush the whole memory, even models, images and skins.<br>
+Sorry, I’m an idiot, I better continue playing chess instead of talking about programming like a pro!<br>
+Anyways, thanks for the clarification!</p>
+<p>Do you plan to provide RtCW’s AAS worlds in Spearmint engine? For me it’s hard to do this even now! Not to think about that when be_aas_routetable.c will be in game vm! <img src="//forum.clover.moe/images/emoji/twitter/worried.png?v=5" title=":worried:" class="emoji" alt=":worried:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/botlib-in-game-vm/58/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/botlib-in-game-vm/58/4</link>
+        <pubDate>Thu, 14 Jul 2016 13:31:12 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-58-4</guid>
+        <source url="https://forum.clover.moe/t/botlib-in-game-vm/58.rss">Botlib in Game VM</source>
+      </item>
+      <item>
+        <title>Botlib in Game VM</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Yes, trap_HeapMalloc replaces trap_Alloc and provides botlib GetMemory / malloc. be_aas_routetable.c will be able to be in the game VM.</p>
+<p>trap_HeapFree does not affect renderer never freeing models, images, and skin surfaces.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/botlib-in-game-vm/58/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/botlib-in-game-vm/58/3</link>
+        <pubDate>Thu, 14 Jul 2016 13:03:48 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-58-3</guid>
+        <source url="https://forum.clover.moe/t/botlib-in-game-vm/58.rss">Botlib in Game VM</source>
+      </item>
+      <item>
+        <title>Botlib in Game VM</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>To be honest, I can’t really help you with all this! Currently I also struggling with serious AI (botlib) problems.<br>
+So, just a few thoughts:</p>
+<p>What I wonder is how the new memory system affects mint-iortcw (AAS Routing)? Maybe I do understand everything wrong, but doesn’t <strong>‘trap_HeapMalloc’</strong> replace’  <strong>‘trap_Alloc’</strong>, which in turn replaced <strong>‘GetClearedMemory’</strong> as a similiar function?<br>
+Does this mean that the routing table (be_aas_routetable.c) will also move into game? Or is this a completely different story? I think the routing table is also using <strong>‘AAS_RT_GetClearedMemory’</strong>!</p>
+<p>Well, I assume you know some reasons why it was better to move lot of botlib code into game. For low-skilled programmers like me it’s nearly impossible to understand your code changes. Sometimes I wish the moved AI code back into botlib! But this is only due to lack of skill on my side…, so, I bet you will find a good solution!</p>
+<p>Could this freeing of memory also be used to fix the old idtech3 bug where a crash happens if lot of bots/models are removed and another bunch of new bots/models are added afterwards? I think you know what bug I’m talking about (we talked about that bug a long time ago).<br>
+You know, if you have many different player models and remove them (e.g.: by a kickall command) and load another bunch of bots with different models the game will crash because assets (skins/textures/sounds) aren’t removed from memory.<br>
+Will using <strong>‘trap_HeapFree’</strong> fix this idtech3 bug?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/botlib-in-game-vm/58/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/botlib-in-game-vm/58/2</link>
+        <pubDate>Thu, 14 Jul 2016 11:49:37 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-58-2</guid>
+        <source url="https://forum.clover.moe/t/botlib-in-game-vm/58.rss">Botlib in Game VM</source>
+      </item>
+      <item>
+        <title>Botlib in Game VM</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>I ported the botlib (except the C preprocessor which is also used by Team Arena CGame/UI) into the Game VM. This required the ability to free memory, which was added in Spearmint devil branch and released in Spearmint 0.4. See <a href="https://github.com/zturtleman/mint-arena/tree/botlib">botlib branch</a>.</p>
+<p>I’m planning to move files I had previously ported to Game VM back into the botlib. The main reason I’m holding off merging it into master branch is because BSPC requires parts of the botlib in the engine.</p>
+<p>I have a <a href="https://github.com/zturtleman/mint-arena/tree/botlib">bspc branch</a> with it ported to mint-arena based on the botlib branch but it require a bunch of engine code, including BSP and ZIP loading and the C preprocessor, to be duplicated. <img src="//forum.clover.moe/images/emoji/twitter/weary.png?v=5" title=":weary:" class="emoji" alt=":weary:"></p>
+<p>So I’m still working through how to handle this, but it will happen eventually.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/botlib-in-game-vm/58/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/botlib-in-game-vm/58/1</link>
+        <pubDate>Wed, 13 Jul 2016 16:20:34 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-58-1</guid>
+        <source url="https://forum.clover.moe/t/botlib-in-game-vm/58.rss">Botlib in Game VM</source>
+      </item>
+  </channel>
+</rss>

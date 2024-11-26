@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Adding another bot skill to Quake 3</title>
+    <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55</link>
+    <description>I&#39;m currently trying to add an additional bot skill to Quake 3. It&#39;ll be &quot;You Will Never Win!&quot; mode, where everyone&#39;s bot skill is maxed out. I&#39;m having trouble figuring out where exactly the code for the bot skills lay. I&#39;ve already done the UI for the new bot skill, it just needs a new sound/skill image. Mind helping me out with this, guys?</description>
+    
+    <lastBuildDate>Thu, 14 Jul 2016 00:32:23 +0000</lastBuildDate>
+    <category>Development</category>
+    <atom:link href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I thought they didn’t need it &amp; it also makes them slightly harder on those difficulties. That change was intentional <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>. And also, yes,  I’m making the skill 6 for the botfiles, so no need to worry about that at this point in time. And how do you increase the clamp anyway?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/16">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/16</link>
+        <pubDate>Thu, 14 Jul 2016 00:32:23 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-16</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Quick check:</p>
+<ol>
+<li>Iirc, g_spSkill has Com_Clamp. (this means it ranges from 1-5), you try to set it to &gt; 5.</li>
+<li>Bot skill is float, you can add bots with skill, 2.4, or 3.7, or 4.4, or whatever, but not more than 5 or so.</li>
+<li>As already said, there is NO skill 6 for bots (inside the botfiles), so I don’t know what you want to access?</li>
+<li>BTW, you also removed the bots handicap.</li>
+</ol>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/15">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/15</link>
+        <pubDate>Thu, 14 Jul 2016 00:06:44 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-15</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I get “WARNING: out of range shader” when I try to use the new difficulty &amp; also, the bots go back to their skill 5 botfiles. How exactly do you think that should be fixed? I’ve updated the code, so you could go ahead &amp; see it in action for yourself.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/14">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/14</link>
+        <pubDate>Wed, 13 Jul 2016 23:36:15 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-14</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>All the bots are unstoppable. Even without bot_challenge they are a nightmare to defeat. They’ll even hit you when they aren’t even at the corner yet. That’s how good they are.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/13">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/13</link>
+        <pubDate>Wed, 13 Jul 2016 15:47:36 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-13</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Sorry to ask again, but what do you mean with ‘maxed out’?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/12</link>
+        <pubDate>Wed, 13 Jul 2016 15:44:53 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-12</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>The bots will be maxed out in every level with skill 6. Things are only gonna get fun around here…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/11</link>
+        <pubDate>Wed, 13 Jul 2016 15:38:43 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-11</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>And what skill will bots have then? I mean, Nightmare is alread skill 5, so you need new botfiles with skill 6?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/10</link>
+        <pubDate>Wed, 13 Jul 2016 15:36:52 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-10</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Just a dern comma did that? Geez…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/9</link>
+        <pubDate>Wed, 13 Jul 2016 15:34:04 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-9</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <pre><code class="lang-auto">
+static const char *botSkill_list[] = {
+	"I Can Win",
+	"Bring It On",
+	"Hurt Me Plenty",
+	"Hardcore",
+	"Nightmare!",
+	"You Will Never Win!"
+	NULL
+};
+</code></pre>
+<p>You’re missing a comma after “You Will Never Win!”.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/8</link>
+        <pubDate>Wed, 13 Jul 2016 15:31:00 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-8</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>And of course, a compilation error ends up happening. I’ll go ahead &amp; post the code on github, gimme a second…<br>
+Here’s the code: <a href="https://github.com/coltongit/mint-arena-you-will-never-win" rel="nofollow noopener">https://github.com/coltongit/mint-arena-you-will-never-win</a><br>
+So what happens is “You Will Never Win!” apparently isn’t a pointer, &amp; I’m not sure how to make it a pointer. I looked through the UI code to figure it out, but I have a nagging suspicion that what I’m looking for is in cgame instead. Can you help me figure it out, <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/7</link>
+        <pubDate>Wed, 13 Jul 2016 13:59:27 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-7</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I have neverwin.wav done. It was taken from <a href="https://www.freesound.org/people/gabemiller74/sounds/155633" rel="nofollow noopener">https://www.freesound.org/people/gabemiller74/sounds/155633</a>, so if you want to listen to it, then you may go there if you wish. I think it (very eerily) fits Q3 &amp; the description of “You will never win!”.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/6</link>
+        <pubDate>Tue, 12 Jul 2016 14:26:37 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-6</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Because I wasn’t sure if there was somewhere I was missing in the UI or not, I’ve already got the text ready to go. I’ll show off the new bot skill when I get it all done. It’ll also include grammatically corrected chatfiles for every character in Q3 (due to there being noticeable grammatical errors in everyone’s chatfiles). I also plan to use the new skill in single player.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/5</link>
+        <pubDate>Tue, 12 Jul 2016 13:24:40 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-5</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Why are you asking then?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/4</link>
+        <pubDate>Tue, 12 Jul 2016 13:22:28 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-4</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>It’s easy to add another bot skill however. I’ll probably go ahead &amp; do that, actually.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/3</link>
+        <pubDate>Tue, 12 Jul 2016 13:21:48 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-3</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Maximum slill is already there: Bot skill  5  = max, = ‘Nightmare’.<br>
+The values for the bot’s skill resides in their specific bot files (e.g.: botfiles/bots/grunt_c.c etc.)</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/2</link>
+        <pubDate>Tue, 12 Jul 2016 13:20:53 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-2</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+      <item>
+        <title>Adding another bot skill to Quake 3</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’m currently trying to add an additional bot skill to Quake 3. It’ll be “You Will Never Win!” mode, where everyone’s bot skill is maxed out. I’m having trouble figuring out where exactly the code for the bot skills lay. I’ve already done the UI for the new bot skill, it just needs a new sound/skill image. Mind helping me out with this, guys?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55/1</link>
+        <pubDate>Tue, 12 Jul 2016 12:53:44 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-55-1</guid>
+        <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>What is important bots or Quake 3?</title>
+    <link>https://forum.clover.moe/t/what-is-important-bots-or-quake-3/20</link>
+    <description>[poll]
+ - I want better bots even if it requires a new game!
+ - Quake 3 is the best even if the bot development is limited!
+[/poll]</description>
+    
+    <lastBuildDate>Sat, 21 May 2016 01:53:46 +0000</lastBuildDate>
+    <category>Bot AI</category>
+    <atom:link href="https://forum.clover.moe/t/what-is-important-bots-or-quake-3/20.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>What is important bots or Quake 3?</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I voted that because I knew your engine was just a beefed-up id Tech 3 engine, which is what Q3A runs upon. And might I add, the game runs like a dream on this particular engine! Also, I would like to see who exactly voted on what answer, so that way it can clear confusion who voted for what sometimes. Would be useful in that case.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/what-is-important-bots-or-quake-3/20/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/what-is-important-bots-or-quake-3/20/2</link>
+        <pubDate>Sat, 21 May 2016 01:33:34 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-20-2</guid>
+        <source url="https://forum.clover.moe/t/what-is-important-bots-or-quake-3/20.rss">What is important bots or Quake 3?</source>
+      </item>
+      <item>
+        <title>What is important bots or Quake 3?</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <div class="poll" data-poll-status="open" data-poll-name="poll">
+<div>
+<div class="poll-container">
+<ul>
+<li data-poll-option-id="c23638fb72355304ff0001668c336468">I want better bots even if it requires a new game!</li>
+<li data-poll-option-id="0a19749d00d69bf432b796ac7c4739e3">Quake 3 is the best even if the bot development is limited!</li>
+</ul>
+</div>
+<div class="poll-info">
+<p>
+<span class="info-number">0</span>
+<span class="info-text">voters</span>
+</p>
+</div>
+</div>
+<div class="poll-buttons">
+<a title="Display the poll results">Show results</a>
+</div>
+</div>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/what-is-important-bots-or-quake-3/20/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/what-is-important-bots-or-quake-3/20/1</link>
+        <pubDate>Fri, 20 May 2016 14:57:07 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-20-1</guid>
+        <source url="https://forum.clover.moe/t/what-is-important-bots-or-quake-3/20.rss">What is important bots or Quake 3?</source>
+      </item>
+  </channel>
+</rss>

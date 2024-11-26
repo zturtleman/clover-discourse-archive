@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Splitscreen + FOV (field of view)</title>
+    <link>https://forum.clover.moe/t/splitscreen-fov-field-of-view/35</link>
+    <description>Hi everyone!
+
+Did you play Spearmint with friends in splitscreen mode? Well, if you did, and own a monitor with a &#39;modern&#39; aspect ration e.g.: 16:10 or 16:9, you probably might noticed that something feels a bit &#39;wrong&#39;, especially if you have only two splitscreen players.
+What has worked well in the past (remembering games like Need for Speed etc.), feels a bit weird on modern monitors. To make a long stroy short, my friends and I had some real troubles to get used to all those modern, and therefore better ;) monitor aspect ratios.
+At first we tried the usual procedure: tweaking the cg_fov value (you can open your game console and type cg_fov 80 for example). This doesn&#39;t help much, so we tried a new cvar, new to Spearmint, called cg_fovAspectAdjust.
+Tweaking both, will improve splitscreen gaming experience. Though, really satisfied was none of us, the problem still remains, because the problem is the monitor, and not the game.
+So after many hours, as a last resort, since we can&#39;t switch back to old monitors (4:3), we decided to use the third option we can try: Vertical splitscreen!
+Wow! To our surprise, after some time to get used to it, most of us liked it more to play with verticall splitcreen than with horizontal splitscreen. Yes, you will need some time, to get used to it, probably you will never get used to it, but certainly for a few players, this will be the feature they were looking for.
+Try it! You can set vertical splitscreen play via q3 menu -&gt;Setup-&gt;Game Options or via your game console: cg_splitviewVertical 1.
+Of course, the wider the monitors aspect ratio is, the more likely vertical splitscreen play will be your choice. Additionally vertical view will reduce the stretching (distorsion) of your view (depending on your cg_fov settings). Some short, basic info about FOV in games: https://en.wikipedia.org/wiki/Field_of_view_in_video_games
+
+Well, what I wonder is what other players setting are, concerning the FOV variables (cg_fov, cg_fovAspectAdjust, and cg_splitviewVertical)? What are your setting?
+In contrast to most articles, and probably most players, personally I prefer narrower FOV settings on monitors with a 16:9 ratio, can&#39;t explain exactly why, but aiming gets better.... :)</description>
+    
+    <lastBuildDate>Wed, 08 Jun 2016 18:20:09 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Splitscreen + FOV (field of view)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Actually, I would love to see diagonal splitscreen for Spearmint as well. I’m not sure why <img src="//forum.clover.moe/images/emoji/twitter/stuck_out_tongue.png?v=5" title=":stuck_out_tongue:" class="emoji" alt=":stuck_out_tongue:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/7</link>
+        <pubDate>Wed, 08 Jun 2016 18:20:09 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-35-7</guid>
+        <source url="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35.rss">Splitscreen + FOV (field of view)</source>
+      </item>
+      <item>
+        <title>Splitscreen + FOV (field of view)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I meant the UI wasn’t scaled for 16:9 resolutions. Neither was the in-game view.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/6</link>
+        <pubDate>Wed, 08 Jun 2016 18:19:03 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-35-6</guid>
+        <source url="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35.rss">Splitscreen + FOV (field of view)</source>
+      </item>
+      <item>
+        <title>Splitscreen + FOV (field of view)</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Yeah, for me a fov of 130 would be too much. I’m used to a fov of 80.<img src="//forum.clover.moe/images/emoji/twitter/blush.png?v=5" title=":blush:" class="emoji" alt=":blush:"> Though different people have different preferences.<br>
+Hmm, what do you mean with: <em>“legacy/ioq3 engines not having the UI scaled for multiplayer.”</em>? Neither UI nor HUD is affected by cg_fov settings.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/5</link>
+        <pubDate>Wed, 08 Jun 2016 16:27:13 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-35-5</guid>
+        <source url="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35.rss">Splitscreen + FOV (field of view)</source>
+      </item>
+      <item>
+        <title>Splitscreen + FOV (field of view)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I think it’s mainly because of the legacy/ioq3 engines not having the UI scaled for multiplayer. One of my LAN people turns the brightness to the max &amp; uses cg_fov 130, which I think is a bit much. Don’t you, <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/4</link>
+        <pubDate>Wed, 08 Jun 2016 16:02:02 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-35-4</guid>
+        <source url="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35.rss">Splitscreen + FOV (field of view)</source>
+      </item>
+      <item>
+        <title>Splitscreen + FOV (field of view)</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>cg_fov 115? Wow! That is much! Though, I know many players using such high values, you are not alone! Wasn’t there a fov limit for some E-sports like mods? Or CPMA or something?<br>
+Hey, I totally forgot to say that in the past I also noticed a huge increase in FPS if i lowered the cg_fov settings.<br>
+A long time ago computers were so weak you even noticed this! Less fov = less triangles = more FPS.  <img src="//forum.clover.moe/images/emoji/twitter/grin.png?v=5" title=":grin:" class="emoji" alt=":grin:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/3</link>
+        <pubDate>Wed, 08 Jun 2016 10:59:25 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-35-3</guid>
+        <source url="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35.rss">Splitscreen + FOV (field of view)</source>
+      </item>
+      <item>
+        <title>Splitscreen + FOV (field of view)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’ve grown used to cg_fov 115 no matter what, but in this case, I might have to reconsider.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/2</link>
+        <pubDate>Tue, 07 Jun 2016 23:19:26 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-35-2</guid>
+        <source url="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35.rss">Splitscreen + FOV (field of view)</source>
+      </item>
+      <item>
+        <title>Splitscreen + FOV (field of view)</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Hi everyone!</p>
+<p>Did you play Spearmint with friends in splitscreen mode? Well, if you did, and own a monitor with a ‘modern’ aspect ration e.g.: 16:10 or 16:9, you probably might noticed that something feels a bit ‘wrong’, especially if you have only two splitscreen players.<br>
+What has worked well in the past (remembering games like Need for Speed etc.), feels a bit weird on modern monitors. To make a long stroy short, my friends and I had some real troubles to get used to all those modern, and therefore better <img src="//forum.clover.moe/images/emoji/twitter/wink.png?v=5" title=":wink:" class="emoji" alt=":wink:"> monitor aspect ratios.<br>
+At first we tried the usual procedure: tweaking the cg_fov value (you can open your game console and type cg_fov 80 for example). This doesn’t help much, so we tried a new cvar, new to Spearmint, called cg_fovAspectAdjust.<br>
+Tweaking both, will improve splitscreen gaming experience. Though, really satisfied was none of us, the problem still remains, because the problem is the monitor, and not the game.<br>
+So after many hours, as a last resort, since we can’t switch back to old monitors (4:3), we decided to use the third option we can try: Vertical splitscreen!<br>
+Wow! To our surprise, after some time to get used to it, most of us liked it more to play with verticall splitcreen than with horizontal splitscreen. Yes, you will need some time, to get used to it, probably you will never get used to it, but certainly for a few players, this will be the feature they were looking for.<br>
+Try it! You can set vertical splitscreen play via q3 menu -&gt;Setup-&gt;Game Options or via your game console: cg_splitviewVertical 1.<br>
+Of course, the wider the monitors aspect ratio is, the more likely vertical splitscreen play will be your choice. Additionally vertical view will reduce the stretching (distorsion) of your view (depending on your cg_fov settings). Some short, basic info about FOV in games: <a href="https://en.wikipedia.org/wiki/Field_of_view_in_video_games" rel="nofollow noopener">https://en.wikipedia.org/wiki/Field_of_view_in_video_games</a></p>
+<p>Well, what I wonder is what other players setting are, concerning the FOV variables (cg_fov, cg_fovAspectAdjust, and cg_splitviewVertical)? What are your setting?<br>
+In contrast to most articles, and probably most players, personally I prefer narrower FOV settings on monitors with a 16:9 ratio, can’t explain exactly why, but aiming gets better… <img src="//forum.clover.moe/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/splitscreen-fov-field-of-view/35/1</link>
+        <pubDate>Tue, 07 Jun 2016 21:46:30 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-35-1</guid>
+        <source url="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35.rss">Splitscreen + FOV (field of view)</source>
+      </item>
+  </channel>
+</rss>

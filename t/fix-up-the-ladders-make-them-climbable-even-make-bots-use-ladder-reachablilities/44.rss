@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+    <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44</link>
+    <description>Spearmint should be fixing up the ladders &amp; making them climbable by both bots &amp; humans. There are a few examples of maps with ladders in Q2/Q1, &amp; I think once ladders are fixed for bots/humans, these maps will be perfectly navigable in Spearmint. Don&#39;t you agree @zturtleman?</description>
+    
+    <lastBuildDate>Sat, 02 Jul 2016 18:36:08 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>If this is a question, than no, the AI reachabilitities has nothing to do with animations.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/20">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/20</link>
+        <pubDate>Sat, 02 Jul 2016 18:36:08 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-20</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>So Turtle Arena’s getting ladder reachablilities, while Q3A isn’t.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/19">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/19</link>
+        <pubDate>Sat, 02 Jul 2016 15:03:46 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-19</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>fwiw Turtle Arena has BOTH_LADDER_STAND, BOTH_LADDER_UP, BOTH_LADDER_DOWN.</p>
+<p>I’m not really in favor of adding new player animations to the default Q3 players in Spearmint Quake 3. 1) copyright infringement concern. 2) all the addon player models won’t have the animations… so would have to support not having the new animations anyway. 3) It’s just not something I want in my flavor of Quake 3.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/18">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/18</link>
+        <pubDate>Sat, 02 Jul 2016 14:03:17 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-18</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Most likely you could use BOTH_LADDER1 for climb up, BOTH_LADDER2 for climb down, &amp; BOTH_LADDERI for ladder idle. And if we do make new animations for the player models, just make sure you use the original animations as a reference so that way they look &amp; feel like the same person animation-wise.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/17">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/17</link>
+        <pubDate>Sat, 02 Jul 2016 13:31:48 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-17</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Currently new animations require editing the model files as well as animations.cfg. Also, BOTH_ animations need to be before TORSO_ or LEGS_ in the model file and animations.cfg. Additionally, it would be useful to have ladder idle, climb up, and climb down.</p>
+<p>ET/RTCW models are supported by the Spearmint engine, but are not really usable as player models in Spearmint Quake 3 (would need separate models like Q3, instead of combined legs/torso like RTCW). The RTCW/ET player models have ladder animations, but it’s not directly connected to the model format.</p>
+<p>I’ve thought about MD2 support, but it’s not very useful and I should probably draw a line somewhere so there isn’t lots of unnecessary bloat features. For now at least, I’m mainly sticking to id Tech 3 level stuff. You could convert MD2 models to MD3.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/16">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/16</link>
+        <pubDate>Sat, 02 Jul 2016 13:28:48 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-16</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I don’t yet, but I have a few starts on where I could do that. So it’s still relatively unknown right now, unfortunately…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/15">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/15</link>
+        <pubDate>Sat, 02 Jul 2016 13:28:25 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-15</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>This is something only zturtleman will decide!<br>
+Back to topic, it would really help if you know a way to add new animations into existing models later. If so, the chance to see working ladder code in mint-arena is much higher!<br>
+How will you get new animations into existing md3 models?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/14">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/14</link>
+        <pubDate>Sat, 02 Jul 2016 13:24:20 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-14</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Would it also be possible to make the engine use Q2 MD2 models as well as Q1 MDL models? The Q1 models might be a bit diminutive compared to the others, but I think it’d be fun to use them anyway… Also, Wilma Flintstone would be nice to play around with in Spearmint Q3. I’ll try to see if I can pull request in pure Q2 MD2 and/or Q1 MDL support.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/13">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/13</link>
+        <pubDate>Sat, 02 Jul 2016 13:20:48 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-13</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://assets-cdn.github.com/favicon.ico" class="site-icon" width="32" height="32">
+      <a href="https://github.com/zturtleman/spearmint/wiki/Features" target="_blank" rel="nofollow noopener">GitHub</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://avatars3.githubusercontent.com/u/405505?s=400&amp;v=4" class="thumbnail onebox-avatar" width="400" height="400">
+
+<h3><a href="https://github.com/zturtleman/spearmint/wiki/Features" target="_blank" rel="nofollow noopener">zturtleman/spearmint</a></h3>
+
+<p>spearmint - Spearmint, an updated id Tech 3 engine for continuing the classics and creating new games.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/12</link>
+        <pubDate>Sat, 02 Jul 2016 13:17:05 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-12</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Is it possible to use the ET/RTCW models in Spearmint Q3A?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/11</link>
+        <pubDate>Sat, 02 Jul 2016 13:06:09 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-11</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>But the animation frames are inside the model itself, and not in the cfg I thought. How would you apply new frames to models via engine code changes? Simply tweak the animation.cfg won’t work I think. Maybe I do understand you completely wrong, but I think you mean by adding something into animation.cfg will create a new animation, that’s not the case. You have to create the move of model parts (arms/legs) in your program (Milkshape, Blender, etc.).<br>
+I think you have to create all the models a new, from scratch?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/10</link>
+        <pubDate>Sat, 02 Jul 2016 12:55:01 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-10</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>For example, Razor’s animations go like this:<br>
+// animation config file</p>
+<p>sex	m</p>
+<p>// first frame, num frames, looping frames, frames per second</p>
+<p>footsteps boot<br>
+0	30	0	25		// BOTH_DEATH1<br>
+29	1	0	25		// BOTH_DEAD1<br>
+30	30	0	25		// BOTH_DEATH2<br>
+59	1	0	25		// BOTH_DEAD2<br>
+60	30	0	25		// BOTH_DEATH3<br>
+89	1	0	25		// BOTH_DEAD3</p>
+<p>90	40	0	15		// TORSO_GESTURE</p>
+<p>130	6	0	15		// TORSO_ATTACK		(MUST NOT CHANGE – hand animation is synced to this)<br>
+136	6	0	15		// TORSO_ATTACK2	(MUST NOT CHANGE – hand animation is synced to this)</p>
+<p>142	5	0	20		// TORSO_DROP		(MUST NOT CHANGE – hand animation is synced to this)<br>
+147	4	0	20		// TORSO_RAISE		(MUST NOT CHANGE – hand animation is synced to this)</p>
+<p>151	1	0	15		// TORSO_STAND<br>
+152	1	0	15		// TORSO_STAND2</p>
+<p>153	8	8	20		// LEGS_WALKCR<br>
+161	12	12	20		// LEGS_WALK<br>
+173	9	9	17		// LEGS_RUN<br>
+183	10	10	20		// LEGS_BACK<br>
+193	10	10	15		// LEGS_SWIM</p>
+<p>203	8	0	15		// LEGS_JUMP<br>
+211	1	0	15		// LEGS_LAND</p>
+<p>212	9	0	15		// LEGS_JUMPB<br>
+221	1	0	15		// LEGS_LANDB</p>
+<p>222	10	10	15		// LEGS_IDLE<br>
+232	10	10	15		// LEGS_IDLECR</p>
+<p>242	8	8	15		// LEGS_TURN<br>
+You could specify the new animation after LEGS_TURN, which again would be BOTH_CLIMB.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/9</link>
+        <pubDate>Sat, 02 Jul 2016 12:53:23 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-9</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I haven’t really done any experimentation with the animations yet, but it’s possible to do that. Just needs some code put into the engine (the ladder animation code for BOTH_CLIMB) &amp; have it only use that animation when on ladders. New animation.cfg’s for each &amp; every Q3A model would need to be done for this to happen.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/8</link>
+        <pubDate>Sat, 02 Jul 2016 12:49:15 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-8</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Oh! That works for you? How do you get the animation (player legs, arms attached to ladder) into the md3 model?<br>
+I mean how did you made it so that the model moves the legs and arms accordingly to run a real climbing animation (into existing models)?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/7</link>
+        <pubDate>Sat, 02 Jul 2016 12:46:22 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-7</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>You would simply put them after the last animation in the animation.cfg (but try not to mess up the leg turning animation). A suggestion for what the animation should be called would be BOTH_CLIMB.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/6</link>
+        <pubDate>Sat, 02 Jul 2016 12:41:05 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-6</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>As far as I know, you can’t add new animations to key-framed models later! You need a bone animated model format. So I’m in doubt current Q3A/Spearmint models will ever have climbing animations. If you know a way to add new animations to existing models I would be glad!<br>
+Note, Spearmint also supports et/rtcw models (they have climbing animations already)!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/5</link>
+        <pubDate>Sat, 02 Jul 2016 12:37:39 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-5</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>And also the fact that most Q3A players don’t even HAVE climbing animations, so they would have to be generated &amp; added to their animation.cfg as they climb the ladder(s) if they haven’t been added already. Also, I figured this would eventually happen due to there being ladder reachabilities in bspc.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/4</link>
+        <pubDate>Sat, 02 Jul 2016 11:45:15 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-4</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Additionally it is worth noting that not only the current AI code has to be fixed (which isn’t a big deal), there is also a serious AI ‘logic’ problem to solve: In some cases a few bots will climp upwards, whereas other bots will climb downwards, you have to find a good ‘obstacle blocking on ladders behaviour’ in this case!<br>
+Iirc, this is why RtCW bots (and Onni-bots?) sometimes fall (or jump) down from ladder into death! They simply realease from ladder, which looks weird! Though even this problem is solveable!<br>
+The biggest problem are indeed the climbing animations, as zturtleman already said!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/3</link>
+        <pubDate>Fri, 01 Jul 2016 12:24:44 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-3</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>A lot of Quake 3 based games have ladders too (probably more than half). Such as Return to Castle Wolfenstein, which I intend to eventually support running on Spearmint. And my own game Turtle Arena (lacks working bot ladder AI). So yeah, I may eventually fix bot ladder AI.</p>
+<p>However, adding ladder support to <em>Spearmint Quake 3</em> causes questions of physics, player animations, and probably other things. I haven’t actually played Q1 or Q2 to know how their ladders behave in gameplay (I do own them though). There isn’t a guarantee that any maps with ladders will actually be made or ported. I’m not entirely opposed to there being ladder support, but it’s not a high priority for me personally.</p>
+<p>Actually enabling the game logic for ladders seems like something for mods / new games. However, because it’s a really common feature in other games, it might be useful to add (disabled) code to the mint-arena code base though. :shurg:</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/2</link>
+        <pubDate>Fri, 01 Jul 2016 11:03:02 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-2</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+      <item>
+        <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Spearmint should be fixing up the ladders &amp; making them climbable by both bots &amp; humans. There are a few examples of maps with ladders in Q2/Q1, &amp; I think once ladders are fixed for bots/humans, these maps will be perfectly navigable in Spearmint. Don’t you agree <a class="mention" href="/u/zturtleman">@zturtleman</a>?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44/1</link>
+        <pubDate>Thu, 30 Jun 2016 02:52:03 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-44-1</guid>
+        <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+      </item>
+  </channel>
+</rss>

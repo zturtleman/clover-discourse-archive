@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Need to add transparency to an image</title>
+    <link>https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50</link>
+    <description>I&#39;m planning to use this image as an icon for a yellow skin for Visor, unfortunately, it&#39;s a jpg so I need the transparency (otherwise it doesn&#39;t look very professional). Mind helping me out?
+Here&#39;s the image: http://lvlworld.com/avatar/user/1722-1419637332.jpg</description>
+    
+    <lastBuildDate>Mon, 04 Jul 2016 04:44:43 +0000</lastBuildDate>
+    <category>Uncategorized</category>
+    <atom:link href="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Need to add transparency to an image</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’m done. Here’s a comparison:<br>
+Original: <img src="//forum.clover.moe/uploads/default/original/1X/2eeab3bcc82e67eeaf891427fc96e04e3873636b.jpg" width="64" height="64"><br>
+Result: <img src="//forum.clover.moe/uploads/default/original/1X/6b6e313cb1f3007f7a0926c65d210d6b76f7c8ea.png" width="64" height="64"><br>
+Looks good, doesn’t it <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/10</link>
+        <pubDate>Sat, 02 Jul 2016 15:06:51 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-50-10</guid>
+        <source url="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50.rss">Need to add transparency to an image</source>
+      </item>
+      <item>
+        <title>Need to add transparency to an image</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’m using the rectangle select &amp; getting the areas that are needed, like the side of Visor’s bodyplate… Also I added an alpha channel to the image. I’ll post the results up here.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/9</link>
+        <pubDate>Sat, 02 Jul 2016 14:32:15 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-50-9</guid>
+        <source url="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50.rss">Need to add transparency to an image</source>
+      </item>
+      <item>
+        <title>Need to add transparency to an image</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>In GIMP, it should be this one:<br>
+<img src="//forum.clover.moe/uploads/default/original/1X/b36b0761de870f3ed4cc0735587fdb48a46a39cd.jpg" width="177" height="147"><br>
+Eventually you have to invert the mask.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/8</link>
+        <pubDate>Sat, 02 Jul 2016 14:30:52 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-50-8</guid>
+        <source url="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50.rss">Need to add transparency to an image</source>
+      </item>
+      <item>
+        <title>Need to add transparency to an image</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>This for GIMP or Photoshop? Because I’m using GIMP for making the transparency.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/7</link>
+        <pubDate>Sat, 02 Jul 2016 14:27:00 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-50-7</guid>
+        <source url="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50.rss">Need to add transparency to an image</source>
+      </item>
+      <item>
+        <title>Need to add transparency to an image</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Correct, my bad! Than I think you only need to save the mask of the black area. I think the tool is called ‘Magic Wand’ or something in german it’s called ‘Zauberstab’ though this won’t help I think…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/6</link>
+        <pubDate>Sat, 02 Jul 2016 14:25:27 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-50-6</guid>
+        <source url="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50.rss">Need to add transparency to an image</source>
+      </item>
+      <item>
+        <title>Need to add transparency to an image</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>The other icons don’t have shaders, <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>. They have alpha channels however.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/5</link>
+        <pubDate>Sat, 02 Jul 2016 14:21:41 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-50-5</guid>
+        <source url="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50.rss">Need to add transparency to an image</source>
+      </item>
+      <item>
+        <title>Need to add transparency to an image</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>You have to mark/select the black areas, save it as mask, and you have to use the usual shader stages like the other icons (e.g. : blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA).</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/4</link>
+        <pubDate>Sat, 02 Jul 2016 14:20:51 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-50-4</guid>
+        <source url="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50.rss">Need to add transparency to an image</source>
+      </item>
+      <item>
+        <title>Need to add transparency to an image</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>GIMP just makes the whole image transparency when I do that <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>. I only want the black areas to be transparent.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/3</link>
+        <pubDate>Sat, 02 Jul 2016 14:11:47 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-50-3</guid>
+        <source url="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50.rss">Need to add transparency to an image</source>
+      </item>
+      <item>
+        <title>Need to add transparency to an image</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Save it as .png or .tga file, and make an alpha mask.<br>
+Spearmint supports .png from very beginning (ioq3ztm) whereas everything &lt; ioqq3ztm (Spearmint) only supports .tga, afaik, for alpha channel Icons at least.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/2</link>
+        <pubDate>Sat, 02 Jul 2016 14:03:42 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-50-2</guid>
+        <source url="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50.rss">Need to add transparency to an image</source>
+      </item>
+      <item>
+        <title>Need to add transparency to an image</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’m planning to use this image as an icon for a yellow skin for Visor, unfortunately, it’s a jpg so I need the transparency (otherwise it doesn’t look very professional). Mind helping me out?<br>
+Here’s the image: <a href="http://lvlworld.com/avatar/user/1722-1419637332.jpg" rel="nofollow noopener">http://lvlworld.com/avatar/user/1722-1419637332.jpg</a></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50/1</link>
+        <pubDate>Sat, 02 Jul 2016 13:57:15 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-50-1</guid>
+        <source url="https://forum.clover.moe/t/need-to-add-transparency-to-an-image/50.rss">Need to add transparency to an image</source>
+      </item>
+  </channel>
+</rss>

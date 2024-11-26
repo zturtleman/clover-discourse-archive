@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Aug 2018 19:53:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Adding another bot skill to Quake 3 - Development - Magical Clover Forum</title>
+    <meta name="description" content="I&amp;#39;m currently trying to add an additional bot skill to Quake 3. It&amp;#39;ll be &amp;quot;You Will Never Win!&amp;quot; mode, where everyone&amp;#39;s bot skill is maxed out. I&amp;#39;m having trouble figuring out where exactly the code for the bot skills lay.&amp;hellip;">
+    <meta name="author" content="">
+<meta name="generator" content="Discourse 2.1.0.beta4 - https://github.com/discourse/discourse version 94622b451a19f0f5152280f146354ab663d06eb8">
+<link rel="icon" type="image/png" href="../../uploads/default/original/1X/8d64303f6f94740f94b6a460adfb8b936d6fdb65.png">
+<link rel="apple-touch-icon" type="image/png" href="../../uploads/default/original/1X/e0bc53086df7471db874a7d0c70ce1d2d653b278.png">
+<link rel="icon" type="image/png" sizes="144x144" href="../../uploads/default/original/1X/e0bc53086df7471db874a7d0c70ce1d2d653b278.png">
+<meta name="theme-color" content="#bbeebb">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<link rel="canonical" href="55.html" />
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://forum.clover.moe","potentialAction":{"@type":"SearchAction","target":"https://forum.clover.moe/search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="Magical Clover Forum Search">
+
+      <link href="../../stylesheets/desktop_1_bdd11c5ff6b465c06e9ec1c7b16931ccf4884ce93b43.css?__ws=forum.clover.moe" media="all" rel="stylesheet" data-target="desktop" data-theme-id="1"/>
+      <link href="../../stylesheets/desktop_theme_1_e42a03b7f95c4cdf2569b14817761786616cb9de3b43.css?__ws=forum.clover.moe" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="1"/>
+    
+    
+      <link rel="alternate" type="application/rss+xml" title="RSS feed of &#39;Adding another bot skill to Quake 3&#39;" href="55.rss" />
+  <meta property="og:site_name" content="Magical Clover Forum" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://forum.clover.moe/uploads/default/original/1X/e0bc53086df7471db874a7d0c70ce1d2d653b278.png" />
+<meta property="og:image" content="https://forum.clover.moe/uploads/default/original/1X/e0bc53086df7471db874a7d0c70ce1d2d653b278.png" />
+<meta property="og:url" content="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55" />
+<meta name="twitter:url" content="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55" />
+<meta property="og:title" content="Adding another bot skill to Quake 3" />
+<meta name="twitter:title" content="Adding another bot skill to Quake 3" />
+<meta property="og:description" content="I’m currently trying to add an additional bot skill to Quake 3. It’ll be “You Will Never Win!” mode, where everyone’s bot skill is maxed out. I’m having trouble figuring out where exactly the code for the bot skills lay. I’ve already done the UI for the new bot skill, it just needs a new sound/skill image. Mind helping me out with this, guys?" />
+<meta name="twitter:description" content="I’m currently trying to add an additional bot skill to Quake 3. It’ll be “You Will Never Win!” mode, where everyone’s bot skill is maxed out. I’m having trouble figuring out where exactly the code for the bot skills lay. I’ve already done the UI for the new bot skill, it just needs a new sound/skill image. Mind helping me out with this, guys?" />
+<meta property="article:published_time" content="2016-07-12T12:53:44+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+  </head>
+  <body class="crawler">
+    
+    <header>
+      <a href="../../index.html"><img src="../../uploads/default/original/1X/e0fba8786bf072fa9d149ae89abf88bdac001685.png" alt="Magical Clover Forum" id="site-logo" style="max-width: 150px;"></a>
+    </header>
+    <div id="main-outlet" class="wrap">
+      <h1>
+  <a href="55.html">Adding another bot skill to Quake 3</a>
+</h1>
+
+<div id='breadcrumbs'>
+    <div id="breadcrumb-0" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"
+        itemref="breadcrumb-1"
+      >
+      <a href="../../c/spearmint.html" itemprop="url">
+        <span itemprop="title">Spearmint</span>
+      </a>
+    </div>
+    <div id="breadcrumb-1" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"
+>
+      <a href="../../c/spearmint/dev.html" itemprop="url">
+        <span itemprop="title">Development</span>
+      </a>
+    </div>
+</div>
+
+
+
+
+
+<hr>
+
+
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-07-12T12:53:44Z' itemprop='datePublished'>
+             2016-07-12 12:53:44 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#1</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I’m currently trying to add an additional bot skill to Quake 3. It’ll be “You Will Never Win!” mode, where everyone’s bot skill is maxed out. I’m having trouble figuring out where exactly the code for the bot skills lay. I’ve already done the UI for the new bot skill, it just needs a new sound/skill image. Mind helping me out with this, guys?</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-07-12T13:20:53Z' itemprop='datePublished'>
+             2016-07-12 13:20:53 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#2</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Maximum slill is already there: Bot skill  5  = max, = ‘Nightmare’.<br>
+The values for the bot’s skill resides in their specific bot files (e.g.: botfiles/bots/grunt_c.c etc.)</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-07-12T13:21:48Z' itemprop='datePublished'>
+             2016-07-12 13:21:48 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#3</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>It’s easy to add another bot skill however. I’ll probably go ahead &amp; do that, actually.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-07-12T13:22:28Z' itemprop='datePublished'>
+             2016-07-12 13:22:28 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#4</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Why are you asking then?</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-07-12T13:24:40Z' itemprop='datePublished'>
+             2016-07-12 13:24:40 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#5</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Because I wasn’t sure if there was somewhere I was missing in the UI or not, I’ve already got the text ready to go. I’ll show off the new bot skill when I get it all done. It’ll also include grammatically corrected chatfiles for every character in Q3 (due to there being noticeable grammatical errors in everyone’s chatfiles). I also plan to use the new skill in single player.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-07-12T14:26:37Z' itemprop='datePublished'>
+             2016-07-12 14:26:37 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#6</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I have neverwin.wav done. It was taken from <a href="https://www.freesound.org/people/gabemiller74/sounds/155633" rel="nofollow noopener">https://www.freesound.org/people/gabemiller74/sounds/155633</a>, so if you want to listen to it, then you may go there if you wish. I think it (very eerily) fits Q3 &amp; the description of “You will never win!”.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-07-13T13:59:27Z' itemprop='datePublished'>
+             2016-07-13 13:59:27 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#7</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>And of course, a compilation error ends up happening. I’ll go ahead &amp; post the code on github, gimme a second…<br>
+Here’s the code: <a href="https://github.com/coltongit/mint-arena-you-will-never-win" rel="nofollow noopener">https://github.com/coltongit/mint-arena-you-will-never-win</a><br>
+So what happens is “You Will Never Win!” apparently isn’t a pointer, &amp; I’m not sure how to make it a pointer. I looked through the UI code to figure it out, but I have a nagging suspicion that what I’m looking for is in cgame instead. Can you help me figure it out, <a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>?</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:1'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/zturtleman'><b itemprop='author'>zturtleman</b></a>
+           
+           <time datetime='2016-07-13T15:31:00Z' itemprop='datePublished'>
+             2016-07-13 15:31:00 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#8</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <pre><code class="lang-auto">
+static const char *botSkill_list[] = {
+	"I Can Win",
+	"Bring It On",
+	"Hurt Me Plenty",
+	"Hardcore",
+	"Nightmare!",
+	"You Will Never Win!"
+	NULL
+};
+</code></pre>
+<p>You’re missing a comma after “You Will Never Win!”.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-07-13T15:34:04Z' itemprop='datePublished'>
+             2016-07-13 15:34:04 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#9</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Just a dern comma did that? Geez…</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-07-13T15:36:52Z' itemprop='datePublished'>
+             2016-07-13 15:36:52 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#10</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>And what skill will bots have then? I mean, Nightmare is alread skill 5, so you need new botfiles with skill 6?</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-07-13T15:38:43Z' itemprop='datePublished'>
+             2016-07-13 15:38:43 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#11</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>The bots will be maxed out in every level with skill 6. Things are only gonna get fun around here…</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-07-13T15:44:53Z' itemprop='datePublished'>
+             2016-07-13 15:44:53 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#12</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Sorry to ask again, but what do you mean with ‘maxed out’?</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-07-13T15:47:36Z' itemprop='datePublished'>
+             2016-07-13 15:47:36 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#13</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>All the bots are unstoppable. Even without bot_challenge they are a nightmare to defeat. They’ll even hit you when they aren’t even at the corner yet. That’s how good they are.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-07-13T23:36:15Z' itemprop='datePublished'>
+             2016-07-13 23:36:15 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#14</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I get “WARNING: out of range shader” when I try to use the new difficulty &amp; also, the bots go back to their skill 5 botfiles. How exactly do you think that should be fixed? I’ve updated the code, so you could go ahead &amp; see it in action for yourself.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-07-14T00:06:44Z' itemprop='datePublished'>
+             2016-07-14 00:06:44 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#15</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Quick check:</p>
+<ol>
+<li>Iirc, g_spSkill has Com_Clamp. (this means it ranges from 1-5), you try to set it to &gt; 5.</li>
+<li>Bot skill is float, you can add bots with skill, 2.4, or 3.7, or 4.4, or whatever, but not more than 5 or so.</li>
+<li>As already said, there is NO skill 6 for bots (inside the botfiles), so I don’t know what you want to access?</li>
+<li>BTW, you also removed the bots handicap.</li>
+</ol>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-07-14T00:32:23Z' itemprop='datePublished'>
+             2016-07-14 00:32:23 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#16</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I thought they didn’t need it &amp; it also makes them slightly harder on those difficulties. That change was intentional <a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>. And also, yes,  I’m making the skill 6 for the botfiles, so no need to worry about that at this point in time. And how do you increase the clamp anyway?</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Adding another bot skill to Quake 3'>
+      <hr>
+  </div>
+
+
+
+
+
+
+    </div>
+    <footer class="container">
+      <nav itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <a href='../../index.html'>Home</a>
+        <a href="../../categories.html">Categories</a>
+        <a href="../../guidelines.html">FAQ/Guidelines</a>
+        <a href="../../tos.html">Terms of Service</a>
+        <a href="../../privacy.html">Privacy Policy</a>
+      </nav>
+      <p>Powered by <a href="https://www.discourse.org/">Discourse</a>, best viewed with JavaScript enabled</p>
+    </footer>
+    
+  </body>
+  
+
+<!-- Mirrored from forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Aug 2018 19:53:25 GMT -->
+</html>

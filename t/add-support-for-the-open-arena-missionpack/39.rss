@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Add support for the Open Arena missionpack</title>
+    <link>https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39</link>
+    <description>I know this missionpack is a bit prototypical (for my taste at least), but is it possible to give Spearmint support for it? Should be named something like &quot;oamissionpack&quot; or &quot;oamp&quot; or something like that. I would like to see support for it in the forseeable future, @zturtleman.</description>
+    
+    <lastBuildDate>Mon, 20 Jun 2016 23:19:50 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Add support for the Open Arena missionpack</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>That makes sense (the naming scheme at least)…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39/5</link>
+        <pubDate>Mon, 20 Jun 2016 23:19:50 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-39-5</guid>
+        <source url="https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39.rss">Add support for the Open Arena missionpack</source>
+      </item>
+      <item>
+        <title>Add support for the Open Arena missionpack</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>It seemed like missionpackoa fit with the baseoa naming.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39/4</link>
+        <pubDate>Mon, 20 Jun 2016 16:14:10 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-39-4</guid>
+        <source url="https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39.rss">Add support for the Open Arena missionpack</source>
+      </item>
+      <item>
+        <title>Add support for the Open Arena missionpack</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Thanks <a class="mention" href="/u/zturtleman">@zturtleman</a>! So it’s set up as missionpackoa then…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39/3</link>
+        <pubDate>Mon, 20 Jun 2016 13:52:35 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-39-3</guid>
+        <source url="https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39.rss">Add support for the Open Arena missionpack</source>
+      </item>
+      <item>
+        <title>Add support for the Open Arena missionpack</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <aside class="onebox githubcommit">
+  <header class="source">
+      <a href="https://github.com/zturtleman/spearmint-patch-data/commit/5da2e2c075e8d08dd639c5694644cdc5ad162bb0" target="_blank" rel="nofollow noopener">github.com/zturtleman/spearmint-patch-data</a>
+  </header>
+  <article class="onebox-body">
+      <a href="https://github.com/zturtleman" target="_blank" rel="nofollow noopener">
+    <img alt="zturtleman" src="https://avatars2.githubusercontent.com/u/405505?v=4" class="thumbnail onebox-avatar" width="90" height="90">
+  </a>
+
+<h4>
+  <a href="https://github.com/zturtleman/spearmint-patch-data/commit/5da2e2c075e8d08dd639c5694644cdc5ad162bb0" target="_blank" rel="nofollow noopener">Add OpenArena missionpack</a>
+</h4>
+
+
+<div class="date">
+  by <a href="https://github.com/zturtleman" target="_blank" rel="nofollow noopener">zturtleman</a>
+  on <a href="https://github.com/zturtleman/spearmint-patch-data/commit/5da2e2c075e8d08dd639c5694644cdc5ad162bb0" target="_blank" rel="nofollow noopener">02:49PM - 19 Jun 16</a>
+</div>
+
+<div class="github-commit-stats">
+  changed <strong>3 files</strong>
+  with <strong>28 additions</strong>
+  and <strong>0 deletions</strong>.
+</div>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39/2</link>
+        <pubDate>Sun, 19 Jun 2016 15:04:31 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-39-2</guid>
+        <source url="https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39.rss">Add support for the Open Arena missionpack</source>
+      </item>
+      <item>
+        <title>Add support for the Open Arena missionpack</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I know this missionpack is a bit prototypical (for my taste at least), but is it possible to give Spearmint support for it? Should be named something like “oamissionpack” or “oamp” or something like that. I would like to see support for it in the forseeable future, <a class="mention" href="/u/zturtleman">@zturtleman</a>.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39/1</link>
+        <pubDate>Wed, 15 Jun 2016 10:45:04 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-39-1</guid>
+        <source url="https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39.rss">Add support for the Open Arena missionpack</source>
+      </item>
+  </channel>
+</rss>

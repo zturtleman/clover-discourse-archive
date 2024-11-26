@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Camera adhesion/Aim assist for controllers?</title>
+    <link>https://forum.clover.moe/t/camera-adhesion-aim-assist-for-controllers/91</link>
+    <description>Hello! I&#39;m checking out Spearmint Q3A as an option for a splitscreen LAN party thingy. I intend to pitch this game as something to play instead of our usual fallback, Halo: Reach, but something that has me concerned is the lack of camera adhesion or aim assist for controllers, as I don&#39;t think my friends would be willing to play without that crutch. Is there a way to enable it, even if it is something of a weird hack? Thanks in advance!</description>
+    
+    <lastBuildDate>Thu, 12 Jan 2017 03:56:11 +0000</lastBuildDate>
+    <category>Spearmint</category>
+    <atom:link href="https://forum.clover.moe/t/camera-adhesion-aim-assist-for-controllers/91.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Camera adhesion/Aim assist for controllers?</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>No, there aren’t any aim assist options.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/camera-adhesion-aim-assist-for-controllers/91/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/camera-adhesion-aim-assist-for-controllers/91/2</link>
+        <pubDate>Thu, 12 Jan 2017 03:56:11 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-91-2</guid>
+        <source url="https://forum.clover.moe/t/camera-adhesion-aim-assist-for-controllers/91.rss">Camera adhesion/Aim assist for controllers?</source>
+      </item>
+      <item>
+        <title>Camera adhesion/Aim assist for controllers?</title>
+        <dc:creator><![CDATA[@lain]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/lain">@lain</a> wrote:</p>
+          <blockquote>
+              <p>Hello! I’m checking out Spearmint Q3A as an option for a splitscreen LAN party thingy. I intend to pitch this game as something to play instead of our usual fallback, Halo: Reach, but something that has me concerned is the lack of camera adhesion or aim assist for controllers, as I don’t think my friends would be willing to play without that crutch. Is there a way to enable it, even if it is something of a weird hack? Thanks in advance!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/camera-adhesion-aim-assist-for-controllers/91/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/camera-adhesion-aim-assist-for-controllers/91/1</link>
+        <pubDate>Mon, 09 Jan 2017 15:54:21 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-91-1</guid>
+        <source url="https://forum.clover.moe/t/camera-adhesion-aim-assist-for-controllers/91.rss">Camera adhesion/Aim assist for controllers?</source>
+      </item>
+  </channel>
+</rss>

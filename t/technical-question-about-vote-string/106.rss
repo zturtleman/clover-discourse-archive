@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Technical question about VOTE string</title>
+    <link>https://forum.clover.moe/t/technical-question-about-vote-string/106</link>
+    <description>Hello everyone who read this!
+
+My question is concerning something I consider as a bug in idtech3, though I&#39;m not 100% sure if it is a bug at all!
+
+**THE** (possible) **BUG:**
+In some specific situations the VOTE string (most notably with Team Arena mod) don&#39;t vanish. The text/string will stay on screen until a new map restart. This happens if more than one vote is called. For example you vote for a new map, and realize you voted for the wrong map and will vote again for the correct map you was looking for.
+It seems as if the vote commands are added in a vote queue, but I never saw that the vote system is working like this, maybe I missed something here...
+
+**HOW TO REPRODUCE:**
+1. Start Team Arena mod (either via Spearmint or ioquake3).
+2. Start any map e.g.: q3dm1.
+3. Now open the VOTE menu and vote for a new/different map (e.g.: q3dm2).
+4. The menu will close, immediatly before the new map will restart bring down the VOTE menu again and vote for another different map (e.g.: q3dm3).
+5. Now the first map voted for will start and the Vote string: _Vote: Yes: 0, No: 0. Press F1 to vote for Yes or F2 to vote for No (or press ESC then click Vote)._ will appear on screen.
+6. No matter what you do, the vote string will not disappear, as long as a new map restart will happen.
+
+Now my **QUESTIONS** are:
+A: Is this a common idtech3 bug, or is this behaviour intentionally?
+B: Personally I find this behaviour annoying, does someone know how to fix this, even if it isn&#39;t a bug at all?
+
+All suggestions and every information is welcome!
+Thank you!</description>
+    
+    <lastBuildDate>Fri, 31 Mar 2017 18:10:52 +0000</lastBuildDate>
+    <category>id Tech 3</category>
+    <atom:link href="https://forum.clover.moe/t/technical-question-about-vote-string/106.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Technical question about VOTE string</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Thank you very much zturtleman!</p>
+<p>The solution you suggested works fine!<br>
+Code is applied and credit is given to you on my personal Spearmint project!<br>
+Probably useful for all Spearmint mods and even ioquake3!<br>
+Anyways,…</p>
+<p>Thanks a lot! <img src="//forum.clover.moe/images/emoji/twitter/+1.png?v=5" title=":+1:" class="emoji" alt=":+1:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/technical-question-about-vote-string/106/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/technical-question-about-vote-string/106/3</link>
+        <pubDate>Fri, 31 Mar 2017 18:10:52 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-106-3</guid>
+        <source url="https://forum.clover.moe/t/technical-question-about-vote-string/106.rss">Technical question about VOTE string</source>
+      </item>
+      <item>
+        <title>Technical question about VOTE string</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>Work around: CGame doesn’t check for vote configstrings when it starts (which is a bug) so running <code>vid_restart</code> will stop drawing the vote string. <img src="//forum.clover.moe/images/emoji/twitter/sunglasses.png?v=5" title=":sunglasses:" class="emoji" alt=":sunglasses:"></p>
+<hr>
+<p>What you describe is a bug. When the second <code>callvote</code> happens Cmd_CallVote_f() sees that there was a vote that hasn’t been executed yet. The vote string is added to the command buffer so it’s executed when the server runs Cbuf_Execute().</p>
+<pre><code class="lang-auto">Cmd_CallVote_f()
+
+	// if there is still a vote to be executed
+	if ( level.voteExecuteTime ) {
+		level.voteExecuteTime = 0;
+		trap_SendConsoleCommand( EXEC_APPEND, va("%s\n", level.voteString ) );
+	}
+</code></pre>
+<p>Then Cmd_CallVote_f() sets up the new vote which adds pending reliable “cs” commands with the vote configstring changes. The server runs Cbuf_Execute() and changes map and clears configstrings. The client reliable commands still have “cs” commands. The next snapshot will contain the map change and the configstrings changes (“cs” reliable commands) from <em>before</em> the map change resulting in the client having different configstrings than the server!</p>
+<p>So the client has configstrings not set on the server and display the message for a vote that does not exist on the server.</p>
+<p>Running <code>configstrings; vid_restart; configstrings</code>; first list has the vote strings but second list does not because server does not have them set.</p>
+<hr>
+<p>The simplest solution is probably to drop call vote when already voted to change maps.</p>
+<pre><code class="lang-auto">Cmd_CallVote_f()
+
+	// if there is still a vote to be executed
+	if ( level.voteExecuteTime ) {
+		// don't start a vote when map change or restart is in progress
+		if ( !Q_stricmpn( level.voteString, "map", 3 )
+			|| !Q_stricmpn( level.voteString, "nextmap ", 7 ) ) {
+			trap_SendServerCommand( ent-g_entities, "print \"Vote after map change.\n\"" );
+			return;
+		}
+
+		level.voteExecuteTime = 0;
+		trap_SendConsoleCommand( EXEC_APPEND, va("%s\n", level.voteString ) );
+	}
+</code></pre>
+<p>Alternatively the game VM could handle carrying the vote across map change. Though, CGame always disables vote string when map_restart happens and CGame doesn’t check for vote on start up. So unless CGame is changed, carrying the call vote across map change/restart seems like a bad idea.</p>
+<p>This could be solved by fixing the issue where clients have different configstrings than the server. However, then callvote just forces map change and the vote disappears so it doesn’t really serve a purpose. It’s probably still a good idea to ignore callvote after voted for map change.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/technical-question-about-vote-string/106/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/technical-question-about-vote-string/106/2</link>
+        <pubDate>Fri, 31 Mar 2017 15:36:00 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-106-2</guid>
+        <source url="https://forum.clover.moe/t/technical-question-about-vote-string/106.rss">Technical question about VOTE string</source>
+      </item>
+      <item>
+        <title>Technical question about VOTE string</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Hello everyone who read this!</p>
+<p>My question is concerning something I consider as a bug in idtech3, though I’m not 100% sure if it is a bug at all!</p>
+<p><strong>THE</strong> (possible) <strong>BUG:</strong><br>
+In some specific situations the VOTE string (most notably with Team Arena mod) don’t vanish. The text/string will stay on screen until a new map restart. This happens if more than one vote is called. For example you vote for a new map, and realize you voted for the wrong map and will vote again for the correct map you was looking for.<br>
+It seems as if the vote commands are added in a vote queue, but I never saw that the vote system is working like this, maybe I missed something here…</p>
+<p><strong>HOW TO REPRODUCE:</strong></p>
+<ol>
+<li>Start Team Arena mod (either via Spearmint or ioquake3).</li>
+<li>Start any map e.g.: q3dm1.</li>
+<li>Now open the VOTE menu and vote for a new/different map (e.g.: q3dm2).</li>
+<li>The menu will close, immediatly before the new map will restart bring down the VOTE menu again and vote for another different map (e.g.: q3dm3).</li>
+<li>Now the first map voted for will start and the Vote string: <em>Vote: Yes: 0, No: 0. Press F1 to vote for Yes or F2 to vote for No (or press ESC then click Vote).</em> will appear on screen.</li>
+<li>No matter what you do, the vote string will not disappear, as long as a new map restart will happen.</li>
+</ol>
+<p>Now my <strong>QUESTIONS</strong> are:<br>
+A: Is this a common idtech3 bug, or is this behaviour intentionally?<br>
+B: Personally I find this behaviour annoying, does someone know how to fix this, even if it isn’t a bug at all?</p>
+<p>All suggestions and every information is welcome!<br>
+Thank you!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/technical-question-about-vote-string/106/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/technical-question-about-vote-string/106/1</link>
+        <pubDate>Wed, 29 Mar 2017 18:18:30 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-106-1</guid>
+        <source url="https://forum.clover.moe/t/technical-question-about-vote-string/106.rss">Technical question about VOTE string</source>
+      </item>
+  </channel>
+</rss>

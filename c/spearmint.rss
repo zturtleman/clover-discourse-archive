@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Spearmint - Magical Clover Forum</title>
+    <link>https://forum.clover.moe/c/spearmint</link>
+    <description>Topics in the &#39;Spearmint&#39; category Discussions about the &lt;a href=&quot;https://clover.moe/spearmint&quot;&gt;Spearmint engine&lt;/a&gt;.</description>
+    
+      <lastBuildDate>Mon, 11 Dec 2017 20:34:50 +0000</lastBuildDate>
+      <atom:link href="https://forum.clover.moe/c/spearmint.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Supporting other q3 based games</title>
+          <dc:creator><![CDATA[@technobone Technobone]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/technobone">@technobone</a> wrote:</p>
+            <blockquote>
+              <p>First things first, this engine is brilliant, breaths new life into quake and me and my pals are loving the splitscreen/ gamepad support, i’m just wondering if there is any plans to support any other q3 engine based games such as xonotic or nexquiz?</p>
+            </blockquote>
+            <p>Posts: 7</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/supporting-other-q3-based-games/149">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/supporting-other-q3-based-games/149</link>
+          <pubDate>Mon, 11 Dec 2017 20:34:50 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-149</guid>
+          <source url="https://forum.clover.moe/t/supporting-other-q3-based-games/149.rss">Supporting other q3 based games</source>
+        </item>
+        <item>
+          <title>Dedicated Server Crashes on startup</title>
+          <dc:creator><![CDATA[@Rellik711 Casey Peenie]]></dc:creator>
+          <category>Support</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/rellik711">@Rellik711</a> wrote:</p>
+            <blockquote>
+              <p>title says it all, trying to start a dedicated server for my pals and whenever I start the server program (both 32 bit and 64 bit) they both crash right when I start them. I’m wondering if anyone here could help me with this. or at least point me in the right direction. thank you all for your time.</p>
+            </blockquote>
+            <p>Posts: 5</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/dedicated-server-crashes-on-startup/130">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/dedicated-server-crashes-on-startup/130</link>
+          <pubDate>Sat, 19 Aug 2017 22:48:47 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-130</guid>
+          <source url="https://forum.clover.moe/t/dedicated-server-crashes-on-startup/130.rss">Dedicated Server Crashes on startup</source>
+        </item>
+        <item>
+          <title>Cheat Protected Commands</title>
+          <dc:creator><![CDATA[@SolivaN Freddy]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/solivan">@SolivaN</a> wrote:</p>
+            <blockquote>
+              <p>Hi guys,</p>
+<p>Well, I’ve tested this engine and this is the most flawessly that all others source ports (Berserker 3, iouake 3, OpenArena, etc).</p>
+<p>Finally, a source port that correct’s the <strong>Aspect correct wide screen FOV and HUD in Q3A!</strong></p>
+<p>However, I like to use some of more of FOV (cg_fov 100), and when I do this, the Weapon HUD still begin to streching.</p>
+<p>The maner that I fix this, is changin the values of 3 variables:</p>
+<p>cg_gunx,<br>
+cg_guny<br>
+cg_gunz</p>
+<p>Sadly, I don’t know why, the developers block this variables with the “Cheat Protected” restriction.</p>
+<p>In this same way, ioquake (Spearmint too), blocks a newer variables that correspond with the graphics part, I mean:</p>
+<p>r_forcesun<br>
+r_ambientscale</p>
+<p>Why?</p>
+<p>Why the developer block this variables if this variables are really AWESOME!</p>
+<p>The only way to play with this variables is through <strong><em>devmap</em></strong> command, but is not the optimus way to probe this engine.</p>
+<p>Well, resuming, there’s a way to unlock the following variables? (compiling a new engine, modifing the current Spearmint engine, etc):</p>
+<p><strong>OLD VARIABLES</strong></p>
+<p><em><strong>Graphics Part</strong></em><br>
+seta r_znear<br>
+seta r_lodcurveerror</p>
+<p><strong><em>HUD Part</em></strong><br>
+cg_gunx<br>
+cg_guny<br>
+cg_gunz</p>
+<p><strong>NEWER VARIABLES (ONLY IN SPEARMINT)</strong></p>
+<p><em><strong>Graphics Part</strong></em><br>
+r_forcesun<br>
+r_ambientscale</p>
+<p>Well, I hope that changing this aspect of this engine may be possible.</p>
+<p>See ya!</p>
+            </blockquote>
+            <p>Posts: 27</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/cheat-protected-commands/98">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/cheat-protected-commands/98</link>
+          <pubDate>Fri, 10 Feb 2017 15:23:41 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-98</guid>
+          <source url="https://forum.clover.moe/t/cheat-protected-commands/98.rss">Cheat Protected Commands</source>
+        </item>
+        <item>
+          <title>Camera adhesion/Aim assist for controllers?</title>
+          <dc:creator><![CDATA[@lain]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/lain">@lain</a> wrote:</p>
+            <blockquote>
+              <p>Hello! I’m checking out Spearmint Q3A as an option for a splitscreen LAN party thingy. I intend to pitch this game as something to play instead of our usual fallback, Halo: Reach, but something that has me concerned is the lack of camera adhesion or aim assist for controllers, as I don’t think my friends would be willing to play without that crutch. Is there a way to enable it, even if it is something of a weird hack? Thanks in advance!</p>
+            </blockquote>
+            <p>Posts: 2</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/camera-adhesion-aim-assist-for-controllers/91">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/camera-adhesion-aim-assist-for-controllers/91</link>
+          <pubDate>Mon, 09 Jan 2017 15:54:21 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-91</guid>
+          <source url="https://forum.clover.moe/t/camera-adhesion-aim-assist-for-controllers/91.rss">Camera adhesion/Aim assist for controllers?</source>
+        </item>
+        <item>
+          <title>Bot fix for full q3a</title>
+          <dc:creator><![CDATA[@ZaRR ZaRR]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zarr">@ZaRR</a> wrote:</p>
+            <blockquote>
+              <p><strong>Warning</strong>, you need to press the <strong>BLUE</strong> button “Скачать” in the middle to download.<br>
+Bot fix: they will use all weapons instead of gauntlet only. (Actually ZTM already made a patch for the demo of the game in github, but mine also works)<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://img.imgsmail.ru/cloud/img/build/release_CLOUDWEB-7811_53.201712191723/favicon32x32.png" class="site-icon" width="32" height="32">
+      <a href="https://cloud.mail.ru/public/9CMu/VbckXSYrN" target="_blank" rel="nofollow noopener">Облако@Mail.Ru</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://img.imgsmail.ru/cloud/img/publish.v2.png" class="thumbnail onebox-avatar" width="300" height="300">
+
+<h3><a href="https://cloud.mail.ru/public/9CMu/VbckXSYrN" target="_blank" rel="nofollow noopener">Файл из Облака Mail.Ru</a></h3>
+
+<p>Облако Mail.Ru - это ваше персональное надежное хранилище в интернете. Все нужные файлы всегда под рукой, доступны в любой точке мира с компьютера или смартфона.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+            </blockquote>
+            <p>Posts: 1</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/bot-fix-for-full-q3a/83">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/bot-fix-for-full-q3a/83</link>
+          <pubDate>Sun, 27 Nov 2016 11:01:15 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-83</guid>
+          <source url="https://forum.clover.moe/t/bot-fix-for-full-q3a/83.rss">Bot fix for full q3a</source>
+        </item>
+        <item>
+          <title>Brainworks bot mod</title>
+          <dc:creator><![CDATA[@ZaRR ZaRR]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zarr">@ZaRR</a> wrote:</p>
+            <blockquote>
+              <p><aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://assets-cdn.github.com/favicon.ico" class="site-icon" width="32" height="32">
+      <a href="https://github.com/Garey27/quake3-brainworks" target="_blank" rel="nofollow noopener">GitHub</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://avatars2.githubusercontent.com/u/4866813?s=400&amp;v=4" class="thumbnail onebox-avatar" width="420" height="420">
+
+<h3><a href="https://github.com/Garey27/quake3-brainworks" target="_blank" rel="nofollow noopener">Garey27/quake3-brainworks</a></h3>
+
+<p>Automatically exported from code.google.com/p/quake3-brainworks</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+<strong>ZTM</strong>, can you please make this bot mod compatible with the Spearmint?<br>
+For me thoose bots plays also pretty nice. It has source code and released already version.<br>
+Brainworks includes:<br>
+Sound and visual awareness system<br>
+Randomized dodging in battles<br>
+Avoidance of incoming missiles<br>
+Strafejumping<br>
+Improved enemy aiming<br>
+Goal and score-based selection of item pickups<br>
+Timing of item respawns<br>
+Dynamic weapon selection (based on weapon accuracy)<br>
+Redesigned internal goal selection<br>
+Redesigned internal aim selection<br>
+Redesigned Teamplay logic<br>
+Rewritten chat code<br>
+Redesigned internal logic infrastructure</p>
+            </blockquote>
+            <p>Posts: 4</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/brainworks-bot-mod/82">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/brainworks-bot-mod/82</link>
+          <pubDate>Sun, 27 Nov 2016 10:53:39 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-82</guid>
+          <source url="https://forum.clover.moe/t/brainworks-bot-mod/82.rss">Brainworks bot mod</source>
+        </item>
+        <item>
+          <title>Discord channel</title>
+          <dc:creator><![CDATA[@ZaRR ZaRR]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zarr">@ZaRR</a> wrote:</p>
+            <blockquote>
+              <p>Here: <a href="https://discord.gg/ss4ZxrW" rel="nofollow noopener">https://discord.gg/ss4ZxrW</a><br>
+Always will be glad to play online with someone. With bots, without doesn’t matter.</p>
+<p>For thoose who wonder why to use Discord I’ll say that it’s runs so fast! Skype is full of ads, lags, spy things.<br>
+Currently soon screensharing will be added in Discord, but what I wait it’s VIDEO call, so it beat skype out completely.<br>
+Well, just check the official site of Discord. And it’s crossplatform.</p>
+            </blockquote>
+            <p>Posts: 1</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/discord-channel/81">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/discord-channel/81</link>
+          <pubDate>Sun, 27 Nov 2016 10:38:48 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-81</guid>
+          <source url="https://forum.clover.moe/t/discord-channel/81.rss">Discord channel</source>
+        </item>
+        <item>
+          <title>We need more activity on Spearmint</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I’ve been wondering if Zack’s still going to continue development of Spearmint. I haven’t seen any development news since July. Is 0.5 still going as planned?</p>
+            </blockquote>
+            <p>Posts: 2</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/we-need-more-activity-on-spearmint/67">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/we-need-more-activity-on-spearmint/67</link>
+          <pubDate>Tue, 06 Sep 2016 21:56:31 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-67</guid>
+          <source url="https://forum.clover.moe/t/we-need-more-activity-on-spearmint/67.rss">We need more activity on Spearmint</source>
+        </item>
+        <item>
+          <title>Currently implementing the Q3 demotest UI (along with the load/save config menus)</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I’ve got the cvar already ready, it’s called “ui_demoq3test” &amp; it will include the menu text featured in the demotest as well as the load/save config menus. Otherwise, it will function similarly to the demo. Also, an option to load the demo ending cutscene was also implemented. I know other things need to be done before it will look exactly like the original, but I think this may help make it take shape cosmetically &amp; functionally. Just how are you supposed to make menu options disappear using a cvar anyway? Mind helping me out here anyone?</p>
+            </blockquote>
+            <p>Posts: 5</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60</link>
+          <pubDate>Mon, 18 Jul 2016 15:23:50 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-60</guid>
+          <source url="https://forum.clover.moe/t/currently-implementing-the-q3-demotest-ui-along-with-the-load-save-config-menus/60.rss">Currently implementing the Q3 demotest UI (along with the load/save config menus)</source>
+        </item>
+        <item>
+          <title>Botlib in Game VM</title>
+          <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+            <blockquote>
+              <p>I ported the botlib (except the C preprocessor which is also used by Team Arena CGame/UI) into the Game VM. This required the ability to free memory, which was added in Spearmint devil branch and released in Spearmint 0.4. See <a href="https://github.com/zturtleman/mint-arena/tree/botlib">botlib branch</a>.</p>
+<p>I’m planning to move files I had previously ported to Game VM back into the botlib. The main reason I’m holding off merging it into master branch is because BSPC requires parts of the botlib in the engine.</p>
+<p>I have a <a href="https://github.com/zturtleman/mint-arena/tree/botlib">bspc branch</a> with it ported to mint-arena based on the botlib branch but it require a bunch of engine code, including BSP and ZIP loading and the C preprocessor, to be duplicated. <img src="//forum.clover.moe/images/emoji/twitter/weary.png?v=5" title=":weary:" class="emoji" alt=":weary:"></p>
+<p>So I’m still working through how to handle this, but it will happen eventually.</p>
+            </blockquote>
+            <p>Posts: 5</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/botlib-in-game-vm/58">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/botlib-in-game-vm/58</link>
+          <pubDate>Wed, 13 Jul 2016 16:20:34 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-58</guid>
+          <source url="https://forum.clover.moe/t/botlib-in-game-vm/58.rss">Botlib in Game VM</source>
+        </item>
+        <item>
+          <title>Adding another bot skill to Quake 3</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Development</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I’m currently trying to add an additional bot skill to Quake 3. It’ll be “You Will Never Win!” mode, where everyone’s bot skill is maxed out. I’m having trouble figuring out where exactly the code for the bot skills lay. I’ve already done the UI for the new bot skill, it just needs a new sound/skill image. Mind helping me out with this, guys?</p>
+            </blockquote>
+            <p>Posts: 16</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55</link>
+          <pubDate>Tue, 12 Jul 2016 12:53:44 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-55</guid>
+          <source url="https://forum.clover.moe/t/adding-another-bot-skill-to-quake-3/55.rss">Adding another bot skill to Quake 3</source>
+        </item>
+        <item>
+          <title>Found a bug with Spearmint</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>This bug exists in ioq3 &amp; classic Q3 as well. The bug is as follows:</p>
+<ol>
+<li>Start a TDM on any map (I used q3dm7)</li>
+<li>Have at least one person on both teams (I tested with at least 4 bots on Blue &amp; 1 on Red)</li>
+<li>Have everyone on your team kill the only bot on Red (might also happen with just one teammate, untested however)</li>
+<li>If you didn’t give these teammates a new order, after a while, “ERROR: PlayerName: player name out of range” or similar will occur. Bug happens on Q3 1.32c &amp; possibly even the original source code has this bug. Unknown if the bug happens on earlier versions of Q3. Mind fixing this (&amp; the stuck in RA room q3dm7 issue) before Spearmint 0.4 if possible <a class="mention" href="/u/zturtleman">@zturtleman</a>? Thanks in advance.</li>
+</ol>
+            </blockquote>
+            <p>Posts: 2</p>
+            <p>Participants: 1</p>
+            <p><a href="https://forum.clover.moe/t/found-a-bug-with-spearmint/54">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/found-a-bug-with-spearmint/54</link>
+          <pubDate>Fri, 08 Jul 2016 21:43:39 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-54</guid>
+          <source url="https://forum.clover.moe/t/found-a-bug-with-spearmint/54.rss">Found a bug with Spearmint</source>
+        </item>
+        <item>
+          <title>Moving up Spearmint 0.4 release date</title>
+          <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+            <blockquote>
+              <p>I’m going to try to fix the <a href="https://github.com/zturtleman/spearmint/issues/248">activate entity regression on nodm7</a> over the weekend and publish the new Spearmint 0.4 release on July 13 2016.</p>
+<p>I’m tried of waiting for August to get here. I’d like to just do the release and move on. Also, ioq3 merged a pull request that removes Mac OS X 10.5 and 10.6 support, which I don’t want to merge into Spearmint right now or deal with “fixing it”.</p>
+<p>I’m planning to release a new version of Turtle Arena in August. That’s the only reason Spearmint 0.4 got moved from January 13 2017 (a Friday the 13th) to August 13 2016. Moving Spearmint to July might also make it easier to focus on Turtle Arena.</p>
+            </blockquote>
+            <p>Posts: 5</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53</link>
+          <pubDate>Wed, 06 Jul 2016 17:04:04 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-53</guid>
+          <source url="https://forum.clover.moe/t/moving-up-spearmint-0-4-release-date/53.rss">Moving up Spearmint 0.4 release date</source>
+        </item>
+        <item>
+          <title>Player icons should use icons from the team selected in a player slot</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>For instance, you select the Blue team on a player slot, once you go into the player select, now the icons displayed will be the blue team icons. The same happens for the Red team, except if a player slot has the Red team &amp; you’re choosing a bot to occupy that player slot, the red team icons will display instead, and so forth depending on the team selected on that player slot. Is it possible to implement that without headaches, <a class="mention" href="/u/zturtleman">@zturtleman</a>? Is this a good idea for Spearmint <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>? Is <a class="mention" href="/u/zturtleman">@zturtleman</a> wanting to go that direction with it?</p>
+            </blockquote>
+            <p>Posts: 3</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52</link>
+          <pubDate>Sat, 02 Jul 2016 17:19:30 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-52</guid>
+          <source url="https://forum.clover.moe/t/player-icons-should-use-icons-from-the-team-selected-in-a-player-slot/52.rss">Player icons should use icons from the team selected in a player slot</source>
+        </item>
+        <item>
+          <title>Missing Team Arena pk3 files from Steam?</title>
+          <dc:creator><![CDATA[@warmbaguettes]]></dc:creator>
+          <category>Support</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/warmbaguettes">@warmbaguettes</a> wrote:</p>
+            <blockquote>
+              <p>Hello!</p>
+<p>I have both Q3A and Team Arena on Steam. Q3 has all the pk3 required for spearmint to run (0-8) but my missionpack folder only has pak0.pk3, and the readme says it needs 0-4. Team Arena works fine native from Steam, though.</p>
+<p>Where can I get those missing pk3 files?</p>
+            </blockquote>
+            <p>Posts: 8</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47</link>
+          <pubDate>Thu, 30 Jun 2016 15:57:46 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-47</guid>
+          <source url="https://forum.clover.moe/t/missing-team-arena-pk3-files-from-steam/47.rss">Missing Team Arena pk3 files from Steam?</source>
+        </item>
+        <item>
+          <title>Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>Spearmint should be fixing up the ladders &amp; making them climbable by both bots &amp; humans. There are a few examples of maps with ladders in Q2/Q1, &amp; I think once ladders are fixed for bots/humans, these maps will be perfectly navigable in Spearmint. Don’t you agree <a class="mention" href="/u/zturtleman">@zturtleman</a>?</p>
+            </blockquote>
+            <p>Posts: 20</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44</link>
+          <pubDate>Thu, 30 Jun 2016 02:52:02 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-44</guid>
+          <source url="https://forum.clover.moe/t/fix-up-the-ladders-make-them-climbable-even-make-bots-use-ladder-reachablilities/44.rss">Fix up the ladders &amp; make them climbable (&amp; even make bots use ladder reachablilities)</source>
+        </item>
+        <item>
+          <title>Add an option for 3rd person rendering in the options menu</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>This could be done both ingame or at the main menu. Would make it easier for someone to select 3rd person rendering. If only that was done, <a class="mention" href="/u/zturtleman">@zturtleman</a>…</p>
+            </blockquote>
+            <p>Posts: 3</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/add-an-option-for-3rd-person-rendering-in-the-options-menu/43">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/add-an-option-for-3rd-person-rendering-in-the-options-menu/43</link>
+          <pubDate>Thu, 23 Jun 2016 13:54:11 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-43</guid>
+          <source url="https://forum.clover.moe/t/add-an-option-for-3rd-person-rendering-in-the-options-menu/43.rss">Add an option for 3rd person rendering in the options menu</source>
+        </item>
+        <item>
+          <title>Programming three team CTF</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Development</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I was wanting to use it because I wanted to make a green team mod &amp; a new 3-way CTF gametype for it, but it turns out quite a bit of g_team.c &amp; ai_team.c would have to be rewritten because of this…<br>
+Currently, the only 2 possible values for the friendly/enemy team would be TEAM_RED &amp; TEAM_BLUE, I would like those to be TEAM_FRIENDLY, TEAM_ENEMY1, &amp; TEAM_ENEMY2 for this gametype to be possible… Those values should be wildcards, and should be controlled by which teams are in the map, for ex. Blue &amp; Red are at it again in 2-way CTF, TEAM_FRIENDLY would be the team that the bots/humans are on (on the Blue Team’s case, it would be TEAM_BLUE, &amp; for the Red Team, it would be TEAM_RED. TEAM_ENEMY1 would be the opposite team (opposite values than TEAM_FRIENDLY), &amp; TEAM_ENEMY2 would be set to no team, since there’s only 2 teams in that CTF. This configuration would allow you to select more than the blue/red team in 2-team CTF, &amp; all 3 teams in 3-team CTF. I know what you’re thinking <a class="mention" href="/u/zturtleman">@zturtleman</a>, it’s a bit unorthodox to have 3 teams in CTF, isn’t it? TEAM_FRIENDLY would in this case depend on whichever team you selected/whatever bots were selected to go there. Same with TEAM_ENEMY1 &amp; TEAM_ENEMY2. Gameplay’s the same, except this time, there are 2 enemies of your team instead of one, &amp; if you grab both teams’ flags, you earn 2 captures for your team because you captured 2 flags.<br>
+Green team is possible because there is a green team skin pk3 which is downloadable via <a href="http://ws.q3df.org" rel="nofollow noopener">ws.q3df.org</a>.<br>
+Hope I’m not tiring you out, <a class="mention" href="/u/zturtleman">@zturtleman</a>…</p>
+            </blockquote>
+            <p>Posts: 65</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/programming-three-team-ctf/42">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/programming-three-team-ctf/42</link>
+          <pubDate>Wed, 22 Jun 2016 17:28:25 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-42</guid>
+          <source url="https://forum.clover.moe/t/programming-three-team-ctf/42.rss">Programming three team CTF</source>
+        </item>
+        <item>
+          <title>Make a Spearmint SDK to create mods for Spearmint</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>What if someone wants to make a mod for Spearmint, or simply port over their old mod to Spearmint <a class="mention" href="/u/zturtleman">@zturtleman</a>? Then said SDK would be a great tool for modmakers/mod ports. There’s a lot of good mods I’d like to see on Spearmint.</p>
+            </blockquote>
+            <p>Posts: 3</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41</link>
+          <pubDate>Wed, 22 Jun 2016 15:47:07 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-41</guid>
+          <source url="https://forum.clover.moe/t/make-a-spearmint-sdk-to-create-mods-for-spearmint/41.rss">Make a Spearmint SDK to create mods for Spearmint</source>
+        </item>
+        <item>
+          <title>Team_model should also change team_headmodel like what model does with headmodel</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I always found it annoying that you had to set both team_model &amp; team_headmodel when setting your player model. model &amp; headmodel do this, so it only seems right to do it with team_model as well… Do you agree, <a class="mention" href="/u/zturtleman">@zturtleman</a>?</p>
+            </blockquote>
+            <p>Posts: 3</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40</link>
+          <pubDate>Mon, 20 Jun 2016 23:18:40 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-40</guid>
+          <source url="https://forum.clover.moe/t/team-model-should-also-change-team-headmodel-like-what-model-does-with-headmodel/40.rss">Team_model should also change team_headmodel like what model does with headmodel</source>
+        </item>
+        <item>
+          <title>Add support for the Open Arena missionpack</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I know this missionpack is a bit prototypical (for my taste at least), but is it possible to give Spearmint support for it? Should be named something like “oamissionpack” or “oamp” or something like that. I would like to see support for it in the forseeable future, <a class="mention" href="/u/zturtleman">@zturtleman</a>.</p>
+            </blockquote>
+            <p>Posts: 5</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39</link>
+          <pubDate>Wed, 15 Jun 2016 10:45:04 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-39</guid>
+          <source url="https://forum.clover.moe/t/add-support-for-the-open-arena-missionpack/39.rss">Add support for the Open Arena missionpack</source>
+        </item>
+        <item>
+          <title>Spearmint issue tracker disabled</title>
+          <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+            <blockquote>
+              <p>I’ve disabled the issue tracker because it’s not used as one. I generally only created issues for stuff I planned to do, not actual issues. I don’t like it being a request list either. Also, having the main repo page just show “Issues (66)” etc always bothered me as most are for enhancement – not that the engine is broken as hell.</p>
+<p>Raw dump of Google code (ioq3ztm) and Github (spearmint) issues via Github API: <a href="http://clover.moe/spearmint-issues.zip">http://clover.moe/spearmint-issues.zip</a></p>
+            </blockquote>
+            <p>Posts: 7</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/spearmint-issue-tracker-disabled/37">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/spearmint-issue-tracker-disabled/37</link>
+          <pubDate>Fri, 10 Jun 2016 17:48:02 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-37</guid>
+          <source url="https://forum.clover.moe/t/spearmint-issue-tracker-disabled/37.rss">Spearmint issue tracker disabled</source>
+        </item>
+        <item>
+          <title>Splitscreen + FOV (field of view)</title>
+          <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+          <category>Spearmint</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+            <blockquote>
+              <p>Hi everyone!</p>
+<p>Did you play Spearmint with friends in splitscreen mode? Well, if you did, and own a monitor with a ‘modern’ aspect ration e.g.: 16:10 or 16:9, you probably might noticed that something feels a bit ‘wrong’, especially if you have only two splitscreen players.<br>
+What has worked well in the past (remembering games like Need for Speed etc.), feels a bit weird on modern monitors. To make a long stroy short, my friends and I had some real troubles to get used to all those modern, and therefore better <img src="//forum.clover.moe/images/emoji/twitter/wink.png?v=5" title=":wink:" class="emoji" alt=":wink:"> monitor aspect ratios.<br>
+At first we tried the usual procedure: tweaking the cg_fov value (you can open your game console and type cg_fov 80 for example). This doesn’t help much, so we tried a new cvar, new to Spearmint, called cg_fovAspectAdjust.<br>
+Tweaking both, will improve splitscreen gaming experience. Though, really satisfied was none of us, the problem still remains, because the problem is the monitor, and not the game.<br>
+So after many hours, as a last resort, since we can’t switch back to old monitors (4:3), we decided to use the third option we can try: Vertical splitscreen!<br>
+Wow! To our surprise, after some time to get used to it, most of us liked it more to play with verticall splitcreen than with horizontal splitscreen. Yes, you will need some time, to get used to it, probably you will never get used to it, but certainly for a few players, this will be the feature they were looking for.<br>
+Try it! You can set vertical splitscreen play via q3 menu -&gt;Setup-&gt;Game Options or via your game console: cg_splitviewVertical 1.<br>
+Of course, the wider the monitors aspect ratio is, the more likely vertical splitscreen play will be your choice. Additionally vertical view will reduce the stretching (distorsion) of your view (depending on your cg_fov settings). Some short, basic info about FOV in games: <a href="https://en.wikipedia.org/wiki/Field_of_view_in_video_games" rel="nofollow noopener">https://en.wikipedia.org/wiki/Field_of_view_in_video_games</a></p>
+<p>Well, what I wonder is what other players setting are, concerning the FOV variables (cg_fov, cg_fovAspectAdjust, and cg_splitviewVertical)? What are your setting?<br>
+In contrast to most articles, and probably most players, personally I prefer narrower FOV settings on monitors with a 16:9 ratio, can’t explain exactly why, but aiming gets better… <img src="//forum.clover.moe/images/emoji/twitter/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+            </blockquote>
+            <p>Posts: 7</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/splitscreen-fov-field-of-view/35</link>
+          <pubDate>Tue, 07 Jun 2016 21:46:30 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-35</guid>
+          <source url="https://forum.clover.moe/t/splitscreen-fov-field-of-view/35.rss">Splitscreen + FOV (field of view)</source>
+        </item>
+        <item>
+          <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Bot AI</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>When I made a new botfile for q3dm7 using forcesidesvisible, it actually fixes (or made almost unnoticeable) the stuck in RA room issue. Although in it, they take the jump pad to the shotgun multiple times. Otherwise, they’re fine. <a href="https://github.com/zturtleman/spearmint/issues/260" rel="nofollow noopener">https://github.com/zturtleman/spearmint/issues/260</a> happens to have a link to it, so if you wanna test that, go ahead.</p>
+            </blockquote>
+            <p>Posts: 25</p>
+            <p>Participants: 2</p>
+            <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34</link>
+          <pubDate>Sun, 05 Jun 2016 22:27:50 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-34</guid>
+          <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+        </item>
+        <item>
+          <title>Next tier won&#39;t unlock for me in Spearmint</title>
+          <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+          <category>Support</category>
+          <description><![CDATA[
+            <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+            <blockquote>
+              <p>I’ve tried using a different homepath, doesn’t unlock the next tier. I’ve already beat Tier 0. Tier 1 SHOULD be unlocked, but for some reason, it isn’t.</p>
+            </blockquote>
+            <p>Posts: 38</p>
+            <p>Participants: 3</p>
+            <p><a href="https://forum.clover.moe/t/next-tier-wont-unlock-for-me-in-spearmint/27">Read full topic</a></p>
+          ]]></description>
+          <link>https://forum.clover.moe/t/next-tier-wont-unlock-for-me-in-spearmint/27</link>
+          <pubDate>Mon, 23 May 2016 15:10:59 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">forum.clover.moe-topic-27</guid>
+          <source url="https://forum.clover.moe/t/next-tier-wont-unlock-for-me-in-spearmint/27.rss">Next tier won&#39;t unlock for me in Spearmint</source>
+        </item>
+  </channel>
+</rss>

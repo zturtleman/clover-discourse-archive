@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from forum.clover.moe/t/programming-three-team-ctf/42?page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Aug 2018 19:53:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Programming three team CTF - Development - Magical Clover Forum</title>
+    <meta name="description" content="I’m stumped on what to do to fix this, this involves ai_cmd.c. I’m adding functions to the bot AI so that way it knows what to do while on the new green team.  I get this in Cygwin because of it:   [image]  Here’s what Notepad++ gives me:  [image]  Mind helping me out here @KuehnhammerTobias/@zturtleman? I don’t mean to be driving your patience through the roof, @KuehnhammerTobias, but I really do need your help at this point as this is the only thing keeping the first beta of my new mod from co...">
+    <meta name="author" content="">
+<meta name="generator" content="Discourse 2.1.0.beta4 - https://github.com/discourse/discourse version 94622b451a19f0f5152280f146354ab663d06eb8">
+<link rel="icon" type="image/png" href="../../uploads/default/original/1X/8d64303f6f94740f94b6a460adfb8b936d6fdb65.png">
+<link rel="apple-touch-icon" type="image/png" href="../../uploads/default/original/1X/e0bc53086df7471db874a7d0c70ce1d2d653b278.png">
+<link rel="icon" type="image/png" sizes="144x144" href="../../uploads/default/original/1X/e0bc53086df7471db874a7d0c70ce1d2d653b278.png">
+<meta name="theme-color" content="#bbeebb">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<link rel="canonical" href="424658.html?page=2" />
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://forum.clover.moe","potentialAction":{"@type":"SearchAction","target":"https://forum.clover.moe/search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="Magical Clover Forum Search">
+
+      <link href="../../stylesheets/desktop_1_bdd11c5ff6b465c06e9ec1c7b16931ccf4884ce93b43.css?__ws=forum.clover.moe" media="all" rel="stylesheet" data-target="desktop" data-theme-id="1"/>
+      <link href="../../stylesheets/desktop_theme_1_e42a03b7f95c4cdf2569b14817761786616cb9de3b43.css?__ws=forum.clover.moe" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="1"/>
+    
+    
+      <link rel="alternate" type="application/rss+xml" title="RSS feed of &#39;Programming three team CTF&#39;" href="42.rss" />
+  <meta property="og:site_name" content="Magical Clover Forum" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://forum.clover.moe/uploads/default/original/1X/e0bc53086df7471db874a7d0c70ce1d2d653b278.png" />
+<meta property="og:image" content="https://forum.clover.moe/uploads/default/original/1X/e0bc53086df7471db874a7d0c70ce1d2d653b278.png" />
+<meta property="og:url" content="https://forum.clover.moe/t/programming-three-team-ctf/42?page=2" />
+<meta name="twitter:url" content="https://forum.clover.moe/t/programming-three-team-ctf/42?page=2" />
+<meta property="og:title" content="Programming three team CTF" />
+<meta name="twitter:title" content="Programming three team CTF" />
+<meta property="og:description" content="I’m stumped on what to do to fix this, this involves ai_cmd.c. I’m adding functions to the bot AI so that way it knows what to do while on the new green team.  I get this in Cygwin because of it:     Here’s what Notepad++ gives me:    Mind helping me out here @KuehnhammerTobias/@zturtleman? I don’t mean to be driving your patience through the roof, @KuehnhammerTobias, but I really do need your help at this point as this is the only thing keeping the first beta of my new mod from compiling." />
+<meta name="twitter:description" content="I’m stumped on what to do to fix this, this involves ai_cmd.c. I’m adding functions to the bot AI so that way it knows what to do while on the new green team.  I get this in Cygwin because of it:     Here’s what Notepad++ gives me:    Mind helping me out here @KuehnhammerTobias/@zturtleman? I don’t mean to be driving your patience through the roof, @KuehnhammerTobias, but I really do need your help at this point as this is the only thing keeping the first beta of my new mod from compiling." />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="6 mins 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="9 ❤" />
+<meta property="article:published_time" content="2016-06-24T16:00:53+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+      <link rel="prev" href="42.html">
+      <link rel="next" href="429ba9.html?page=3">
+
+  </head>
+  <body class="crawler">
+    
+    <header>
+      <a href="../../index.html"><img src="../../uploads/default/original/1X/e0fba8786bf072fa9d149ae89abf88bdac001685.png" alt="Magical Clover Forum" id="site-logo" style="max-width: 150px;"></a>
+    </header>
+    <div id="main-outlet" class="wrap">
+      <h1>
+  <a href="42.html">Programming three team CTF</a>
+</h1>
+
+<div id='breadcrumbs'>
+    <div id="breadcrumb-0" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"
+        itemref="breadcrumb-1"
+      >
+      <a href="../../c/spearmint.html" itemprop="url">
+        <span itemprop="title">Spearmint</span>
+      </a>
+    </div>
+    <div id="breadcrumb-1" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"
+>
+      <a href="../../c/spearmint/dev.html" itemprop="url">
+        <span itemprop="title">Development</span>
+      </a>
+    </div>
+</div>
+
+
+
+
+
+<hr>
+
+
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-24T16:00:53Z' itemprop='datePublished'>
+             2016-06-24 16:00:53 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#21</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I’m stumped on what to do to fix this, this involves ai_cmd.c. I’m adding functions to the bot AI so that way it knows what to do while on the new green team.<br>
+I get this in Cygwin because of it:<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="../../uploads/default/original/1X/1fedf0c11481cdb5aea253b3134bdb78e3db6ca9.png" data-download-href="//forum.clover.moe/uploads/default/1fedf0c11481cdb5aea253b3134bdb78e3db6ca9" title="3wctf compilation errors 2.png"><img src="../../uploads/default/optimized/1X/1fedf0c11481cdb5aea253b3134bdb78e3db6ca9_1_690x387.png" width="690" height="387"><div class="meta">
+<span class="filename">3wctf compilation errors 2.png</span><span class="informations">1366x768 41.7 KB</span><span class="expand"></span>
+</div></a></div><br>
+Here’s what Notepad++ gives me:<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="../../uploads/default/original/1X/068e6d24803acbd2f906d17a32c3e1ec595dac11.png" data-download-href="//forum.clover.moe/uploads/default/068e6d24803acbd2f906d17a32c3e1ec595dac11" title="3wctf compilation errors 3.png"><img src="../../uploads/default/optimized/1X/068e6d24803acbd2f906d17a32c3e1ec595dac11_1_690x476.png" width="690" height="476"><div class="meta">
+<span class="filename">3wctf compilation errors 3.png</span><span class="informations">955x659 42.5 KB</span><span class="expand"></span>
+</div></a></div><br>
+Mind helping me out here <a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>/<a class="mention" href="https://forum.clover.moe/u/zturtleman">@zturtleman</a>? I don’t mean to be driving your patience through the roof, <a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>, but I really do need your help at this point as this is the only thing keeping the first beta of my new mod from compiling.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-06-24T18:00:42Z' itemprop='datePublished'>
+             2016-06-24 18:00:42 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#22</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>The output says you missed a } before the else if. at line 1744. This doesn’t mean you really missed the bracket at 1744! Could be somewhere above that line…<br>
+Nobody can say you, where you’ve  missed the bracket, …<br>
+Well, this is why I said it 100 times, it st hard to help you this way, or by posting screenshots of your code. Sorry, I can’t help you with screenshots!<br>
+Good luck!</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-24T18:20:37Z' itemprop='datePublished'>
+             2016-06-24 18:20:37 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#23</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I figured out where it was, &amp; fixed it. Thanks for the help however <a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>!</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-24T19:05:36Z' itemprop='datePublished'>
+             2016-06-24 19:05:36 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#24</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>How do you suppose you give a function a new member? In this case “cgMedia_t”. The compilation currently errors because it doesn’t have “greenQuadShader”. EDIT: I need to use grep -ri more often… found it.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-24T19:38:33Z' itemprop='datePublished'>
+             2016-06-24 19:38:33 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#25</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>This one’s a bit more puzzling… I have the } character in there already but it doesn’t wanna for some reason…<br>
+Here’s what Cygwin says:<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="../../uploads/default/original/1X/2690550e26bf2d0b5e68002362dc491644a48d3e.png" data-download-href="//forum.clover.moe/uploads/default/2690550e26bf2d0b5e68002362dc491644a48d3e" title="3wctf compilation errors 4.png"><img src="../../uploads/default/optimized/1X/2690550e26bf2d0b5e68002362dc491644a48d3e_1_690x387.png" width="690" height="387"><div class="meta">
+<span class="filename">3wctf compilation errors 4.png</span><span class="informations">1366x768 42.3 KB</span><span class="expand"></span>
+</div></a></div><br>
+Notepad++ gives me this however:<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="../../uploads/default/original/1X/9cedda0884fb79a30e09627e24f7a4b8025a95cc.png" data-download-href="//forum.clover.moe/uploads/default/9cedda0884fb79a30e09627e24f7a4b8025a95cc" title="3wctf compilation errors 5.png"><img src="../../uploads/default/optimized/1X/9cedda0884fb79a30e09627e24f7a4b8025a95cc_1_690x412.png" width="690" height="412"><div class="meta">
+<span class="filename">3wctf compilation errors 5.png</span><span class="informations">1102x659 44.2 KB</span><span class="expand"></span>
+</div></a></div><br>
+Any ideas? Could someone help please? Any ideas, <a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>?</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-25T02:55:22Z' itemprop='datePublished'>
+             2016-06-25 02:55:22 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#26</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>GitHub source for 3wctf is @: <a href="https://github.com/coltongit/3wctf" rel="nofollow noopener">https://github.com/coltongit/3wctf</a> if you’re interested.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:1'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-06-25T03:16:24Z' itemprop='datePublished'>
+             2016-06-25 03:16:24 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#27</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Line 1717: <a href="https://github.com/coltongit/3wctf/blob/406ae2be9d884359398804dab57487af96784887/code/game/ai_cmd.c#L1717" rel="nofollow noopener">https://github.com/coltongit/3wctf/blob/406ae2be9d884359398804dab57487af96784887/code/game/ai_cmd.c#L1717</a> has an opening brace, but no closing brace. Hmm, I think this won’t work, though, didn’t test the rest of your code in detail yet.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-25T03:18:31Z' itemprop='datePublished'>
+             2016-06-25 03:18:31 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#28</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>You’re invited to help fix it for me. GitHub’s surely the way to go, isn’t it? Just needs remote tracking &amp; that’s it. I had forgot to modify bg_misc.c to account for the new team (and to try to put back in the original CTF sounds from pak0.pk3). I’ll send it to the page shortly.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-06-25T03:24:10Z' itemprop='datePublished'>
+             2016-06-25 03:24:10 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#29</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>No Sir!, I have enough work (and problems) with my own mint-arena fork(s)! Anyways, I hope you’ll succeed!<br>
+Nice to see you finally started to work on your 3 Team CTF mod! <img src="../../images/emoji/twitter/thumbsupae52.png?v=5" title=":thumbsup:" class="emoji" alt=":thumbsup:"></p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:1'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-25T03:25:30Z' itemprop='datePublished'>
+             2016-06-25 03:25:30 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#30</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I’ve been working on it for a while now… if any of you have some spare time, I’ll most likely see if I can get it working for all of you, &amp; working good so that way I can help bugtest…</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-06-25T03:32:21Z' itemprop='datePublished'>
+             2016-06-25 03:32:21 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#31</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>In my sparse sparetime I do some coding, or I play mint-arena. In my sparetime from ‘sparetime coding’, I go fishing or riding my bicyle…<br>
+It’s <strong>your</strong> work, <strong>we</strong> will see if we can help you. It doesn’t really make sense to bugtest your work for <strong>us</strong>!</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-25T03:33:23Z' itemprop='datePublished'>
+             2016-06-25 03:33:23 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#32</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>We’ll see when that happens… Oh well, that means we could all bugtest together then.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:1'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-06-25T03:36:03Z' itemprop='datePublished'>
+             2016-06-25 03:36:03 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#33</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>…sounds somehow weird to me <img src="../../images/emoji/twitter/laughingae52.png?v=5" title=":laughing:" class="emoji" alt=":laughing:"></p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-25T03:37:17Z' itemprop='datePublished'>
+             2016-06-25 03:37:17 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#34</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I can’t blame you one bit either <img src="../../images/emoji/twitter/laughingae52.png?v=5" title=":laughing:" class="emoji" alt=":laughing:"></p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-25T03:46:25Z' itemprop='datePublished'>
+             2016-06-25 03:46:25 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#35</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Also it seems I try to fix it but it just gets worse… I replaced the ai_cmd.c &amp; I’ll be uploading the bg_misc.c shortly… EDIT: Welp, it’s uploaded.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-06-25T04:45:06Z' itemprop='datePublished'>
+             2016-06-25 04:45:06 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#36</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Uh, I had a look at your current work…,sorry to say, but I think you have some fundamental errors in your coding style. Some operations aren’t possible (allowed) in C, e.g.:</p>
+<p><strong>if</strong> (x) {<br>
+<em>do something</em><br>
+<strong>}else{</strong><br>
+<em>do something else</em><br>
+<strong>}else{</strong><br>
+<em>do something else</em><br>
+}</p>
+<p>isn’t possible. You already have an ‘else’!<br>
+see: <a href="https://github.com/coltongit/3wctf/blob/master/code/game/g_team.c#L1652" rel="nofollow noopener">https://github.com/coltongit/3wctf/blob/master/code/game/g_team.c#L1652</a></p>
+<p>Also, have a look at: <a href="https://github.com/coltongit/3wctf/blob/master/code/game/g_team.c#L186" rel="nofollow noopener">https://github.com/coltongit/3wctf/blob/master/code/game/g_team.c#L186</a><br>
+This is wrong!<br>
+eventParm = ( team == TEAM_RED ) ? GTS_REDTEAM_TOOK_LEAD : GTS_BLUETEAM_TOOK_LEAD<br>
+Reads as "eventParm = <strong>if</strong> team is red <strong>than</strong> GTS_REDTEAM_TOOK_LEAD <strong>else</strong> GTS_BLUETEAM_TOOK_LEAD<br>
+In other words: = <strong>? <em>something</em> : _something</strong>_ reads as if/else<br>
+So eventParm = ( team == TEAM_RED ) ? GTS_REDTEAM_TOOK_LEAD : GTS_BLUETEAM_TOOK_LEAD <strong>: GTS_GREENTEAM_TOOK_LEAD</strong>;<br>
+doesn’t work.</p>
+<p>You can’t simply copy/paste some code here and there. Simply expand every line with ‘green’ where ‘red/blue’ already is doesn’t work!</p>
+<p>You don’t need to deal with ai_cmd for now, it will never work, because you have no ‘green’ goal yet (LTG_GETFLAG)…</p>
+<p>Hmm, I don’t want to discourage you but I think you should learn some fundamentals about C programming first!<br>
+e.g.: <a href="http://www.cprogramming.com/tutorial/c/lesson1.html" rel="nofollow noopener">http://www.cprogramming.com/tutorial/c/lesson1.html</a><br>
+or: <a href="http://www.tutorialspoint.com/ansi_c/c_introduction.htm" rel="nofollow noopener">http://www.tutorialspoint.com/ansi_c/c_introduction.htm</a></p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:1'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-25T05:05:18Z' itemprop='datePublished'>
+             2016-06-25 05:05:18 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#37</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>I’ll upload a replacement to that that should fix that error, <a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>. Thanks for reminding me.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-25T05:19:54Z' itemprop='datePublished'>
+             2016-06-25 05:19:54 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#38</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p>Also, I would like to have the white team display the default player skins/models by having the game parse the %skin_default.skin files for them, except in special cases where the player skin for that player must be used, thus %skin_playername.skin inside whatever player model they are a skin of would be used for the team skin instead. For example, Daemia uses %skin_daemia.skin. Any idea on how I could do that, <a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>/<a class="mention" href="https://forum.clover.moe/u/zturtleman">@zturtleman</a>?</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/coltongit'><b itemprop='author'>coltongit</b></a>
+           
+           <time datetime='2016-06-26T11:58:55Z' itemprop='datePublished'>
+             2016-06-26 11:58:55 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#39</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <p><a class="mention" href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a>, I fixed up g_team.c for ya - sorry it wasn’t shortly. Real life got in the way…</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='https://forum.clover.moe/u/KuehnhammerTobias'><b itemprop='author'>KuehnhammerTobias</b></a>
+           
+           <time datetime='2016-06-26T12:39:44Z' itemprop='datePublished'>
+             2016-06-26 12:39:44 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#40</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <pre><code>	eventParm = ( otherTeam == TEAM_RED ) ? GTS_REDTEAM_TOOK_LEAD; 
+	eventParm = ( otherTeam == TEAM_BLUE ) ? GTS_BLUETEAM_TOOK_LEAD; 
+	eventParm = ( otherTeam == TEAM_GREEN ) ? GTS_GREENTEAM_TOOK_LEAD;
+</code></pre>
+<p><strong>???</strong></p>
+<p>Seems a bit like ‘lottery’ programming. Rearange code until it works, eh! <img src="../../images/emoji/twitter/unamusedae52.png?v=5" title=":unamused:" class="emoji" alt=":unamused:"><br>
+<aside class="onebox wikipedia">
+  <header class="source">
+      <a href="https://en.wikipedia.org/wiki/Conditional_(computer_programming)" target="_blank" rel="nofollow noopener">en.wikipedia.org</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:220/215;"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/If-Then-Else-diagram.svg/220px-If-Then-Else-diagram.svg.png" class="thumbnail"></div>
+
+<h3><a href="https://en.wikipedia.org/wiki/Conditional_(computer_programming)" target="_blank" rel="nofollow noopener">Conditional (computer programming)</a></h3>
+
+<p>In computer science, conditional statements, conditional expressions and conditional constructs are features of a programming language, which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false. Apart from the case of branch predication, this is always achieved by selectively altering the control flow based on some condition. In imperative programming languages, the term "conditional statement" is usually used, whereas...</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:1'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Programming three team CTF'>
+      <hr>
+  </div>
+
+  <div role='navigation' itemscope itemtype='http://schema.org/SiteNavigationElement'>
+      <span itemprop='url'><a rel="prev" itemprop="name" href="42.html">← previous page</a></span>
+      <span itemprop='url'><b><a rel="next" itemprop="name" href="429ba9.html?page=3">next page →</a></b></span>
+  </div>
+
+
+
+
+
+    </div>
+    <footer class="container">
+      <nav itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <a href='../../index.html'>Home</a>
+        <a href="../../categories.html">Categories</a>
+        <a href="../../guidelines.html">FAQ/Guidelines</a>
+        <a href="../../tos.html">Terms of Service</a>
+        <a href="../../privacy.html">Privacy Policy</a>
+      </nav>
+      <p>Powered by <a href="https://www.discourse.org/">Discourse</a>, best viewed with JavaScript enabled</p>
+    </footer>
+    
+  </body>
+  
+
+<!-- Mirrored from forum.clover.moe/t/programming-three-team-ctf/42?page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Aug 2018 19:53:49 GMT -->
+</html>

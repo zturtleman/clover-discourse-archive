@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+    <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34</link>
+    <description>When I made a new botfile for q3dm7 using forcesidesvisible, it actually fixes (or made almost unnoticeable) the stuck in RA room issue. Although in it, they take the jump pad to the shotgun multiple times. Otherwise, they&#39;re fine. https://github.com/zturtleman/spearmint/issues/260 happens to have a link to it, so if you wanna test that, go ahead.</description>
+    
+    <lastBuildDate>Fri, 10 Jun 2016 16:05:12 +0000</lastBuildDate>
+    <category>Bot AI</category>
+    <atom:link href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>That’s what I meant with <em>only under that circumstance</em>, <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>.<br>
+Anyways, v2.1 is online at the link above. It fixes a minor issue with the dc_map01 levelshot. The glass in the enclosures that would hold the holograms in the PC q3dm0 has now been fixed in the levelshot. They were a dark blue-green, now they’re clear like they’re supposed to be. It also includes a changelog for those interested.<br>
+The link for v2.1 is up where the link for v2.0 is.<br>
+I also forgot that there was a problem with dc_map01 where Crash won’t get the 5 Health in the SG room. v2.11’s up as well. This problem (&amp; others) should be fixed in v2.11. Updated the changelog to account for this.<br>
+EDIT: They got the 5 health, but they didn’t go for it as often. There is still a (possibly intentional?) bug in dc_map01 where Crash goes in a counter-clockwise square pattern in one spot on the floor near the PG to wait for the armor shards on the pathway. And I also noticed there is 2 sides to the same shader conflict. I take it out, mptourney2 uses the DC jumppad. I put it back in, dc_map24 (and possibly other maps) use the TA jumppad.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/25">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/25</link>
+        <pubDate>Thu, 09 Jun 2016 13:54:20 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-25</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>If there is a situation where licensing is affected, than it is not important what you will or want. In such a case you <strong>HAVE TO</strong> remove the affected files that are under copyright issues. You have to care about the copyright situation! <img src="//forum.clover.moe/images/emoji/twitter/neutral_face.png?v=5" title=":neutral_face:" class="emoji" alt=":neutral_face:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/24">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/24</link>
+        <pubDate>Thu, 09 Jun 2016 10:57:52 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-24</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>There’s only a potential that such a situation is happening with that music. Only under that circumstance will I remove that music. Also, I realized dc_map01’s levelshot might need a do-over. In the new levelshot, you might notice the glass is a deep blue-green. <a class="mention" href="/u/zturtleman">@zturtleman</a> fixed it with the latest commit of Spearmint. v2.1’s out already. It will include said fixed levelshot. Means this mappack up above is v2.0.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/23">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/23</link>
+        <pubDate>Thu, 09 Jun 2016 10:45:48 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-23</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p><em>cough</em> I meant remove it because of potential licence issues! Just a warning, though, maybe I’m wrong.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/22">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/22</link>
+        <pubDate>Thu, 09 Jun 2016 10:17:21 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-22</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I like using the original DC music <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>. I don’t think the maps are even the same without them. Anyways, thank you.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/21">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/21</link>
+        <pubDate>Thu, 09 Jun 2016 10:00:59 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-21</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Well, I didn’t test your work excessively, but botplay seems okay. So using -forcesidesvisible works for those maps. I can’t say anything about the shader stuff, since I’m no DC expert. What I still think would be fine, is a ‘changelog’ file or something, that lists all your changes, or write some blog, about the status of your current work. Though, thats just a suggestion.<br>
+<img src="//forum.clover.moe/images/emoji/twitter/thumbsup.png?v=5" title=":thumbsup:" class="emoji" alt=":thumbsup:"> <strong>Anyways, you did a great job! I hope we will see more from you!</strong> <img src="//forum.clover.moe/images/emoji/twitter/thumbsup.png?v=5" title=":thumbsup:" class="emoji" alt=":thumbsup:"><br>
+I thought you will create your own music files replacements, you have to remove them I think!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/20">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/20</link>
+        <pubDate>Thu, 09 Jun 2016 08:44:57 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-20</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’ve just wrapped up testing on my version of the DC mappack. Here’s the link for anyone interested:<br>
+v2.0: <a href="https://mega.nz/#!h8czkYxJ!RXmk_i8wPTf4Ws9mHXgtfLl0omHk0aGhhxcMghRMB7A" rel="nofollow noopener">https://mega.nz/#!h8czkYxJ!RXmk_i8wPTf4Ws9mHXgtfLl0omHk0aGhhxcMghRMB7A</a><br>
+v2.1: <a href="https://mega.nz/#!V48WgSpb!Gxd4z7rfqD7pQkQE6FlB2qgixBxdaDKFsArqo36pUv0" rel="nofollow noopener">https://mega.nz/#!V48WgSpb!Gxd4z7rfqD7pQkQE6FlB2qgixBxdaDKFsArqo36pUv0</a><br>
+v2.11: <a href="https://mega.nz/#!o41GWKbD!vA5LZ0orXBTCyCMo4t5V9Q8sC-alT3sphrYCrGxAbWY" rel="nofollow noopener">https://mega.nz/#!o41GWKbD!vA5LZ0orXBTCyCMo4t5V9Q8sC-alT3sphrYCrGxAbWY</a><br>
+Enjoy, because you just might love it over the original Sega mappack. In v2.0, shaders have been fixed/added, duplicate textures from ss_maps.pk3 have been deleted, new botfiles have been created to make botplay better, and one new shader has been added (supportctfred_rept). To view it, go to dc_map24, &amp; proceed to the red base. The textures on the walls should now shine in the way the blue base has on some of it’s wall textures.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/19">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/19</link>
+        <pubDate>Thu, 09 Jun 2016 01:09:59 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-19</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’m figuring them out as I go, using the track changer in DC Q3A to help me out… Eventually I’ll let you test &amp; see if the tracks I’ve got match with the ones played in the real DC Q3A, <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>…<br>
+I’ll even convert the “Warning! This disc is for use only on Sega Dreamcast!” track as a bonus.<br>
+EDIT: I’m already done, I used cdirip for most of the tracks. The silence at the end of the tracks are already cut off because of it. The bonus track, track00, I should probably cut the silence off for as well. EDIT2: It’s all cut off (I should get a job as an audio editor, don’t you think, <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>?)</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/18">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/18</link>
+        <pubDate>Wed, 08 Jun 2016 21:14:48 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-18</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>track10 is the track being played for dc_map01 in the real DC version. I’ll have to use it for track07 in the DC mappack then. EDIT: Actually, that doesn’t make any sense, as the tracks can be changed out with the game’s built in track changer, although it does tell you what track it is. Mine defaulted to Track 7.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/17">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/17</link>
+        <pubDate>Wed, 08 Jun 2016 20:45:50 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-17</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Eventually a new topic? Concerning music format? <img src="//forum.clover.moe/images/emoji/twitter/thumbsup.png?v=5" title=":thumbsup:" class="emoji" alt=":thumbsup:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/16">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/16</link>
+        <pubDate>Wed, 08 Jun 2016 19:57:52 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-16</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Without warranty:</p>
+<p>dc_map02: music/track09<br>
+dc_map03: music/track05<br>
+dc_map04: music/track04<br>
+dc_map05: music/track11<br>
+dc_map06: music/track03<br>
+dc_map07: music/track06<br>
+dc_map08: music/track05<br>
+dc_map09: music/track08<br>
+dc_map10: music/track02<br>
+dc_map11: music/track09<br>
+dc_map12: music/track11<br>
+dc_map13: music/track05<br>
+dc_map14: music/track12<br>
+dc_map15: music/track06<br>
+dc_map16: music/track02<br>
+dc_map17: music/track03<br>
+dc_map18: music/track13<br>
+dc_map19: music/track14<br>
+dc_map20: music/track08<br>
+dc_map21: music/track02<br>
+dc_map22: music/track14<br>
+dc_map23: music/track05<br>
+dc_map24: music/track07</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/15">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/15</link>
+        <pubDate>Wed, 08 Jun 2016 19:56:11 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-15</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>Yep. It’s /music dir/musicfileyouwanttoplay.wav. And I actually mean which track in the DC tracks go with which map. dc_map01 takes track07, and uses track10 in the real DC version. And I think the music file has to be stereo and 22050hz in order to play correctly with Q3. track07 is mono and 44100hz, so all I had to do was:</p>
+<ol>
+<li>Create a dual mono track using track10 as base.</li>
+<li>Set project rate in Audacity to 22050hz.</li>
+<li>Normalize the volume by quieting it 50%.</li>
+<li>Export to lossless stereo 22050hz WAV.<br>
+The only way to figure that out is possibly to just go play the DC version for a bit and see what tracks play on which levels. Nothing better than using the real DC version to figure out which tracks should go where <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>.<br>
+EDIT: Using cdirip results in full stereo for all of the tracks, thus this stuff is invalid (&amp; it also automatically cuts out the silence from all the tracks too).</li>
+</ol>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/14">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/14</link>
+        <pubDate>Wed, 08 Jun 2016 19:23:26 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-14</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>You mean what track is played on which map?</p>
+<p>Solution 1. You can have a look at the worldspawn key of the map (bsp), e.g:</p>
+<p>“ambient” “10"<br>
+”_color" "1.000000 0.913725 0.800000"<br>
+<strong>“music” "music/track09"</strong><br>
+“classname” “worldspawn”<br>
+“message” “The Campgrounds”</p>
+<p>(I know you are an Notepad enthusiast, so it will be easy for you to figure out how to open the bsp file <img src="//forum.clover.moe/images/emoji/twitter/wink.png?v=5" title=":wink:" class="emoji" alt=":wink:">)</p>
+<p>Solution 2:  iirc there is also a console command to play all the music files.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/13">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/13</link>
+        <pubDate>Wed, 08 Jun 2016 19:02:21 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-13</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’m trying to figure out which of the tracks is used for which map (I already have track07.wav figured out, it’s used for dc_map01 (&amp; probably a few others), although it isn’t in the version of the mappack in the blue-green glass issue for that particular map for some unearthly reason).</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/12</link>
+        <pubDate>Wed, 08 Jun 2016 18:17:05 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-12</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>About the music/track order, I assume you already know zturtlemans <a href="https://github.com/zturtleman/mint-arena/tree/example/music-playlist_stream-queue" rel="nofollow noopener">‘music-playlist_stream-queue’ branch</a> for mint-arena?<br>
+Probably this branch will help you? Though I’m not sure if this is what you are looking for!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/11</link>
+        <pubDate>Wed, 08 Jun 2016 16:51:26 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-11</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p><img src="//forum.clover.moe/images/emoji/twitter/yum.png?v=5" title=":yum:" class="emoji" alt=":yum:"> Of course! Due some mental influence caused by Q3 I got brain freeze and got stuck in 2000. So, yeah…</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/10</link>
+        <pubDate>Wed, 08 Jun 2016 16:44:18 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-10</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>This will be a brand new version of the original dc-mappack from 2000, which will include ALL the DC maps, brand new &amp; mainly better botfiles, new levelshots for the maps without any real levelshots (the picture-in-picture ones, the dc_map01/dc_ss maps), &amp; when I figure out the track order, it will even have the music for all the maps. Are you drooling yet, <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/9</link>
+        <pubDate>Wed, 08 Jun 2016 16:35:03 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-9</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Ahh! And do you have any ‘long term goal’<img src="//forum.clover.moe/images/emoji/twitter/grinning.png?v=5" title=":grinning:" class="emoji" alt=":grinning:"> I mean, will you release a map pack of maps created by your own, or do you have any other plans with Spearmint/mint-arena?</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/8</link>
+        <pubDate>Wed, 08 Jun 2016 16:31:11 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-8</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>The only things which you could modify are the ones in the Radiant pack (q3dm1/q3dm7/q3dm17) &amp; that’s about it, unless the author of a custom map either gives permission or releases the original map file under some sort of non-restrictive license, like the deprecated LvL OGSL, or the GNU GPL.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/7</link>
+        <pubDate>Wed, 08 Jun 2016 16:16:32 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-7</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>It’s more of an experimentation run than anything else. I’m using this to finish up my new version of the dc-mappack. I think you ran into a prototype build of the mappack (pretty much final, the botfiles are the only thing keeping them from being final, which are being tested/included as soon as I see improvement). There are some tricky ones, though, like dc_map13. I’m now working on the botfiles for the ss maps, currently on the 20x ss maps. Afterwards, I’ll get started on the 40x maps.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/6</link>
+        <pubDate>Wed, 08 Jun 2016 15:58:49 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-6</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Yeah! Since you are not allowed to tweak the bsp/map file from dc_map packs, using -forcesidesvisible may improve the bots roaming behaviour on some maps. Nevertheless, -forcesidesvisible can cause other areas to become problematic. Best thing is to try it, per map, invite some friends, start some LAN matches against/with bots, and see if the map plays well with bots.<br>
+Additionally bear in mind that some players are also used to a specific bot behaviour/tactics for each map. Some players will not automatically see it as an improvement if bots go for different areas that the bots didn’t use in the past (although for the dc map this won’t be a problem).<br>
+Sidenote: Of course you will know this, but only for clarification, you must use the same bot(s) for comparison the bots paths, since different bots have different preferences.<br>
+As already said, I’m not an expert about the licensing about recompiled AAS files, but at least be careful when tweaking/reworking existing maps you aren’t the author of, though I haven’t looked into that as far as dc maps are concerned.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/5</link>
+        <pubDate>Wed, 08 Jun 2016 10:38:54 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-5</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>I’ve found that that command, hack or not, actually helps with some of the reachability on certain maps &amp; allows them to go to places they normally wouldn’t without it <a class="mention" href="/u/kuehnhammertobias">@KuehnhammerTobias</a>. For example, when I did dc_map08 (Dark Chapel) &amp; dc_map11 (The Camping Grounds), it helped the bots in exploring quite a bit of the levels. dc_map11 had the bots grab the YA section (RA in regular q3dm6), while Dark Chapel had the bots going into the LG area from both sides, not just one, to grab the RL from the armor shard/5 health sections. They also grabbed the RA in Dark Chapel with this experimentation (only achievable by jump pad).</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/4</link>
+        <pubDate>Tue, 07 Jun 2016 23:22:50 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-4</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>If you really interested in AAS creation, I highly recommend Cardigans AI tutorial! Unfortunately I can’t find his original site/tutorials. There is some equivalent here: <a href="http://images.google.de/imgres?imgurl=http%3A%2F%2Fwiki.custommapmakers.org%2Fimages%2F3%2F34%2FCpexample1.jpg&amp;imgrefurl=http%3A%2F%2Fwiki.custommapmakers.org%2Findex.php%3Ftitle%3DAI_Misbehaving&amp;h=387&amp;w=500&amp;tbnid=oRBqKwd7oupvqM%3A&amp;docid=5EVimQetfbf9xM&amp;itg=1&amp;ei=fiBXV-rnOamegAatjZeYCQ&amp;tbm=isch&amp;iact=rc&amp;uact=3&amp;dur=232&amp;page=1&amp;start=0&amp;ndsp=77&amp;ved=0ahUKEwjqnuSc05bNAhUpD8AKHa3GBZMQMwgvKAkwCQ&amp;bih=1315&amp;biw=2560" rel="nofollow noopener">AI misbehaving</a><br>
+Cardigan, damned, how time goes by! <img src="//forum.clover.moe/images/emoji/twitter/pensive.png?v=5" title=":pensive:" class="emoji" alt=":pensive:"></p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/3</link>
+        <pubDate>Tue, 07 Jun 2016 19:35:20 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-3</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>It is widely and well known that AAS files compiled with the -forcesidesvisible switch will produce different paths bots will walk around, in some cases more areas will be used more likely, whereas other areas are not used so likely by bots.<br>
+Bear in mind, intentiaonally -forcesidesvisible was a special HACK during the compiling process.<br>
+<strong>Compiling all maps with -forcesidesvisible, even maps without bugs, or simply using -forcesidesvisible by default is not really a good idea</strong>.<br>
+Besides of the longer compile time, it can also increase CPU usage a lot (I talk about in game, not during the compiling process). Though, both disadvantages probably are no longer so important, nowadays.<br>
+Nevertheless, -forcesidesvisible is a HACK!, you shouldn’t use it. Only use it if you can’t fix the map (brushwork), or you used the -meta switch during map to bsp compile. In this case you <strong>have to</strong> use -forcesidesvisible.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/2</link>
+        <pubDate>Tue, 07 Jun 2016 19:26:18 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-2</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+      <item>
+        <title>Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</title>
+        <dc:creator><![CDATA[@coltongit Coltongit]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/coltongit">@coltongit</a> wrote:</p>
+          <blockquote>
+              <p>When I made a new botfile for q3dm7 using forcesidesvisible, it actually fixes (or made almost unnoticeable) the stuck in RA room issue. Although in it, they take the jump pad to the shotgun multiple times. Otherwise, they’re fine. <a href="https://github.com/zturtleman/spearmint/issues/260" rel="nofollow noopener">https://github.com/zturtleman/spearmint/issues/260</a> happens to have a link to it, so if you wanna test that, go ahead.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34/1</link>
+        <pubDate>Sun, 05 Jun 2016 22:27:51 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-34-1</guid>
+        <source url="https://forum.clover.moe/t/turns-out-forcesidesvisible-fixes-or-at-least-makes-almost-unnoticeable-the-stuck-in-ra-room-issue/34.rss">Turns out forcesidesvisible fixes (or at least makes almost unnoticeable) the stuck in RA room issue</source>
+      </item>
+  </channel>
+</rss>

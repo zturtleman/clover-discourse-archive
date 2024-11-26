@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Magical Clover Forum - Latest posts</title>
+    <link>https://forum.clover.moe</link>
+    <description>Latest posts</description>
+      <item>
+        <title>Supporting other q3 based games</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[ <p>Yep, still plugging away. Though still not working on porting games over.</p> ]]></description>
+        <link>https://forum.clover.moe/t/supporting-other-q3-based-games/149/7</link>
+        <pubDate>Sat, 26 May 2018 00:11:46 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-485</guid>
+      </item>
+      <item>
+        <title>Supporting other q3 based games</title>
+        <dc:creator><![CDATA[@technobone Technobone]]></dc:creator>
+        <description><![CDATA[ <p>Nice to see your back working on it. <img src="https://forum.clover.moe/images/emoji/twitter/grin.png?v=5" title=":grin:" class="emoji" alt=":grin:"></p> ]]></description>
+        <link>https://forum.clover.moe/t/supporting-other-q3-based-games/149/6</link>
+        <pubDate>Wed, 23 May 2018 07:56:03 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-484</guid>
+      </item>
+      <item>
+        <title>Supporting other q3 based games</title>
+        <dc:creator><![CDATA[@technobone Technobone]]></dc:creator>
+        <description><![CDATA[ <p>Shame. Well hopefully one day you’ll find some inspiration and manage to finish porting those games, until then i’ll just stick with quake 3. Thanks again for your hard work and have a good christmas.</p> ]]></description>
+        <link>https://forum.clover.moe/t/supporting-other-q3-based-games/149/5</link>
+        <pubDate>Wed, 13 Dec 2017 22:22:04 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-458</guid>
+      </item>
+      <item>
+        <title>Supporting other q3 based games</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[ <p>The other games aren’t playable. I worked on the engine side of things such as content support (level, model, <a href="https://github.com/zturtleman/spearmint/wiki/Shaders">material</a> formats and features) and engine features required for the game logic. The actual game logic for the games haven’t been ported.</p> ]]></description>
+        <link>https://forum.clover.moe/t/supporting-other-q3-based-games/149/4</link>
+        <pubDate>Wed, 13 Dec 2017 17:24:39 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-457</guid>
+      </item>
+      <item>
+        <title>Supporting other q3 based games</title>
+        <dc:creator><![CDATA[@technobone Technobone]]></dc:creator>
+        <description><![CDATA[ <p>Thats interesting,  so do those games work or were they never completed.  If so have they got joypad support even in the menu and splitscreen?</p>
+<p>Its great that you decided to include those this engine because most fps game developers on pc just wont entertain it and its a shame because theres more and more pcs being brought down from offices and bedrooms to be used by the family and friends on the big screen.</p> ]]></description>
+        <link>https://forum.clover.moe/t/supporting-other-q3-based-games/149/3</link>
+        <pubDate>Tue, 12 Dec 2017 16:54:59 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-456</guid>
+      </item>
+      <item>
+        <title>Supporting other q3 based games</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[ <p>I’m not currently working on porting any games to Spearmint. I had planned to in the past but I’ve kind of lost interest. A lot of work was done towards running Return to Castle Wolfenstein, Wolfenstein: Enemy Territory, World of Padman, and other games. Xonotic and Nexuiz are based on the DarkPlaces engine (Quake 1) so I haven’t consider porting them.</p> ]]></description>
+        <link>https://forum.clover.moe/t/supporting-other-q3-based-games/149/2</link>
+        <pubDate>Tue, 12 Dec 2017 15:22:59 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-455</guid>
+      </item>
+      <item>
+        <title>Supporting other q3 based games</title>
+        <dc:creator><![CDATA[@technobone Technobone]]></dc:creator>
+        <description><![CDATA[ <p>First things first, this engine is brilliant, breaths new life into quake and me and my pals are loving the splitscreen/ gamepad support, i’m just wondering if there is any plans to support any other q3 engine based games such as xonotic or nexquiz?</p> ]]></description>
+        <link>https://forum.clover.moe/t/supporting-other-q3-based-games/149/1</link>
+        <pubDate>Mon, 11 Dec 2017 20:34:51 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-454</guid>
+      </item>
+  </channel>
+</rss>

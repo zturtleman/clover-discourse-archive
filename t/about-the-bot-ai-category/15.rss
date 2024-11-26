@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>About the Bot AI category</title>
+    <link>https://forum.clover.moe/t/about-the-bot-ai-category/15</link>
+    <description>This category is for discussing the behavior and programming of Quake 3 bots. Generally in the context of the Spearmint Quake 3 (spearmint + mint-arena), but other games and bots may be discussed.</description>
+    
+    <lastBuildDate>Fri, 20 May 2016 14:09:34 +0000</lastBuildDate>
+    <category>Bot AI</category>
+    <atom:link href="https://forum.clover.moe/t/about-the-bot-ai-category/15.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>About the Bot AI category</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/about-the-bot-ai-category/15/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/about-the-bot-ai-category/15/3</link>
+        <pubDate>Fri, 20 May 2016 14:10:13 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-15-3</guid>
+        <source url="https://forum.clover.moe/t/about-the-bot-ai-category/15.rss">About the Bot AI category</source>
+      </item>
+      <item>
+        <title>About the Bot AI category</title>
+        <dc:creator><![CDATA[@zturtleman ZTM]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/zturtleman">@zturtleman</a> wrote:</p>
+          <blockquote>
+              <p>This category is for discussing the behavior and programming of Quake 3 bots. Generally in the context of the Spearmint Quake 3 (spearmint + mint-arena), but other games and bots may be discussed.</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/about-the-bot-ai-category/15/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/about-the-bot-ai-category/15/1</link>
+        <pubDate>Fri, 20 May 2016 13:27:53 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-15-1</guid>
+        <source url="https://forum.clover.moe/t/about-the-bot-ai-category/15.rss">About the Bot AI category</source>
+      </item>
+  </channel>
+</rss>

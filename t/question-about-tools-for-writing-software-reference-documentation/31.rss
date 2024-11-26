@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Question about tools for writing software reference documentation</title>
+    <link>https://forum.clover.moe/t/question-about-tools-for-writing-software-reference-documentation/31</link>
+    <description>Hi to everyone!
+
+What do you guys think about software documentation tools (such as Doxygen for example)? Is it worth to get Doxygen, or any other documetation tool of your choice, working with idtech3 codebase?
+
+With some interest I am following the attempts of various idtech3 projects to &#39;beautify&#39; or &#39;uncrustify&#39; the idtech3 code base. This includes some reformating and eventually better documentation. MAN-AT-ARMS iortcw has it&#39;s [cleanup](https://github.com/iortcw/iortcw/branches) branch, ET Legacy also does some cleanup, has it&#39;s [code conventions](https://dev.etlegacy.com/projects/etlegacy/wiki/Coding_Conventions) and even advertise the use of Doxygen for their project.
+
+Independently from that a friend of mine also started to clean up many idtech3 based games including xreal, ioquake3, iortcw, enemy territory and of course currently he is working on Spearmint. Now we have to decide if we should change the function comment headers or if we should keep the current idtech style.
+
+If you are reading this, and you have some experiences with software documentation or thoughs about this topic, it would be nice to know what YOU think about all this.
+
+Thanks in advance!</description>
+    
+    <lastBuildDate>Thu, 26 May 2016 14:07:00 +0000</lastBuildDate>
+    <category>id Tech 3</category>
+    <atom:link href="https://forum.clover.moe/t/question-about-tools-for-writing-software-reference-documentation/31.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Question about tools for writing software reference documentation</title>
+        <dc:creator><![CDATA[@KuehnhammerTobias ToKu]]></dc:creator>
+        <description><![CDATA[
+          <p><a href="https://forum.clover.moe/u/kuehnhammertobias">@KuehnhammerTobias</a> wrote:</p>
+          <blockquote>
+              <p>Hi to everyone!</p>
+<p>What do you guys think about software documentation tools (such as Doxygen for example)? Is it worth to get Doxygen, or any other documetation tool of your choice, working with idtech3 codebase?</p>
+<p>With some interest I am following the attempts of various idtech3 projects to ‘beautify’ or ‘uncrustify’ the idtech3 code base. This includes some reformating and eventually better documentation. MAN-AT-ARMS iortcw has it’s <a href="https://github.com/iortcw/iortcw/branches" rel="nofollow noopener">cleanup</a> branch, ET Legacy also does some cleanup, has it’s <a href="https://dev.etlegacy.com/projects/etlegacy/wiki/Coding_Conventions" rel="nofollow noopener">code conventions</a> and even advertise the use of Doxygen for their project.</p>
+<p>Independently from that a friend of mine also started to clean up many idtech3 based games including xreal, ioquake3, iortcw, enemy territory and of course currently he is working on Spearmint. Now we have to decide if we should change the function comment headers or if we should keep the current idtech style.</p>
+<p>If you are reading this, and you have some experiences with software documentation or thoughs about this topic, it would be nice to know what YOU think about all this.</p>
+<p>Thanks in advance!</p>
+          </blockquote>
+          <p><a href="https://forum.clover.moe/t/question-about-tools-for-writing-software-reference-documentation/31/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://forum.clover.moe/t/question-about-tools-for-writing-software-reference-documentation/31/1</link>
+        <pubDate>Thu, 26 May 2016 14:07:00 +0000</pubDate>
+        <guid isPermaLink="false">forum.clover.moe-post-31-1</guid>
+        <source url="https://forum.clover.moe/t/question-about-tools-for-writing-software-reference-documentation/31.rss">Question about tools for writing software reference documentation</source>
+      </item>
+  </channel>
+</rss>

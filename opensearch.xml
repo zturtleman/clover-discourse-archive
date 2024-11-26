@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Magical Clover Forum Search</ShortName>
+  <Description>Search for posts on Magical Clover Forum</Description>
+  <Tags>discourse forum</Tags>
+  <Image type="image/png">https://forum.clover.moe/uploads/default/original/1X/8d64303f6f94740f94b6a460adfb8b936d6fdb65.png</Image>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://forum.clover.moe/opensearch.xml"/>
+  <Url type="text/html" template="https://forum.clover.moe/search?q={searchTerms}"/>
+  <Query role="example" searchTerms="search term"/>
+</OpenSearchDescription>
